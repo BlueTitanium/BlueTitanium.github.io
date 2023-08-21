@@ -1,0 +1,3593 @@
+
+.CONDEMNED-PAGE .noverlap-group-3:hover {
+  background-color: #63816C;
+  color: #000;
+}
+.CONDEMNED-PAGE .group-10:hover .overlap-7{
+  background-color: #aacfb5;
+}
+.CONDEMNED-PAGE .group-10:hover .text-wrapper-11{
+  color: #ffffff;
+}
+
+@media (min-width: 1080px) {
+.CONDEMNED-PAGE {
+  background-color: #63816c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.CONDEMNED-PAGE .group-wrapper {
+  background-color: #63816c;
+  height: 19848.75px;
+  width: 1080px;
+}
+
+.CONDEMNED-PAGE .group {
+  height: 19789px;
+  position: relative;
+  top: 30px;
+  width: 1048px;
+}
+
+.CONDEMNED-PAGE .NAVBAR-SECTION {
+  background-color: #72977ec5;
+  border-radius: 22.5px;
+  height: 100px;
+  position: fixed;
+  top:10px;
+  width: 103px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  z-index:1;
+}
+.CONDEMNED-PAGE .noverlap-group-3 {
+  background-color: #aacfb5;
+  border-radius: 22.5px;
+  height: 76px;
+  position: relative;
+  width: 73px;
+}
+.CONDEMNED-PAGE .nbutton-2 {
+  height: 76px;
+  width: 76px;
+  left: 16px;
+  position: absolute;
+  top: 12px;
+  z-index:1;
+}
+
+.CONDEMNED-PAGE .HEADER {
+  background-color: transparent;
+  height: 482px;
+  left: 0px;
+  position: absolute;
+  top: 0;
+  width: 1044px;
+}
+
+.CONDEMNED-PAGE .rectangle {
+  height: 311px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1044px;
+}
+
+.CONDEMNED-PAGE .overlap-group-wrapper {
+  height: 140px;
+  left: 0;
+  position: absolute;
+  top: 341px;
+  width: 1046px;
+}
+
+.CONDEMNED-PAGE .overlap-group {
+  background-color: #ffffff;
+  border: 10.5px solid;
+  border-color: #aacfb5;
+  border-radius: 22.5px;
+  height: 140px;
+  position: relative;
+  width: 1044px;
+}
+
+.CONDEMNED-PAGE .text-wrapper {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  height: 82px;
+  left: 289px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+}
+
+.CONDEMNED-PAGE .ABOUT {
+  height: 546px;
+  left: 0px;
+  position: absolute;
+  top: 512px;
+  width: 1044px;
+}
+
+.CONDEMNED-PAGE .img {
+  height: 340px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .rectangle-2 {
+  height: 185px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 365px;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .div-wrapper {
+  height: 546px;
+  left: 365px;
+  position: absolute;
+  top: 0;
+  width: 683px;
+}
+
+.CONDEMNED-PAGE .div {
+  background-image: url(../../../static/img-condemned/rectangle-19-20.svg);
+  background-size: 100% 100%;
+  height: 550px;
+  position: relative;
+  width: 684px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-2 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 638px;
+}
+
+.CONDEMNED-PAGE .p {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 70px;
+  width: 638px;
+}
+
+.CONDEMNED-PAGE .ROLES {
+  height: 598px;
+  left: 0px;
+  position: absolute;
+  top: 1364px;
+  width: 1044px;
+}
+
+.CONDEMNED-PAGE .rectangle-3 {
+  background-color: #aacfb5;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 130px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 335px;
+}
+
+.CONDEMNED-PAGE .group-2 {
+  height: 130px;
+  left: 365px;
+  position: absolute;
+  top: 0;
+  width: 681px;
+}
+
+.CONDEMNED-PAGE .overlap-group-2 {
+  background-color: #aacfb5;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 130px;
+  position: relative;
+  width: 679px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "against-Regular", Helvetica;
+  font-size: 55.5px;
+  font-weight: 400;
+  height: 130px;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  width: 638px;
+}
+
+.CONDEMNED-PAGE .overlap-wrapper {
+  height: 87px;
+  left: 597px;
+  position: absolute;
+  top: 160px;
+  width: 449px;
+}
+
+.CONDEMNED-PAGE .overlap {
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 87px;
+  position: relative;
+  width: 447px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-4 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 85px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 447px;
+}
+
+.CONDEMNED-PAGE .group-3 {
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 277px;
+  width: 388px;
+}
+
+.CONDEMNED-PAGE .overlap-2 {
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 87px;
+  position: relative;
+  width: 385px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-5 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 85px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 385px;
+}
+
+.CONDEMNED-PAGE .group-4 {
+  height: 87px;
+  left: 416px;
+  position: absolute;
+  top: 277px;
+  width: 630px;
+}
+
+.CONDEMNED-PAGE .overlap-3 {
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 87px;
+  position: relative;
+  width: 628px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-6 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 85px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 628px;
+}
+
+.CONDEMNED-PAGE .group-5 {
+  height: 87px;
+  left: 416px;
+  position: absolute;
+  top: 394px;
+  width: 630px;
+}
+
+.CONDEMNED-PAGE .group-6 {
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 511px;
+  width: 1046px;
+}
+
+.CONDEMNED-PAGE .overlap-4 {
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 87px;
+  position: relative;
+  width: 1044px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-7 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 85px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 1044px;
+}
+
+.CONDEMNED-PAGE .group-7 {
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 160px;
+  width: 569px;
+}
+
+.CONDEMNED-PAGE .overlap-5 {
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 87px;
+  position: relative;
+  width: 567px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-8 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 85px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 567px;
+}
+
+.CONDEMNED-PAGE .group-8 {
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 394px;
+  width: 388px;
+}
+
+.CONDEMNED-PAGE .overlap-6 {
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 87px;
+  position: relative;
+  width: 386px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-9 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 85px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 386px;
+}
+
+.CONDEMNED-PAGE .PLATFORMS {
+  height: 247px;
+  left: 0px;
+  position: absolute;
+  top: 1088px;
+  width: 1044px;
+}
+
+.CONDEMNED-PAGE .group-9 {
+  height: 130px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 681px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-10 {
+  color: #ffffff;
+  font-family: "against-Regular", Helvetica;
+  font-size: 72px;
+  font-weight: 400;
+  height: 130px;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 638px;
+}
+
+.CONDEMNED-PAGE .group-10 {
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 160px;
+  width: 599px;
+}
+
+.CONDEMNED-PAGE .overlap-7 {
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 87px;
+  position: relative;
+  width: 597px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-11 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 85px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 2px;
+  width: 597px;
+}
+
+.CONDEMNED-PAGE .group-11 {
+  height: 87px;
+  left: 627px;
+  position: absolute;
+  top: 160px;
+  width: 419px;
+}
+
+.CONDEMNED-PAGE .overlap-8 {
+  background-color: #cecececf;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 87px;
+  position: relative;
+  width: 417px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-12 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 85px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 417px;
+}
+
+.CONDEMNED-PAGE .group-12 {
+  height: 130px;
+  left: 709px;
+  position: absolute;
+  top: 0;
+  width: 339px;
+}
+
+.CONDEMNED-PAGE .overlap-9 {
+  background-color: #aacfb5;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 130px;
+  position: relative;
+  width: 335px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-13 {
+  color: #63816c;
+  font-family: "against-Regular", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  height: 37px;
+  left: 86px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-14 {
+  color: #ffffff;
+  font-family: "against-Regular", Helvetica;
+  font-size: 72px;
+  font-weight: 400;
+  height: 130px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  width: 335px;
+}
+
+.CONDEMNED-PAGE .CONCLUSION {
+  height: 1240px;
+  left: 0;
+  position: absolute;
+  top: 18549px;
+  width: 1048px;
+}
+
+.CONDEMNED-PAGE .group-13 {
+  height: 130px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1052px;
+}
+
+.CONDEMNED-PAGE .overlap-group-3 {
+  background-color: #aacfb5;
+  border-radius: 22.5px;
+  box-shadow: 2.81px 2.25px 2.25px #00000040;
+  height: 130px;
+  position: relative;
+  width: 1048px;
+}
+
+.CONDEMNED-PAGE .design-process {
+  color: #63816c;
+  font-family: "against-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  height: 49px;
+  left: 150px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 65px;
+  width: 754px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-15 {
+  color: #ffffff;
+  font-family: "against-Regular", Helvetica;
+  font-size: 52.5px;
+  font-weight: 400;
+  height: 130px;
+  left: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 986px;
+}
+
+.CONDEMNED-PAGE .group-14 {
+  height: 465px;
+  left: 0;
+  position: absolute;
+  top: 160px;
+  width: 1050px;
+}
+
+.CONDEMNED-PAGE .overall-this-was-a-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-19.svg);
+  background-size: 100% 100%;
+  height: 470px;
+  position: relative;
+  width: 1054px;
+}
+
+.CONDEMNED-PAGE .overall-this-was-a {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  width: 1004px;
+}
+
+.CONDEMNED-PAGE .rectangle-4 {
+  height: 590px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 655px;
+  width: 1049px;
+}
+
+.CONDEMNED-PAGE .GAMEPLAY-VIDEO {
+  height: 744px;
+  left: 0;
+  position: absolute;
+  top: 17775px;
+  width: 1048px;
+}
+
+.CONDEMNED-PAGE .group-15 {
+  height: 130px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1050px;
+}
+
+.CONDEMNED-PAGE .rectangle-5 {
+  height: 589px;
+  border-radius: 22.5px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 160px;
+  width: 1049px;
+}
+
+.CONDEMNED-PAGE .FINAL-FEATURES {
+  height: 3112px;
+  left: 0;
+  position: absolute;
+  top: 3909px;
+  width: 1048px;
+}
+
+.CONDEMNED-PAGE .group-16 {
+  height: 511px;
+  left: 0px;
+  position: absolute;
+  top: 434px;
+  width: 681px;
+}
+
+.CONDEMNED-PAGE .ALL-ART-HANDCRAFTED-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-18.svg);
+  background-size: 100% 100%;
+  height: 515px;
+  position: relative;
+  width: 684px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-16 {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 19px;
+  width: 652px;
+}
+
+.CONDEMNED-PAGE .group-17 {
+  height: 784px;
+  left: 366px;
+  position: absolute;
+  top: 974px;
+  width: 681px;
+}
+
+.CONDEMNED-PAGE .mechanic-progression-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-17.svg);
+  background-size: 100% 100%;
+  height: 789px;
+  position: relative;
+  width: 684px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-17 {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30px;
+  width: 652px;
+}
+
+.CONDEMNED-PAGE .group-18 {
+  height: 784px;
+  left: 0px;
+  position: absolute;
+  top: 1789px;
+  width: 681px;
+}
+
+.CONDEMNED-PAGE .environmental-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-16.svg);
+  background-size: 100% 100%;
+  height: 789px;
+  position: relative;
+  width: 684px;
+}
+
+.CONDEMNED-PAGE .group-19 {
+  height: 508px;
+  left: 366px;
+  position: absolute;
+  top: 2603px;
+  width: 681px;
+}
+
+.CONDEMNED-PAGE .VFX-and-particle-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-15.svg);
+  background-size: 100% 100%;
+  height: 513px;
+  position: relative;
+  width: 684px;
+}
+
+.CONDEMNED-PAGE .group-20 {
+  height: 244px;
+  left: 0px;
+  position: absolute;
+  top: 160px;
+  width: 681px;
+}
+
+.CONDEMNED-PAGE .flexcontainer-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-14.svg);
+  background-size: 100% 100%;
+  height: 248px;
+  width: 684px;
+}
+
+.CONDEMNED-PAGE .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 14.25px;
+  height: 212px;
+  left: 14px;
+  position: relative;
+  top: 10px;
+  width: 652px;
+}
+
+.CONDEMNED-PAGE .text {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.CONDEMNED-PAGE .span {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.CONDEMNED-PAGE .rectangle-6 {
+  height: 382px;
+  left: 710px;
+  object-fit: cover;
+  position: absolute;
+  top: 160px;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .rectangle-7 {
+  height: 382px;
+  left: 710px;
+  object-fit: cover;
+  position: absolute;
+  top: 567px;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .rectangle-8 {
+  height: 382px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 974px;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .rectangle-9 {
+  height: 382px;
+  left: 0px;
+  position: absolute;
+  top: 1382px;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .rectangle-10 {
+  height: 382px;
+  left: 710px;
+  object-fit: cover;
+  position: absolute;
+  top: 2196px;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .rectangle-11 {
+  height: 513px;
+  left: 0px;
+  position: absolute;
+  top: 2603px;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .rectangle-12 {
+  height: 382px;
+  left: 710px;
+  object-fit: cover;
+  position: absolute;
+  top: 1789px;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .CONCEPT {
+  height: 1887px;
+  left: 0;
+  position: absolute;
+  top: 1992px;
+  width: 1048px;
+}
+
+.CONDEMNED-PAGE .group-21 {
+  height: 377px;
+  left: 0px;
+  position: absolute;
+  top: 160px;
+  width: 681px;
+}
+
+.CONDEMNED-PAGE .condemned-is-loosely-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-13.svg);
+  background-size: 100% 100%;
+  height: 382px;
+  position: relative;
+  width: 684px;
+}
+
+.CONDEMNED-PAGE .condemned-is-loosely {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+  width: 638px;
+}
+
+.CONDEMNED-PAGE .group-22 {
+  height: 490px;
+  left: 0px;
+  position: absolute;
+  top: 1397px;
+  width: 1042px;
+}
+
+.CONDEMNED-PAGE .for-the-pitch-we-had-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-12.svg);
+  background-size: 100% 100%;
+  height: 494px;
+  position: relative;
+  width: 1045px;
+}
+
+.CONDEMNED-PAGE .for-the-pitch-we-had {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 19px;
+  width: 1000px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-18 {
+  font-size: 27px;
+  
+}
+
+.CONDEMNED-PAGE ul {
+  margin-left: 25px;
+  list-style-type: circle;
+}
+
+.CONDEMNED-PAGE ul li {
+  margin-left: 4px;
+  left: 4px;
+}
+
+.CONDEMNED-PAGE .group-23 {
+  height: 800px;
+  left: 366px;
+  position: absolute;
+  top: 567px;
+  width: 681px;
+}
+
+.CONDEMNED-PAGE .overlap-10 {
+  background-image: url(../../../static/img-condemned/rectangle-19-11.svg);
+  background-size: 100% 100%;
+  height: 805px;
+  position: relative;
+  width: 684px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-19 {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 23px;
+  width: 638px;
+}
+
+.CONDEMNED-PAGE .rectangle-13 {
+  height: 382px;
+  left: 710px;
+  position: absolute;
+  top: 160px;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .rectangle-14 {
+  height: 805px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 567px;
+  width: 340px;
+}
+
+.CONDEMNED-PAGE .DEVELOPMENT-PROCESS {
+  height: 6143px;
+  left: 0;
+  position: absolute;
+  top: 11602px;
+  width: 1048px;
+}
+
+.CONDEMNED-PAGE .rectangle-15 {
+  height: 109px;
+  left: 578px;
+  position: absolute;
+  top: 1036px;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .group-24 {
+  height: 846px;
+  left: 578px;
+  position: absolute;
+  top: 160px;
+  width: 472px;
+}
+
+.CONDEMNED-PAGE .the-main-mechanic-of-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-10.svg);
+  background-size: 100% 100%;
+  height: 850px;
+  position: relative;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-20 {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+  width: 450px;
+}
+
+.CONDEMNED-PAGE .rectangle-16 {
+  border-radius: 22.5px;
+  height: 311px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 160px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-17 {
+  border-radius: 22.5px;
+  height: 221px;
+  left: 505px;
+  object-fit: cover;
+  position: absolute;
+  top: 1170px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-18 {
+  border-radius: 22.5px;
+  height: 305px;
+  left: 505px;
+  object-fit: cover;
+  position: absolute;
+  top: 1416px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-19 {
+  border-radius: 22.5px;
+  height: 311px;
+  left: 505px;
+  object-fit: cover;
+  position: absolute;
+  top: 1747px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-20 {
+  border-radius: 22.5px;
+  height: 311px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 496px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-21 {
+  border-radius: 22.5px;
+  height: 311px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 833px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-22 {
+  border-radius: 22.5px;
+  height: 109px;
+  left: 578px;
+  position: absolute;
+  top: 2960px;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .group-25 {
+  height: 846px;
+  left: 578px;
+  position: absolute;
+  top: 2084px;
+  width: 472px;
+}
+
+.CONDEMNED-PAGE .we-had-UI-icons-and-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-9.svg);
+  background-size: 100% 100%;
+  height: 850px;
+  position: relative;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .rectangle-23 {
+  border-radius: 22.5px;
+  height: 311px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 2084px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-24 {
+  border-radius: 22.5px;
+  height: 311px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 2420px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-25 {
+  border-radius: 22.5px;
+  height: 311px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 2757px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-26 {
+  height: 528px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 3296px;
+  width: 1049px;
+}
+
+.CONDEMNED-PAGE .overlap-11 {
+  background-image: url(../../../static/img-condemned/rectangle-57.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 589px;
+  left: 0px;
+  position: absolute;
+  top: 3850px;
+  width: 1049px;
+}
+
+.CONDEMNED-PAGE .image {
+  height: 62px;
+  left: 446px;
+  object-fit: cover;
+  position: absolute;
+  top: 21px;
+  width: 62px;
+}
+
+.CONDEMNED-PAGE .image-2 {
+  height: 45px;
+  left: 400px;
+  object-fit: cover;
+  position: absolute;
+  top: 38px;
+  width: 45px;
+}
+
+.CONDEMNED-PAGE .image-3 {
+  height: 102px;
+  left: 748px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 52px;
+}
+
+.CONDEMNED-PAGE .image-4 {
+  height: 17px;
+  left: 522px;
+  object-fit: cover;
+  position: absolute;
+  top: 94px;
+  width: 116px;
+}
+
+.CONDEMNED-PAGE .image-5 {
+  height: 88px;
+  left: 952px;
+  object-fit: cover;
+  position: absolute;
+  top: 175px;
+  width: 56px;
+}
+
+.CONDEMNED-PAGE .rectangle-27 {
+  height: 93px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 5080px;
+  width: 1049px;
+}
+
+.CONDEMNED-PAGE .group-26 {
+  height: 884px;
+  left: 0px;
+  position: absolute;
+  top: 1170px;
+  width: 468px;
+}
+
+.CONDEMNED-PAGE .we-had-complex-AI-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-8.svg);
+  background-size: 100% 100%;
+  height: 888px;
+  position: relative;
+  width: 471px;
+}
+
+.CONDEMNED-PAGE .we-had-complex-AI {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  width: 446px;
+}
+
+.CONDEMNED-PAGE .group-27 {
+  height: 945px;
+  left: 0px;
+  position: absolute;
+  top: 5198px;
+  width: 763px;
+}
+
+.CONDEMNED-PAGE .we-decided-that-the-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-7.svg);
+  background-size: 100% 100%;
+  height: 950px;
+  position: relative;
+  width: 766px;
+}
+
+.CONDEMNED-PAGE .we-decided-that-the {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  width: 730px;
+}
+
+.CONDEMNED-PAGE .group-28 {
+  height: 172px;
+  left: 0px;
+  position: absolute;
+  top: 3094px;
+  width: 1046px;
+}
+
+.CONDEMNED-PAGE .regarding-art-our-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-6.svg);
+  background-size: 100% 100%;
+  height: 177px;
+  position: relative;
+  width: 1049px;
+}
+
+.CONDEMNED-PAGE .regarding-art-our {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+  width: 1000px;
+}
+
+.CONDEMNED-PAGE .group-29 {
+  height: 222px;
+  left: 10px;
+  position: absolute;
+  top: 4464px;
+  width: 1033px;
+}
+
+.CONDEMNED-PAGE .overlap-12 {
+  height: 226px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 355px;
+}
+
+.CONDEMNED-PAGE .image-6 {
+  height: 226px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 182px;
+}
+
+.CONDEMNED-PAGE .image-7 {
+  height: 222px;
+  left: 177px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 177px;
+}
+
+.CONDEMNED-PAGE .image-8 {
+  height: 222px;
+  left: 355px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 177px;
+}
+
+.CONDEMNED-PAGE .image-9 {
+  height: 222px;
+  left: 532px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 177px;
+}
+
+.CONDEMNED-PAGE .image-10 {
+  height: 222px;
+  left: 709px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 177px;
+}
+
+.CONDEMNED-PAGE .image-11 {
+  height: 183px;
+  left: 886px;
+  object-fit: cover;
+  position: absolute;
+  top: 39px;
+  width: 146px;
+}
+
+.CONDEMNED-PAGE .group-30 {
+  height: 334px;
+  left: 0px;
+  position: absolute;
+  top: 4716px;
+  width: 1050px;
+}
+
+.CONDEMNED-PAGE .overlap-13 {
+  background-image: url(../../../static/img-condemned/rectangle-58.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 338px;
+  position: relative;
+  width: 1049px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-21 {
+  color: #aacfb5;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 94px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: 856px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-22 {
+  color: #aacfb5;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 215px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 298px;
+  white-space: nowrap;
+  width: 91px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-23 {
+  color: #aacfb5;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 748px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 298px;
+  white-space: nowrap;
+  width: 91px;
+}
+
+.CONDEMNED-PAGE .image-12 {
+  height: 285px;
+  left: 796px;
+  object-fit: cover;
+  position: absolute;
+  top: 5543px;
+  width: 240px;
+}
+
+.CONDEMNED-PAGE .image-13 {
+  height: 315px;
+  left: 783px;
+  object-fit: cover;
+  position: absolute;
+  top: 5198px;
+  width: 266px;
+}
+
+.CONDEMNED-PAGE .image-14 {
+  height: 285px;
+  left: 789px;
+  object-fit: cover;
+  position: absolute;
+  top: 5858px;
+  width: 240px;
+}
+
+.CONDEMNED-PAGE .LEVEL-DESIGN {
+  height: 4521px;
+  left: 0;
+  position: absolute;
+  top: 7051px;
+  width: 1048px;
+}
+
+.CONDEMNED-PAGE .group-31 {
+  height: 464px;
+  left: 578px;
+  position: absolute;
+  top: 429px;
+  width: 472px;
+}
+
+.CONDEMNED-PAGE .concept-art-initial-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-5.svg);
+  background-size: 100% 100%;
+  height: 468px;
+  position: relative;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .concept-art-initial {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  width: 450px;
+}
+
+.CONDEMNED-PAGE .rectangle-28 {
+  height: 244px;
+  left: 578px;
+  position: absolute;
+  top: 922px;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .rectangle-29 {
+  height: 174px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 1761px;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .rectangle-30 {
+  height: 244px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 160px;
+  width: 1049px;
+}
+
+.CONDEMNED-PAGE .group-32 {
+  height: 375px;
+  left: 0px;
+  position: absolute;
+  top: 1192px;
+  width: 468px;
+}
+
+.CONDEMNED-PAGE .initial-sketches-for-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-4.svg);
+  background-size: 100% 100%;
+  height: 380px;
+  position: relative;
+  width: 471px;
+}
+
+.CONDEMNED-PAGE .text-wrapper-24 {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7px;
+  width: 446px;
+}
+
+.CONDEMNED-PAGE .group-33 {
+  height: 759px;
+  left: 578px;
+  position: absolute;
+  top: 1960px;
+  width: 472px;
+}
+
+.CONDEMNED-PAGE .development-process-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-3.svg);
+  background-size: 100% 100%;
+  height: 764px;
+  position: relative;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .development-process {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+  width: 450px;
+}
+
+.CONDEMNED-PAGE .rectangle-31 {
+  height: 369px;
+  left: 578px;
+  position: absolute;
+  top: 2750px;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .rectangle-32 {
+  height: 109px;
+  left: 578px;
+  position: absolute;
+  top: 4036px;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .rectangle-33 {
+  height: 737px;
+  left: 0px;
+  position: absolute;
+  top: 429px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-34 {
+  height: 369px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 1960px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-35 {
+  height: 369px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 2355px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-36 {
+  height: 369px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 2750px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .group-34 {
+  height: 427px;
+  left: 578px;
+  position: absolute;
+  top: 3579px;
+  width: 472px;
+}
+
+.CONDEMNED-PAGE .final-design-of-the-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-2.svg);
+  background-size: 100% 100%;
+  height: 431px;
+  position: relative;
+  width: 475px;
+}
+
+.CONDEMNED-PAGE .final-design-of-the {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  width: 450px;
+}
+
+.CONDEMNED-PAGE .rectangle-37 {
+  height: 296px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 3579px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-38 {
+  height: 244px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 3900px;
+  width: 549px;
+}
+
+.CONDEMNED-PAGE .rectangle-39 {
+  height: 743px;
+  left: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 1192px;
+  width: 553px;
+}
+
+.CONDEMNED-PAGE .group-35 {
+  height: 405px;
+  left: 0px;
+  position: absolute;
+  top: 3144px;
+  width: 468px;
+}
+
+.CONDEMNED-PAGE .second-sketch-for-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19-1.svg);
+  background-size: 100% 100%;
+  height: 410px;
+  position: relative;
+  width: 471px;
+}
+
+.CONDEMNED-PAGE .rectangle-40 {
+  height: 410px;
+  left: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 3144px;
+  width: 553px;
+}
+
+.CONDEMNED-PAGE .group-36 {
+  height: 351px;
+  left: 0px;
+  position: absolute;
+  top: 4170px;
+  width: 468px;
+}
+
+.CONDEMNED-PAGE .the-boss-room-was-wrapper {
+  background-image: url(../../../static/img-condemned/rectangle-19.svg);
+  background-size: 100% 100%;
+  height: 356px;
+  position: relative;
+  width: 471px;
+}
+
+.CONDEMNED-PAGE .the-boss-room-was {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 446px;
+}
+
+.CONDEMNED-PAGE .rectangle-41 {
+  height: 356px;
+  left: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 4170px;
+  width: 553px;
+}
+
+.CONDEMNED-PAGE .image-15 {
+  height: 134px;
+  left: 344px;
+  object-fit: cover;
+  position: absolute;
+  top: 1597px;
+  width: 131px;
+}
+
+.CONDEMNED-PAGE .image-16 {
+  height: 134px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 1597px;
+  width: 310px;
+}
+}
+
+@media (max-width:1079) {
+  .CONDEMNED-PAGE {
+    background-color: #63816c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .CONDEMNED-PAGE .NAVBAR-SECTION {
+    background-color: #72977ec5;
+    border-radius: 22.5px;
+    height: 30px;
+    position: fixed;
+    top:10px;
+    width: 33px;
+    box-shadow: 2.81px 2.25px 2.25px #00000040;
+    z-index:100;
+  }
+  .CONDEMNED-PAGE .home {
+    height: 23px;
+    width: 23px;
+  }
+  .CONDEMNED-PAGE .noverlap-group-3 {
+    background-color: #aacfb5;
+    border-radius: 6.67px;
+    left: 5px;
+    height: 23px;
+    position: relative;
+    width: 23px;
+  }
+  .CONDEMNED-PAGE .nbutton-2 {
+    height: 23px;
+    left: 0px;
+    position: absolute;
+    top: 4px;
+    z-index:100;
+  }
+  .CONDEMNED-PAGE ul {
+    margin-left: 10px;
+    list-style-type: circle;
+  }
+  
+  .CONDEMNED-PAGE ul li {
+    margin-left: 2px;
+    left: 2px;
+  }
+  
+  .CONDEMNED-PAGE .group-wrapper {
+    background-color: #63816c;
+    height: 5881.11px;
+    width: 320px;
+  }
+  
+  .CONDEMNED-PAGE .group {
+    height: 5863px;
+    left: 5px;
+    position: relative;
+    top: 9px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .HEADER {
+    background-color: transparent;
+    height: 143px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 309px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle {
+    height: 92px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 309px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-group-wrapper {
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 101px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-group {
+    background-color: #ffffff;
+    border: 3.11px solid;
+    border-color: #aacfb5;
+    border-radius: 6.67px;
+    height: 42px;
+    position: relative;
+    width: 309px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper {
+    color: #000000;
+    font-family: "against-Regular", Helvetica;
+    font-size: 17.8px;
+    font-weight: 400;
+    height: 24px;
+    left: 86px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+  }
+  
+  .CONDEMNED-PAGE .ABOUT {
+    height: 162px;
+    left: 1px;
+    position: absolute;
+    top: 152px;
+    width: 309px;
+  }
+  
+  .CONDEMNED-PAGE .img {
+    height: 101px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-2 {
+    height: 55px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 108px;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .div-wrapper {
+    height: 162px;
+    left: 108px;
+    position: absolute;
+    top: 0;
+    width: 205px;
+  }
+  
+  .CONDEMNED-PAGE .div {
+    background-image: url(../../../static/img-condemned2/rectangle-19-20.svg);
+    background-size: 100% 100%;
+    height: 163px;
+    position: relative;
+    width: 203px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-2 {
+    color: #000000;
+    font-family: "against-Regular", Helvetica;
+    font-size: 10.7px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    width: 189px;
+  }
+  
+  .CONDEMNED-PAGE .p {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 10.7px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    width: 189px;
+  }
+  
+  .CONDEMNED-PAGE .ROLES {
+    height: 177px;
+    left: 1px;
+    position: absolute;
+    top: 404px;
+    width: 309px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-3 {
+    background-color: #aacfb5;
+    border-radius: 6.67px;
+    box-shadow: 0.83px 0.67px 0.67px #00000040;
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 99px;
+  }
+  
+  .CONDEMNED-PAGE .group-2 {
+    height: 38px;
+    left: 108px;
+    position: absolute;
+    top: 0;
+    width: 203px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-group-2 {
+    background-color: #aacfb5;
+    border-radius: 6.67px;
+    box-shadow: 0.83px 0.67px 0.67px #00000040;
+    height: 38px;
+    position: relative;
+    width: 201px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "against-Regular", Helvetica;
+    font-size: 16.4px;
+    font-weight: 400;
+    height: 38px;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    width: 189px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-wrapper {
+    height: 26px;
+    left: 177px;
+    position: absolute;
+    top: 47px;
+    width: 134px;
+  }
+  
+  .CONDEMNED-PAGE .overlap {
+    background-color: #ffffff;
+    border-radius: 6.67px;
+    box-shadow: 0.83px 0.67px 0.67px #00000040;
+    height: 26px;
+    position: relative;
+    width: 132px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-4 {
+    color: #000000;
+    font-family: "against-Regular", Helvetica;
+    font-size: 14.2px;
+    font-weight: 400;
+    height: 25px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 132px;
+  }
+  
+  .CONDEMNED-PAGE .group-3 {
+    height: 26px;
+    left: 0;
+    position: absolute;
+    top: 82px;
+    width: 116px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-2 {
+    background-color: #ffffff;
+    border-radius: 6.67px;
+    box-shadow: 0.83px 0.67px 0.67px #00000040;
+    height: 26px;
+    position: relative;
+    width: 114px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-5 {
+    color: #000000;
+    font-family: "against-Regular", Helvetica;
+    font-size: 14.2px;
+    font-weight: 400;
+    height: 25px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 114px;
+  }
+  
+  .CONDEMNED-PAGE .group-4 {
+    height: 26px;
+    left: 123px;
+    position: absolute;
+    top: 82px;
+    width: 188px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-3 {
+    background-color: #ffffff;
+    border-radius: 6.67px;
+    box-shadow: 0.83px 0.67px 0.67px #00000040;
+    height: 26px;
+    position: relative;
+    width: 186px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-6 {
+    color: #000000;
+    font-family: "against-Regular", Helvetica;
+    font-size: 14.2px;
+    font-weight: 400;
+    height: 25px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 186px;
+  }
+  
+  .CONDEMNED-PAGE .group-5 {
+    height: 26px;
+    left: 123px;
+    position: absolute;
+    top: 117px;
+    width: 188px;
+  }
+  
+  .CONDEMNED-PAGE .group-6 {
+    height: 26px;
+    left: 0;
+    position: absolute;
+    top: 151px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-4 {
+    background-color: #ffffff;
+    border-radius: 6.67px;
+    box-shadow: 0.83px 0.67px 0.67px #00000040;
+    height: 26px;
+    position: relative;
+    width: 309px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-7 {
+    color: #000000;
+    font-family: "against-Regular", Helvetica;
+    font-size: 14.2px;
+    font-weight: 400;
+    height: 25px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 309px;
+  }
+  
+  .CONDEMNED-PAGE .group-7 {
+    height: 26px;
+    left: 0;
+    position: absolute;
+    top: 47px;
+    width: 170px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-5 {
+    background-color: #ffffff;
+    border-radius: 6.67px;
+    box-shadow: 0.83px 0.67px 0.67px #00000040;
+    height: 26px;
+    position: relative;
+    width: 168px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-8 {
+    color: #000000;
+    font-family: "against-Regular", Helvetica;
+    font-size: 14.2px;
+    font-weight: 400;
+    height: 25px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 168px;
+  }
+  
+  .CONDEMNED-PAGE .group-8 {
+    height: 26px;
+    left: 0;
+    position: absolute;
+    top: 117px;
+    width: 116px;
+  }
+  
+  .CONDEMNED-PAGE .PLATFORMS {
+    height: 73px;
+    left: 1px;
+    position: absolute;
+    top: 322px;
+    width: 309px;
+  }
+  
+  .CONDEMNED-PAGE .group-9 {
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 203px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-9 {
+    color: #000000;
+    font-family: "against-Regular", Helvetica;
+    font-size: 14.2px;
+    font-weight: 400;
+    height: 25px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 114px;
+  }
+  
+  .CONDEMNED-PAGE .group-10 {
+    height: 26px;
+    left: 0;
+    position: absolute;
+    top: 47px;
+    width: 179px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-6 {
+    background-color: #ffffff;
+    border-radius: 6.67px;
+    box-shadow: 0.83px 0.67px 0.67px #00000040;
+    height: 26px;
+    position: relative;
+    width: 114px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-10 {
+    color: #ffffff;
+  font-family: "against-Regular", Helvetica;
+  font-size: 21.3px;
+  font-weight: 400;
+  height: 38px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 189px;
+  }
+  
+  .CONDEMNED-PAGE .group-11 {
+    height: 26px;
+    left: 186px;
+    position: absolute;
+    top: 47px;
+    width: 126px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-7 {
+    background-color: #ffffff;
+  border-radius: 6.67px;
+  box-shadow: 0.83px 0.67px 0.67px #00000040;
+  height: 26px;
+  position: relative;
+  width: 177px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-11 {
+    color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 14.2px;
+  font-weight: 400;
+  height: 25px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 1px;
+  width: 177px;
+  }
+  
+  .CONDEMNED-PAGE .group-12 {
+    height: 38px;
+    left: 210px;
+    position: absolute;
+    top: 0;
+    width: 103px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-8 {
+    background-color: #cecececf;
+  border-radius: 6.67px;
+  box-shadow: 0.83px 0.67px 0.67px #00000040;
+  height: 26px;
+  position: relative;
+  width: 124px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-12 {
+    color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 14.2px;
+  font-weight: 400;
+  height: 25px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 124px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-13 {
+    color: #63816c;
+  font-family: "against-Regular", Helvetica;
+  font-size: 7.5px;
+  font-weight: 400;
+  height: 11px;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  }
+  
+  .CONDEMNED-PAGE .CONCLUSION {
+    height: 367px;
+    left: 0;
+    position: absolute;
+    top: 5496px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .group-13 {
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 315px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-group-3 {
+    background-color: #aacfb5;
+    border-radius: 6.67px;
+    box-shadow: 0.83px 0.67px 0.67px #00000040;
+    height: 38px;
+    position: relative;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .design-process {
+    color: #63816c;
+    font-family: "against-Regular", Helvetica;
+    font-size: 10.7px;
+    font-weight: 400;
+    height: 15px;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 19px;
+    width: 224px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-14 {
+    color: #ffffff;
+  font-family: "against-Regular", Helvetica;
+  font-size: 21.3px;
+  font-weight: 400;
+  height: 38px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 99px;
+  }
+  
+  .CONDEMNED-PAGE .group-14 {
+    height: 138px;
+    left: 0;
+    position: absolute;
+    top: 47px;
+    width: 313px;
+  }
+  
+  .CONDEMNED-PAGE .overall-this-was-a-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-19.svg);
+    background-size: 100% 100%;
+    height: 139px;
+    position: relative;
+    width: 312px;
+  }
+  
+  .CONDEMNED-PAGE .overall-this-was-a {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    width: 298px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-4 {
+    height: 175px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 194px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .GAMEPLAY-VIDEO {
+    height: 220px;
+    left: 0;
+    position: absolute;
+    top: 5267px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .group-15 {
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 313px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-5 {
+    height: 174px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 47px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .FINAL-FEATURES {
+    height: 922px;
+    left: 0;
+    position: absolute;
+    top: 1158px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .group-16 {
+    height: 151px;
+    left: 1px;
+    position: absolute;
+    top: 128px;
+    width: 203px;
+  }
+  
+  .CONDEMNED-PAGE .ALL-ART-HANDCRAFTED-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-18.svg);
+    background-size: 100% 100%;
+    height: 153px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-15 {
+    color: #ffffff;
+  font-family: "against-Regular", Helvetica;
+  font-size: 15.6px;
+  font-weight: 400;
+  height: 38px;
+  left: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: 292px;
+  }
+  
+  .CONDEMNED-PAGE .group-17 {
+    height: 232px;
+    left: 108px;
+    position: absolute;
+    top: 289px;
+    width: 203px;
+  }
+  
+  .CONDEMNED-PAGE .mechanic-progression-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-17.svg);
+    background-size: 100% 100%;
+    height: 234px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-16 {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 4px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    width: 193px;
+  }
+  
+  .CONDEMNED-PAGE .group-18 {
+    height: 232px;
+    left: 1px;
+    position: absolute;
+    top: 530px;
+    width: 203px;
+  }
+  
+  .CONDEMNED-PAGE .environmental-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-16.svg);
+    background-size: 100% 100%;
+    height: 234px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .group-19 {
+    height: 151px;
+    left: 108px;
+    position: absolute;
+    top: 771px;
+    width: 203px;
+  }
+  
+  .CONDEMNED-PAGE .VFX-and-particle-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-15.svg);
+    background-size: 100% 100%;
+    height: 152px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .group-20 {
+    height: 72px;
+    left: 1px;
+    position: absolute;
+    top: 47px;
+    width: 203px;
+  }
+  
+  .CONDEMNED-PAGE .flexcontainer-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-14.svg);
+    background-size: 100% 100%;
+    height: 74px;
+  }
+  
+  .CONDEMNED-PAGE .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4.22px;
+    height: 63px;
+    left: 4px;
+    position: relative;
+    top: 3px;
+    width: 193px;
+  }
+  
+  .CONDEMNED-PAGE .text {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 10.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .span {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 10.7px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-6 {
+    height: 113px;
+    left: 210px;
+    object-fit: cover;
+    position: absolute;
+    top: 47px;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-7 {
+    height: 113px;
+    left: 210px;
+    object-fit: cover;
+    position: absolute;
+    top: 168px;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-8 {
+    height: 113px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 289px;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-9 {
+    height: 113px;
+    left: 1px;
+    position: absolute;
+    top: 409px;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-10 {
+    height: 113px;
+    left: 210px;
+    object-fit: cover;
+    position: absolute;
+    top: 651px;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-11 {
+    height: 152px;
+    left: 1px;
+    position: absolute;
+    top: 771px;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-12 {
+    height: 113px;
+    left: 210px;
+    object-fit: cover;
+    position: absolute;
+    top: 530px;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .CONCEPT {
+    height: 559px;
+    left: 0;
+    position: absolute;
+    top: 590px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .group-21 {
+    height: 112px;
+    left: 1px;
+    position: absolute;
+    top: 47px;
+    width: 203px;
+  }
+  
+  .CONDEMNED-PAGE .condemned-is-loosely-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-13.svg);
+    background-size: 100% 100%;
+    height: 113px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .condemned-is-loosely {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 10.7px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4px;
+    width: 189px;
+  }
+  
+  .CONDEMNED-PAGE .group-22 {
+    height: 145px;
+    left: 1px;
+    position: absolute;
+    top: 414px;
+    width: 310px;
+  }
+  
+  .CONDEMNED-PAGE .for-the-pitch-we-had-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-12.svg);
+    background-size: 100% 100%;
+    height: 146px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .for-the-pitch-we-had {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 10.7px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    width: 296px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-17 {
+    color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 7.5px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 9px;
+  width: 193px;
+  }
+  
+  .CONDEMNED-PAGE .group-23 {
+    height: 237px;
+    left: 108px;
+    position: absolute;
+    top: 168px;
+    width: 203px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-9 {
+    background-color: #aacfb5;
+    border-radius: 6.67px;
+    box-shadow: 0.83px 0.67px 0.67px #00000040;
+    height: 38px;
+    position: relative;
+    width: 99px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-18 {
+    font-size: 7.5px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-13 {
+    height: 113px;
+    left: 210px;
+    position: absolute;
+    top: 47px;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-14 {
+    height: 238px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 168px;
+    width: 101px;
+  }
+  
+  .CONDEMNED-PAGE .DEVELOPMENT-PROCESS {
+    height: 1820px;
+    left: 0;
+    position: absolute;
+    top: 3438px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-15 {
+    height: 32px;
+    left: 171px;
+    position: absolute;
+    top: 307px;
+    width: 141px;
+  }
+  
+  .CONDEMNED-PAGE .group-24 {
+    height: 251px;
+    left: 171px;
+    position: absolute;
+    top: 47px;
+    width: 141px;
+  }
+  
+  .CONDEMNED-PAGE .the-main-mechanic-of-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-10.svg);
+    background-size: 100% 100%;
+    height: 252px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-19 {
+    color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 10.7px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+  width: 189px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-16 {
+    height: 92px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 47px;
+    width: 163px;
+    border-radius: 6.67px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-17 {
+    height: 65px;
+    left: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: 347px;
+    width: 163px;
+    border-radius: 6.67px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-18 {
+    height: 90px;
+    left: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: 420px;
+    width: 163px;
+    border-radius: 6.67px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-19 {
+    height: 92px;
+    left: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: 518px;
+    width: 163px;
+    border-radius: 6.67px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-20 {
+    height: 92px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 147px;
+    width: 163px;
+    border-radius: 6.67px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-21 {
+    height: 92px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 247px;
+    width: 163px;
+    border-radius: 6.67px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-22 {
+    height: 32px;
+    left: 171px;
+    position: absolute;
+    top: 877px;
+    width: 141px;
+  }
+  
+  .CONDEMNED-PAGE .group-25 {
+    height: 251px;
+    left: 171px;
+    position: absolute;
+    top: 617px;
+    width: 141px;
+  }
+  
+  .CONDEMNED-PAGE .we-had-UI-icons-and-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-9.svg);
+    background-size: 100% 100%;
+    height: 252px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-23 {
+    height: 92px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 617px;
+    width: 163px;
+    border-radius: 6.67px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-24 {
+    height: 92px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 717px;
+    width: 163px;
+    border-radius: 6.67px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-25 {
+    height: 92px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 817px;
+    width: 163px;
+    border-radius: 6.67px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-26 {
+    height: 156px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 977px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-10 {
+    background-image: url(../../../static/img-condemned2/rectangle-19-11.svg);
+  background-size: 100% 100%;
+  height: 238px;
+  position: relative;
+  }
+  
+  .CONDEMNED-PAGE .image {
+    height: 18px;
+    left: 132px;
+    object-fit: cover;
+    position: absolute;
+    top: 6px;
+    width: 18px;
+  }
+  
+  .CONDEMNED-PAGE .image-2 {
+    height: 13px;
+    left: 119px;
+    object-fit: cover;
+    position: absolute;
+    top: 11px;
+    width: 13px;
+  }
+  
+  .CONDEMNED-PAGE .image-3 {
+    height: 30px;
+    left: 222px;
+    object-fit: cover;
+    position: absolute;
+    top: 16px;
+    width: 15px;
+  }
+  
+  .CONDEMNED-PAGE .image-4 {
+    height: 5px;
+    left: 155px;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 34px;
+  }
+  
+  .CONDEMNED-PAGE .image-5 {
+    height: 26px;
+    left: 282px;
+    object-fit: cover;
+    position: absolute;
+    top: 52px;
+    width: 17px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-27 {
+    height: 28px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 1505px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .group-26 {
+    height: 262px;
+    left: 1px;
+    position: absolute;
+    top: 347px;
+    width: 140px;
+  }
+  
+  .CONDEMNED-PAGE .we-had-complex-AI-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-8.svg);
+    background-size: 100% 100%;
+    height: 263px;
+    position: relative;
+  }
+  .CONDEMNED-PAGE .we-had-complex-AI {
+    color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 7.5px;
+  font-weight: 400;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 132px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-20 {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2px;
+    width: 132px;
+  }
+  
+  .CONDEMNED-PAGE .group-27 {
+    height: 280px;
+    left: 1px;
+    position: absolute;
+    top: 1540px;
+    width: 228px;
+  }
+  
+  .CONDEMNED-PAGE .we-decided-that-the-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-7.svg);
+    background-size: 100% 100%;
+    height: 281px;
+    position: relative;
+    width: 227px;
+  }
+  
+  .CONDEMNED-PAGE .we-decided-that-the {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2px;
+    width: 216px;
+  }
+  
+  .CONDEMNED-PAGE .group-28 {
+    height: 51px;
+    left: 1px;
+    position: absolute;
+    top: 917px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .regarding-art-our-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-6.svg);
+    background-size: 100% 100%;
+    height: 52px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .regarding-art-our {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 296px;
+  }
+  
+  .CONDEMNED-PAGE .group-29 {
+    height: 66px;
+    left: 3px;
+    position: absolute;
+    top: 1323px;
+    width: 306px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-11 {
+    background-image: url(../../../static/img-condemned2/rectangle-57.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 174px;
+    left: 1px;
+    position: absolute;
+    top: 1141px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .image-6 {
+    height: 67px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 54px;
+  }
+  
+  .CONDEMNED-PAGE .image-7 {
+    height: 66px;
+    left: 53px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 53px;
+  }
+  
+  .CONDEMNED-PAGE .image-8 {
+    height: 66px;
+    left: 105px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 53px;
+  }
+  
+  .CONDEMNED-PAGE .image-9 {
+    height: 66px;
+    left: 158px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 53px;
+  }
+  
+  .CONDEMNED-PAGE .image-10 {
+    height: 66px;
+    left: 210px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 53px;
+  }
+  
+  .CONDEMNED-PAGE .image-11 {
+    height: 54px;
+    left: 263px;
+    object-fit: cover;
+    position: absolute;
+    top: 11px;
+    width: 43px;
+  }
+  
+  .CONDEMNED-PAGE .group-30 {
+    height: 99px;
+    left: 1px;
+    position: absolute;
+    top: 1397px;
+    width: 315px;
+  }
+  
+  .CONDEMNED-PAGE .overlap-12 {
+    height: 67px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 105px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-21 {
+    color: #aacfb5;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2px;
+    white-space: nowrap;
+    width: 254px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-22 {
+    color: #aacfb5;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 88px;
+    white-space: nowrap;
+    width: 27px;
+  }
+  
+  .CONDEMNED-PAGE .text-wrapper-23 {
+    color: #aacfb5;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 222px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 88px;
+    white-space: nowrap;
+    width: 27px;
+  }
+  .CONDEMNED-PAGE .text-wrapper-24 {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2px;
+    width: 132px;
+  }
+  
+  .CONDEMNED-PAGE .image-12 {
+    height: 84px;
+    left: 236px;
+    object-fit: cover;
+    position: absolute;
+    top: 1642px;
+    width: 71px;
+  }
+  
+  .CONDEMNED-PAGE .image-13 {
+    height: 93px;
+    left: 232px;
+    object-fit: cover;
+    position: absolute;
+    top: 1540px;
+    width: 79px;
+  }
+  
+  .CONDEMNED-PAGE .image-14 {
+    height: 84px;
+    left: 234px;
+    object-fit: cover;
+    position: absolute;
+    top: 1736px;
+    width: 71px;
+  }
+  
+  .CONDEMNED-PAGE .LEVEL-DESIGN {
+    height: 1340px;
+    left: 0;
+    position: absolute;
+    top: 2089px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .group-31 {
+    height: 137px;
+    left: 171px;
+    position: absolute;
+    top: 127px;
+    width: 141px;
+  }
+  .CONDEMNED-PAGE .overlap-13 {
+    background-image: url(../../../static/img-condemned2/rectangle-58.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100px;
+    position: relative;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .concept-art-initial-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-5.svg);
+    background-size: 100% 100%;
+    height: 139px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .concept-art-initial {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2px;
+    width: 133px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-28 {
+    height: 72px;
+    left: 171px;
+    position: absolute;
+    top: 273px;
+    width: 141px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-29 {
+    height: 52px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 522px;
+    width: 141px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-30 {
+    height: 72px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 47px;
+    width: 311px;
+  }
+  
+  .CONDEMNED-PAGE .group-32 {
+    height: 111px;
+    left: 1px;
+    position: absolute;
+    top: 353px;
+    width: 140px;
+  }
+  
+  .CONDEMNED-PAGE .initial-sketches-for-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-4.svg);
+    background-size: 100% 100%;
+    height: 112px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .group-33 {
+    height: 225px;
+    left: 171px;
+    position: absolute;
+    top: 581px;
+    width: 141px;
+  }
+  
+  .CONDEMNED-PAGE .development-process-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-3.svg);
+    background-size: 100% 100%;
+    height: 226px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .development-process {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 4px;
+    width: 133px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-31 {
+    height: 109px;
+    left: 171px;
+    position: absolute;
+    top: 815px;
+    width: 141px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-32 {
+    height: 32px;
+    left: 171px;
+    position: absolute;
+    top: 1196px;
+    width: 141px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-33 {
+    height: 218px;
+    left: 1px;
+    position: absolute;
+    top: 127px;
+    width: 163px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-34 {
+    height: 109px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 581px;
+    width: 163px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-35 {
+    height: 109px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 698px;
+    width: 163px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-36 {
+    height: 109px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 815px;
+    width: 163px;
+  }
+  
+  .CONDEMNED-PAGE .group-34 {
+    height: 126px;
+    left: 171px;
+    position: absolute;
+    top: 1060px;
+    width: 141px;
+  }
+  
+  .CONDEMNED-PAGE .final-design-of-the-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-2.svg);
+    background-size: 100% 100%;
+    height: 128px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .final-design-of-the {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+    width: 133px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-37 {
+    height: 88px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 1060px;
+    width: 163px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-38 {
+    height: 72px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 1156px;
+    width: 163px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-39 {
+    height: 220px;
+    left: 148px;
+    object-fit: cover;
+    position: absolute;
+    top: 353px;
+    width: 164px;
+  }
+  
+  .CONDEMNED-PAGE .group-35 {
+    height: 120px;
+    left: 1px;
+    position: absolute;
+    top: 932px;
+    width: 140px;
+  }
+  
+  .CONDEMNED-PAGE .second-sketch-for-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19-1.svg);
+    background-size: 100% 100%;
+    height: 121px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-40 {
+    height: 121px;
+    left: 148px;
+    object-fit: cover;
+    position: absolute;
+    top: 932px;
+    width: 164px;
+  }
+  
+  .CONDEMNED-PAGE .group-36 {
+    height: 104px;
+    left: 1px;
+    position: absolute;
+    top: 1236px;
+    width: 140px;
+  }
+  
+  .CONDEMNED-PAGE .the-boss-room-was-wrapper {
+    background-image: url(../../../static/img-condemned2/rectangle-19.svg);
+    background-size: 100% 100%;
+    height: 105px;
+    position: relative;
+  }
+  
+  .CONDEMNED-PAGE .the-boss-room-was {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 7.5px;
+    font-weight: 400;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 132px;
+  }
+  
+  .CONDEMNED-PAGE .rectangle-41 {
+    height: 105px;
+    left: 148px;
+    object-fit: cover;
+    position: absolute;
+    top: 1236px;
+    width: 164px;
+  }
+  
+  .CONDEMNED-PAGE .image-15 {
+    height: 40px;
+    left: 102px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 39px;
+  }
+  
+  .CONDEMNED-PAGE .image-16 {
+    height: 40px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 92px;
+  }
+  
+}

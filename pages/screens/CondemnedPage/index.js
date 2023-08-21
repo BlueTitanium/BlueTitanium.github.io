@@ -1,0 +1,1 @@
+export { CondemnedPage } from "./CondemnedPage";

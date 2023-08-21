@@ -11,14 +11,14 @@ export const LicvrPage = () => {
         <a className="nbutton-2" href="/">
                       
                       <div className="noverlap-group-3" >
-                      <img className="home" alt="home" src="/img/HomeButton.png"  />
+                      <img loading="lazy" className="home" alt="home" src="/img/HomeButton.png"  />
                       </div>
                       </a>
         </div>
         </Fade>
         <Fade down>
         <header className="HEADER">
-          <img className="rectangle" alt="Rectangle" src="/img-lic/rectangle-8.png" />
+          <img loading="lazy" className="rectangle" alt="Rectangle" src="/img-lic/rectangle-8.png" />
           <div className="group">
             <div className="overlap-group">
               <div className="text-wrapper">LOOKING INSIDE CELLS: VR</div>
@@ -28,11 +28,11 @@ export const LicvrPage = () => {
         </Fade>
         <div className="ABOUT">
           <Fade left>
-          <img className="img" alt="Rectangle" src="/img-lic/rectangle-18.png" />
+          <img loading="lazy" className="img" alt="Rectangle" src="/img-lic/rectangle-18.png" />
           </Fade>
           <Fade left>
           <div className="overlap">
-            <img className="rectangle-2" alt="Rectangle" src="/img-lic/rectangle-34.png" />
+            <img loading="lazy" className="rectangle-2" alt="Rectangle" src="/img-lic/rectangle-34.png" />
             
           </div>
           </Fade>
@@ -52,7 +52,7 @@ export const LicvrPage = () => {
         </div>
         <div className="GOALS">
           <Fade right>
-          <img className="rectangle-3" alt="Rectangle" src="/img-lic/rectangle-20.png" />
+          <img loading="lazy" className="rectangle-3" alt="Rectangle" src="/img-lic/rectangle-20.png" />
           </Fade>
           <div className="div-wrapper">
             <Fade left>
@@ -77,16 +77,16 @@ export const LicvrPage = () => {
         </div>
         <div className="TUTORIAL">
           <Fade left>
-          <img className="rectangle-4" alt="Rectangle" src="/img-lic/rectangle-21.png" />
+          <img loading="lazy" className="rectangle-4" alt="Rectangle" src="/img-lic/rectangle-21.png" />
           </Fade>
           <Fade left>
-          <img className="rectangle-5" alt="Rectangle" src="/img-lic/rectangle-22.png" />
+          <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img-lic/rectangle-22.png" />
           </Fade>
           <Fade left>
-          <img className="rectangle-6" alt="Rectangle" src="/img-lic/rectangle-23.png" />
+          <img loading="lazy" className="rectangle-6" alt="Rectangle" src="/img-lic/rectangle-23.png" />
           </Fade>
           <Fade left>
-          <img className="rectangle-7" alt="Rectangle" src="/img-lic/rectangle-26.png" />
+          <img loading="lazy" className="rectangle-7" alt="Rectangle" src="/img-lic/rectangle-26.png" />
           </Fade>
           <Fade right>
           <div className="group-2">
@@ -383,7 +383,7 @@ export const LicvrPage = () => {
         </div>
         <div className="CONCLUSION">
           <Fade right>
-          <img className="rectangle-10" alt="Rectangle" src="/img-lic/rectangle-32.png" />
+          <img loading="lazy" className="rectangle-10" alt="Rectangle" src="/img-lic/rectangle-32.png" />
           </Fade>
           <Fade right>
           <div className="group-11">
@@ -411,13 +411,13 @@ export const LicvrPage = () => {
         </div>
         <div className="RESEARCH">
           <Fade left>
-          <img className="rectangle-11" alt="Rectangle" src="/img-lic/rectangle-29.png" />
+          <img loading="lazy" className="rectangle-11" alt="Rectangle" src="/img-lic/rectangle-29.png" />
           </Fade>
           <Fade right>
-          <img className="rectangle-12" alt="Rectangle" src="/img-lic/rectangle-30.png" />
+          <img loading="lazy" className="rectangle-12" alt="Rectangle" src="/img-lic/rectangle-30.png" />
           </Fade>
           <Fade left>
-          <img className="rectangle-13" alt="Rectangle" src="/img-lic/rectangle-31.png" />
+          <img loading="lazy" className="rectangle-13" alt="Rectangle" src="/img-lic/rectangle-31.png" />
           </Fade>
           <div className="group-2">
             <Fade left>
@@ -466,10 +466,10 @@ export const LicvrPage = () => {
         </div>
         <div className="HAPTICS">
           <Fade left>
-          <img className="rectangle-14" alt="Rectangle" src="/img-lic/rectangle-27.png" />
+          <img loading="lazy" className="rectangle-14" alt="Rectangle" src="/img-lic/rectangle-27.png" />
           </Fade>
           <Fade left>
-          <img className="rectangle-15" alt="Rectangle" src="/img-lic/rectangle-28.png" />
+          <img loading="lazy" className="rectangle-15" alt="Rectangle" src="/img-lic/rectangle-28.png" />
           </Fade>
           <div className="group-2">
             <Fade right>
@@ -520,10 +520,10 @@ export const LicvrPage = () => {
           </div>
           </Fade>
           <Fade right>
-          <img className="group-32" alt="Group" src="/img-lic/group-51.png" />
+          <img loading="lazy" className="group-32" alt="Group" src="/img-lic/group-51.png" />
           </Fade>
           <Fade left>
-          <img className="group-33" alt="Group" src="/img-lic/group-53.png" />
+          <img loading="lazy" className="group-33" alt="Group" src="/img-lic/group-53.png" />
           </Fade>
         </div>
       </div>

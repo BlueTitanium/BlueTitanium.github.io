@@ -45,10 +45,6 @@ export const PortfolioHomePage = () => {
     }  
   };
 
-  const GoToPage=()=>{
-    
-  }
-
   return (
     
     <div className="PORTFOLIO-HOME-PAGE">
@@ -60,7 +56,7 @@ export const PortfolioHomePage = () => {
         <div className="nbutton-2" >
                       
                       <div className="noverlap-group-3" onClick={() => scrollDown(headerSection)}>
-                      <img className="home" alt="home" src="/img/HomeButton.png"  />
+                      <img loading="lazy" className="home" alt="home" src="/img/HomeButton.png"  />
                       </div>
                       </div>
         <div className="ngroup-4">
@@ -97,14 +93,14 @@ export const PortfolioHomePage = () => {
           
           <div className="icon-itch-dot-io-wrapper" >
           <a href='https://bluetitanium.itch.io/'>
-            <img className="icon-itch-dot-io" alt="Icon itch dot io" src="/img/icon-itch-dot-io.png"  />
+            <img loading="lazy" className="icon-itch-dot-io" alt="Icon itch dot io" src="/img/icon-itch-dot-io.png"  />
             </a>
           </div>
           
           
           <div className="icon-linkedin-square-wrapper">
           <a href='https://www.linkedin.com/in/taneim-miah-a7825118a/'>
-            <img className="icon-linkedin-square" alt="Icon linkedin square" src="/img/icon-linkedin-square.png" />
+            <img loading="lazy" className="icon-linkedin-square" alt="Icon linkedin square" src="/img/icon-linkedin-square.png" />
             </a>
           </div>
           
@@ -131,7 +127,7 @@ export const PortfolioHomePage = () => {
           
           <div className="icon-github-wrapper">
           <a href='https://github.com/BlueTitanium'>
-            <img className="icon-github" alt="Icon github" src="/img/icon-github.png"  />
+            <img loading="lazy" className="icon-github" alt="Icon github" src="/img/icon-github.png"  />
             </a>
           </div>
           
@@ -157,7 +153,7 @@ export const PortfolioHomePage = () => {
                           <div className="text-wrapper-6">Learn More</div>
                         </div>
                       </a>
-                      <img className="img" alt="Rectangle" src="/img/rectangle-8.png" />
+                      <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8.png" />
                       <div className="group-3">
                         <div className="overlap-9">
                         <a>
@@ -173,12 +169,12 @@ export const PortfolioHomePage = () => {
                     <div className="overlap-10">
                       <p className="METROIDVANIA-VIDEO"> METROIDVANIA VIDEO GAME DESIGN</p>
                       <div className="text-wrapper-5">CONDEMNED</div>
-                      <div className="button-2">
+                      <a className="button-2" href='/Condemned'>
                         <div className="overlap-group-2">
                           <div className="text-wrapper-6">Learn More</div>
                         </div>
-                      </div>
-                      <img className="rectangle-4" alt="Rectangle" src="/img/rectangle-9-1.png" />
+                      </a>
+                      <img loading="lazy" className="rectangle-4" alt="Rectangle" src="/img/rectangle-9-1.png" />
                     </div>
                   </div>
                   </Fade>
@@ -193,7 +189,7 @@ export const PortfolioHomePage = () => {
                         <div className="text-wrapper-6">Learn More</div>
                       </div>
                     </div>
-                    <img className="img" alt="Rectangle"src="/img/rectangle-8-1.png" />
+                    <img loading="lazy" className="img" alt="Rectangle"src="/img/rectangle-8-1.png" />
                   </div>
                 </div>
                 </Fade>
@@ -208,7 +204,7 @@ export const PortfolioHomePage = () => {
                       <div className="text-wrapper-6">Learn More</div>
                     </div>
                   </div>
-                  <img className="rectangle-4" alt="Rectangle" src="/img/rectangle-9.png"  />
+                  <img loading="lazy" className="rectangle-4" alt="Rectangle" src="/img/rectangle-9.png"  />
                 </div>
               </div>
               </Fade>
@@ -223,7 +219,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-6">Learn More</div>
                   </div>
                 </div>
-                <img className="img" alt="Rectangle" src="/img/rectangle-8-12.png"/>
+                <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-12.png"/>
               </div>
             </div>
             </Fade>
@@ -237,7 +233,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-8">LINK</div>
                   </div>
                 </div>
-                <img className="img" alt="Rectangle" src="/img/rectangle-8-11.png" />
+                <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-11.png" />
               </div>
             </div>
             </Fade>
@@ -251,7 +247,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-8">LINK</div>
                   </div>
                 </div>
-                <img className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-10.png"  />
+                <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-10.png"  />
               </div>
             </div>
             </Fade>
@@ -265,7 +261,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-8">LINK</div>
                   </div>
                 </div>
-                <img className="img" alt="Rectangle" src="/img/rectangle-8-9.png"  />
+                <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-9.png"  />
               </div>
             </div>
             </Fade>
@@ -279,7 +275,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-8">LINK</div>
                   </div>
                 </div>
-                <img className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-8.png" />
+                <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-8.png" />
               </div>
             </div>
             </Fade>
@@ -293,7 +289,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-8">LINK</div>
                   </div>
                 </div>
-                <img className="img" alt="Rectangle" src="/img/rectangle-8-7.png" />
+                <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-7.png" />
               </div>
             </div>
             </Fade>
@@ -307,7 +303,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-8">LINK</div>
                   </div>
                 </div>
-                <img className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-6.png" />
+                <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-6.png" />
               </div>
             </div>
             </Fade>
@@ -321,7 +317,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-8">LINK</div>
                   </div>
                 </div>
-                <img className="img" alt="Rectangle" src="/img/rectangle-8-5.png" />
+                <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-5.png" />
               </div>
             </div>
             </Fade>
@@ -335,7 +331,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-8">LINK</div>
                   </div>
                 </div>
-                <img className="img" alt="Rectangle" src="/img/rectangle-8-4.png" />
+                <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-4.png" />
               </div>
             </div>
             </Fade>
@@ -349,7 +345,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-8">LINK</div>
                   </div>
                 </div>
-                <img className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-3.svg" />
+                <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-3.svg" />
               </div>
             </div>
             </Fade>
@@ -363,7 +359,7 @@ export const PortfolioHomePage = () => {
                     <div className="text-wrapper-8">LINK</div>
                   </div>
                 </div>
-                <img className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-2.png" />
+                <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-2.png" />
               </div>
             </div>
             </Fade>
