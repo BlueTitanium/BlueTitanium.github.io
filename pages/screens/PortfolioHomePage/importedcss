@@ -1,0 +1,809 @@
+.PORTFOLIO-HOME-PAGE {
+  background-color: #63816C;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+
+.PORTFOLIO-HOME-PAGE .div {
+  background-color: #63816C;
+  border: 0.75px none;
+  height: 8340px;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap {
+  height: 7719px;
+  left: 23px;
+  position: absolute;
+  top: -512px;
+  width: 100vw;
+}
+
+.PORTFOLIO-HOME-PAGE .header {
+  background-color: transparent;
+  height: 1623px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-group {
+  height: 1623px;
+  position: relative;
+  width: 1398px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-2 {
+  height: 1496px;
+  left: 0;
+  position: absolute;
+  top: 127px;
+  width: 1398px;
+}
+
+.PORTFOLIO-HOME-PAGE .rectangle {
+  background-color: #aacfb5;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 728px;
+  left: 0;
+  position: absolute;
+  top: 768px;
+  width: 679px;
+}
+
+.PORTFOLIO-HOME-PAGE .rectangle-2 {
+  background-color: #aacfb5;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 728px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 679px;
+}
+
+.PORTFOLIO-HOME-PAGE .title-card {
+  height: 617px;
+  left: 422px;
+  position: absolute;
+  top: 641px;
+  width: 976px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-3 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 617px;
+  position: relative;
+  width: 970px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-4 {
+  height: 123px;
+  left: 0;
+  position: absolute;
+  top: 70px;
+  width: 970px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper {
+  color: #aacfb5;
+  font-family: "against-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  height: 61px;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 287px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-2 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 96px;
+  font-weight: 400;
+  height: 93px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  white-space: nowrap;
+  width: 970px;
+}
+
+.PORTFOLIO-HOME-PAGE .p {
+  color: #000000;
+  font-family: "Raleway", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 75px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 229px;
+  width: 820px;
+}
+
+.PORTFOLIO-HOME-PAGE .group {
+  height: 102px;
+  left: 198px;
+  position: absolute;
+  top: 474px;
+  width: 574px;
+}
+
+.PORTFOLIO-HOME-PAGE .button {
+  height: 102px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 269px;
+}
+
+.PORTFOLIO-HOME-PAGE .div-wrapper {
+  background-color: #aacfb5;
+  border-radius: 30px;
+  height: 102px;
+  position: relative;
+  width: 267px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Raleway", Helvetica;
+  font-size: 48px;
+  font-weight: 600;
+  height: 102px;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 204px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-wrapper {
+  height: 102px;
+  left: 307px;
+  position: absolute;
+  top: 0;
+  width: 269px;
+}
+
+.PORTFOLIO-HOME-PAGE .rectangle-3 {
+  background-color: #aacfb5;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 728px;
+  left: 713px;
+  position: absolute;
+  top: 0;
+  width: 679px;
+}
+
+.PORTFOLIO-HOME-PAGE .PROJECTS-SECTION {
+  height: 6294px;
+  left: 1px;
+  position: absolute;
+  top: 1425px;
+  width: 1391px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-5 {
+  height: 2251px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1395px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-6 {
+  height: 1722px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1395px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-7 {
+  height: 1489px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1395px;
+}
+
+.PORTFOLIO-HOME-PAGE .sorter {
+  background-color: #aacfb5;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 718px;
+  left: 712px;
+  position: absolute;
+  top: 0;
+  width: 679px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a {
+  height: 722px;
+  left: 0;
+  position: absolute;
+  top: 238px;
+  width: 772px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-8 {
+  height: 722px;
+  position: relative;
+  width: 770px;
+}
+
+.PORTFOLIO-HOME-PAGE .rectangle-4 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 722px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 679px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-4 {
+  color: #aacfb5;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 132px;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 480px;
+  width: 596px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-5 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 55px;
+  font-weight: 400;
+  height: 160px;
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 310px;
+  width: 584px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-group-wrapper {
+  height: 83px;
+  left: 176px;
+  position: absolute;
+  top: 622px;
+  width: 327px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-group-2 {
+  background-color: #aacfb5;
+  border-radius: 30px;
+  height: 83px;
+  position: relative;
+  width: 325px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Raleway", Helvetica;
+  font-size: 48px;
+  font-weight: 600;
+  height: 56px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO-HOME-PAGE .img {
+  height: 293px;
+  left: 19px;
+  object-fit: cover;
+  position: absolute;
+  top: 17px;
+  width: 640px;
+}
+
+.PORTFOLIO-HOME-PAGE .group-2 {
+  height: 65px;
+  left: 504px;
+  position: absolute;
+  top: 12px;
+  width: 266px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-9 {
+  background-color: #ff7878;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 65px;
+  position: relative;
+  width: 264px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "against-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  height: 65px;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 227px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-b {
+  height: 722px;
+  left: 712px;
+  position: absolute;
+  top: 767px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-10 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 722px;
+  position: relative;
+  width: 679px;
+}
+
+.PORTFOLIO-HOME-PAGE .METROIDVANIA-VIDEO {
+  color: #aacfb5;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 132px;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 478px;
+  width: 596px;
+}
+
+.PORTFOLIO-HOME-PAGE .button-2 {
+  height: 83px;
+  left: 177px;
+  position: absolute;
+  top: 621px;
+  width: 327px;
+}
+
+.PORTFOLIO-HOME-PAGE .rectangle-5 {
+  height: 276px;
+  left: 19px;
+  object-fit: cover;
+  position: absolute;
+  top: 26px;
+  width: 640px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-2 {
+  height: 722px;
+  left: 0;
+  position: absolute;
+  top: 1000px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-b-2 {
+  height: 722px;
+  left: 712px;
+  position: absolute;
+  top: 1529px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .airline-flights {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 55px;
+  font-weight: 400;
+  height: 160px;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 310px;
+  width: 584px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-3 {
+  height: 722px;
+  left: 0;
+  position: absolute;
+  top: 1762px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-4 {
+  height: 722px;
+  left: 0;
+  position: absolute;
+  top: 2524px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Raleway", Helvetica;
+  font-size: 48px;
+  font-weight: 600;
+  height: 56px;
+  left: 107px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-5 {
+  height: 722px;
+  left: 0;
+  position: absolute;
+  top: 3286px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .rectangle-6 {
+  height: 293px;
+  left: 19px;
+  position: absolute;
+  top: 17px;
+  width: 640px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-6 {
+  height: 722px;
+  left: 712px;
+  position: absolute;
+  top: 2291px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-7 {
+  height: 722px;
+  left: 712px;
+  position: absolute;
+  top: 3053px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-8 {
+  height: 722px;
+  left: 712px;
+  position: absolute;
+  top: 3815px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-9 {
+  height: 722px;
+  left: 0;
+  position: absolute;
+  top: 4048px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-9 {
+  color: #aacfb5;
+  font-family: "against-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  height: 132px;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 480px;
+  width: 631px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-10 {
+  height: 722px;
+  left: 0;
+  position: absolute;
+  top: 4810px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-11 {
+  height: 722px;
+  left: 0;
+  position: absolute;
+  top: 5572px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-12 {
+  height: 722px;
+  left: 712px;
+  position: absolute;
+  top: 4577px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .card-type-a-13 {
+  height: 722px;
+  left: 712px;
+  position: absolute;
+  top: 5339px;
+  width: 683px;
+}
+
+.PORTFOLIO-HOME-PAGE .rectangle-7 {
+  background-color: #aacfb5;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 193px;
+  left: 712px;
+  position: absolute;
+  top: 6101px;
+  width: 679px;
+}
+
+.PORTFOLIO-HOME-PAGE .CONTACTS-SECTION {
+  height: 1380px;
+  left: 24px;
+  position: absolute;
+  top: 7287px;
+  width: 1393px;
+}
+
+.PORTFOLIO-HOME-PAGE .group-3 {
+  height: 198px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1393px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-group-3 {
+  background-color: #ffffff;
+  border: 14px solid;
+  border-color: #aacfb5;
+  border-radius: 30px;
+  height: 198px;
+  position: relative;
+  width: 1391px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-10 {
+  color: #000000;
+  font-family: "against-Regular", Helvetica;
+  font-size: 80px;
+  font-weight: 400;
+  height: 109px;
+  left: 254px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+}
+
+.PORTFOLIO-HOME-PAGE .group-4 {
+  height: 177px;
+  left: 0;
+  position: absolute;
+  top: 238px;
+  width: 727px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-11 {
+  height: 177px;
+  position: relative;
+  width: 725px;
+}
+
+.PORTFOLIO-HOME-PAGE .rectangle-8 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 177px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  width: 720px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-11 {
+  color: #63816c;
+  font-family: "Raleway", Helvetica;
+  font-size: 55px;
+  font-weight: 600;
+  height: 84px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 47px;
+  width: 725px;
+}
+
+.PORTFOLIO-HOME-PAGE .icon-itch-dot-io-wrapper {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 177px;
+  left: 873px;
+  position: absolute;
+  top: 238px;
+  width: 177px;
+}
+
+.PORTFOLIO-HOME-PAGE .icon-itch-dot-io {
+  height: 116px;
+  left: 25px;
+  position: absolute;
+  top: 31px;
+  width: 129px;
+}
+
+.PORTFOLIO-HOME-PAGE .icon-linkedin-square-wrapper {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 177px;
+  left: 873px;
+  position: absolute;
+  top: 455px;
+  width: 177px;
+}
+
+.PORTFOLIO-HOME-PAGE .icon-linkedin-square {
+  height: 115px;
+  left: 31px;
+  position: absolute;
+  top: 31px;
+  width: 115px;
+}
+
+.PORTFOLIO-HOME-PAGE .group-5 {
+  height: 177px;
+  left: 0;
+  position: absolute;
+  top: 455px;
+  width: 727px;
+}
+
+.PORTFOLIO-HOME-PAGE .group-6 {
+  height: 177px;
+  left: 0;
+  position: absolute;
+  top: 672px;
+  width: 1377px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-12 {
+  height: 177px;
+  position: relative;
+  width: 1375px;
+}
+
+.PORTFOLIO-HOME-PAGE .rectangle-9 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 177px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-12 {
+  color: #63816c;
+  font-family: "Raleway", Helvetica;
+  font-size: 55px;
+  font-weight: 600;
+  height: 84px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 47px;
+  width: 1375px;
+}
+
+.PORTFOLIO-HOME-PAGE .overlap-13 {
+  background-color: #aacfb5;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 491px;
+  left: 0;
+  position: absolute;
+  top: 889px;
+  width: 1375px;
+}
+
+.PORTFOLIO-HOME-PAGE .text-wrapper-13 {
+  color: #63816c;
+  font-family: "Raleway", Helvetica;
+  font-size: 48px;
+  font-weight: 600;
+  height: 108px;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 1307px;
+}
+
+.PORTFOLIO-HOME-PAGE .group-7 {
+  background-color: #ffffff;
+  background-image: url(../../../static/img/icon-arrow-upward.png);
+  background-size: 100% 100%;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 177px;
+  left: 1198px;
+  position: absolute;
+  top: 455px;
+  width: 177px;
+}
+
+.PORTFOLIO-HOME-PAGE .icon-github-wrapper {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 3.75px 3px 3px #00000040;
+  height: 177px;
+  left: 1198px;
+  position: absolute;
+  top: 238px;
+  width: 177px;
+}
+
+.PORTFOLIO-HOME-PAGE .icon-github {
+  height: 121px;
+  left: 29px;
+  position: absolute;
+  top: 29px;
+  width: 120px;
+}

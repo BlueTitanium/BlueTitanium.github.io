@@ -1,0 +1,281 @@
+import React from "react";
+import "./style.css";
+
+export const PortfolioHomePage = () => {
+  return (
+    <div className="PORTFOLIO-HOME-PAGE">
+      <div className="div">
+        <div className="overlap">
+          <header className="header">
+            <div className="overlap-group">
+              <div className="overlap-2">
+                <div className="rectangle" />
+                <div className="rectangle-2" />
+                <div className="title-card">
+                  <div className="overlap-3">
+                    <div className="overlap-4">
+                      <div className="text-wrapper">a site by</div>
+                      <div className="text-wrapper-2">Taneim Miah</div>
+                    </div>
+                    <p className="p">
+                      Hi! I’m a software developer based in NYC. I’ve worked on many projects across a broad depth of
+                      areas in computer science, primarily working with simulations and research. I’m passionate about
+                      programming, art, and creating cool things.
+                    </p>
+                    <div className="group">
+                      <div className="button">
+                        <div className="div-wrapper">
+                          <div className="text-wrapper-3">Projects</div>
+                        </div>
+                      </div>
+                      <div className="overlap-wrapper">
+                        <div className="div-wrapper">
+                          <div className="text-wrapper-3">Contact</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="rectangle-3" />
+            </div>
+          </header>
+          <div className="PROJECTS-SECTION">
+            <div className="overlap-5">
+              <div className="overlap-6">
+                <div className="overlap-7">
+                  <div className="sorter" />
+                  <div className="card-type-a">
+                    <div className="overlap-8">
+                      <div className="rectangle-4" />
+                      <div className="text-wrapper-4">EDUCATIONAL VR SIMULATIONS</div>
+                      <div className="text-wrapper-5">LOOKING INSIDE CELLS</div>
+                      <div className="overlap-group-wrapper">
+                        <div className="overlap-group-2">
+                          <div className="text-wrapper-6">Learn More</div>
+                        </div>
+                      </div>
+                      <img className="img" alt="Rectangle" src="/img/rectangle-8.png" />
+                      <div className="group-2">
+                        <div className="overlap-9">
+                          <div className="text-wrapper-7">FEATURED</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card-type-b">
+                    <div className="overlap-10">
+                      <p className="METROIDVANIA-VIDEO"> METROIDVANIA VIDEO GAME DESIGN</p>
+                      <div className="text-wrapper-5">CONDEMNED</div>
+                      <div className="button-2">
+                        <div className="overlap-group-2">
+                          <div className="text-wrapper-6">Learn More</div>
+                        </div>
+                      </div>
+                      <img className="rectangle-5" alt="Rectangle" src="/img/rectangle-9-1.png" />
+                    </div>
+                  </div>
+                </div>
+                <div className="card-type-a-2">
+                  <div className="overlap-10">
+                    <div className="text-wrapper-4">PRACTICAL VR SIMULATIONS</div>
+                    <div className="text-wrapper-5">DENTAL INJECTION VR</div>
+                    <div className="overlap-group-wrapper">
+                      <div className="overlap-group-2">
+                        <div className="text-wrapper-6">Learn More</div>
+                      </div>
+                    </div>
+                    <img className="img" alt="Rectangle" src="/img/rectangle-8-1.png" />
+                  </div>
+                </div>
+              </div>
+              <div className="card-type-b-2">
+                <div className="overlap-10">
+                  <div className="text-wrapper-4">WEB DEV &amp; DATABASE</div>
+                  <div className="airline-flights">AIRLINE FLIGHTS MANAGER</div>
+                  <div className="button-2">
+                    <div className="overlap-group-2">
+                      <div className="text-wrapper-6">Learn More</div>
+                    </div>
+                  </div>
+                  <img className="rectangle-5" alt="Rectangle" src="/img/rectangle-9.png" />
+                </div>
+              </div>
+            </div>
+            <div className="card-type-a-3">
+              <div className="overlap-10">
+                <p className="text-wrapper-4">REAL TIME CARD GAME DESIGN</p>
+                <div className="text-wrapper-5">VK-00M3</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-6">Learn More</div>
+                  </div>
+                </div>
+                <img className="img" alt="Rectangle" src="/img/rectangle-8-12.png" />
+              </div>
+            </div>
+            <div className="card-type-a-4">
+              <div className="overlap-10">
+                <div className="text-wrapper-4">RESOURCE-BASED GAME DESIGN</div>
+                <div className="text-wrapper-5">OVERHEAT</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-8">LINK</div>
+                  </div>
+                </div>
+                <img className="img" alt="Rectangle" src="/img/rectangle-8-11.png" />
+              </div>
+            </div>
+            <div className="card-type-a-5">
+              <div className="overlap-10">
+                <div className="text-wrapper-4">PLATFORMER VIDEO GAME DESIGN</div>
+                <div className="text-wrapper-5">GUN AND WHEEL</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-8">LINK</div>
+                  </div>
+                </div>
+                <img className="rectangle-6" alt="Rectangle" src="/img/rectangle-8-10.png" />
+              </div>
+            </div>
+            <div className="card-type-a-6">
+              <div className="overlap-10">
+                <p className="text-wrapper-4">STEALTH &amp; AI VIDEO GAME DESIGN</p>
+                <div className="text-wrapper-5">ESCAPE THE CATACOMBS</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-8">LINK</div>
+                  </div>
+                </div>
+                <img className="img" alt="Rectangle" src="/img/rectangle-8-9.png" />
+              </div>
+            </div>
+            <div className="card-type-a-7">
+              <div className="overlap-10">
+                <p className="text-wrapper-4">ENDLESS ARENA VIDEO GAME DESIGN</p>
+                <div className="text-wrapper-5">KNIGHT AND SPEAR</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-8">LINK</div>
+                  </div>
+                </div>
+                <img className="rectangle-6" alt="Rectangle" src="/img/rectangle-8-8.png" />
+              </div>
+            </div>
+            <div className="card-type-a-8">
+              <div className="overlap-10">
+                <div className="text-wrapper-4">MINIMALIST VIDEO GAME DESIGN</div>
+                <div className="text-wrapper-5">BALL AND BLADE</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-8">LINK</div>
+                  </div>
+                </div>
+                <img className="img" alt="Rectangle" src="/img/rectangle-8-7.png" />
+              </div>
+            </div>
+            <div className="card-type-a-9">
+              <div className="overlap-10">
+                <p className="text-wrapper-9">ACTION PLATFORM VIDEO GAME DESIGN</p>
+                <div className="text-wrapper-5">DISSONANCE</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-8">LINK</div>
+                  </div>
+                </div>
+                <img className="rectangle-6" alt="Rectangle" src="/img/rectangle-8-6.png" />
+              </div>
+            </div>
+            <div className="card-type-a-10">
+              <div className="overlap-10">
+                <p className="text-wrapper-4">ACTION PLATFORM VIDEO GAME DESIGN</p>
+                <div className="text-wrapper-5">MAD SCIENTIST’S LAIR</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-8">LINK</div>
+                  </div>
+                </div>
+                <img className="img" alt="Rectangle" src="/img/rectangle-8-5.png" />
+              </div>
+            </div>
+            <div className="card-type-a-11">
+              <div className="overlap-10">
+                <div className="text-wrapper-4">PHYSICS SIMULATION</div>
+                <div className="text-wrapper-5">PI COLLISIONS</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-8">LINK</div>
+                  </div>
+                </div>
+                <img className="img" alt="Rectangle" src="/img/rectangle-8-4.png" />
+              </div>
+            </div>
+            <div className="card-type-a-12">
+              <div className="overlap-10">
+                <p className="text-wrapper-4">STEALTH &amp; AI VIDEO GAME DESIGN</p>
+                <div className="text-wrapper-5">L.V. NOIRE</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-8">LINK</div>
+                  </div>
+                </div>
+                <img className="rectangle-6" alt="Rectangle" src="/img/rectangle-8-3.svg" />
+              </div>
+            </div>
+            <div className="card-type-a-13">
+              <div className="overlap-10">
+                <div className="text-wrapper-4">PHYSICS-BASED VIDEO GAME DESIGN</div>
+                <div className="text-wrapper-5">BALLS</div>
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="text-wrapper-8">LINK</div>
+                  </div>
+                </div>
+                <img className="rectangle-6" alt="Rectangle" src="/img/rectangle-8-2.png" />
+              </div>
+            </div>
+            <div className="rectangle-7" />
+          </div>
+        </div>
+        <div className="CONTACTS-SECTION">
+          <div className="group-3">
+            <div className="overlap-group-3">
+              <div className="text-wrapper-10">CONTACT / LINKS</div>
+            </div>
+          </div>
+          <div className="group-4">
+            <div className="overlap-11">
+              <div className="rectangle-8" />
+              <div className="text-wrapper-11">tsm6910@nyu.edu</div>
+            </div>
+          </div>
+          <div className="icon-itch-dot-io-wrapper">
+            <img className="icon-itch-dot-io" alt="Icon itch dot io" src="/img/icon-itch-dot-io.png" />
+          </div>
+          <div className="icon-linkedin-square-wrapper">
+            <img className="icon-linkedin-square" alt="Icon linkedin square" src="/img/icon-linkedin-square.png" />
+          </div>
+          <div className="group-5">
+            <div className="overlap-11">
+              <div className="rectangle-8" />
+              <div className="text-wrapper-11">taneim.smiah@gmail.com</div>
+            </div>
+          </div>
+          <div className="group-6">
+            <div className="overlap-12">
+              <div className="rectangle-9" />
+              <div className="text-wrapper-12">Link To Resume</div>
+            </div>
+          </div>
+          <div className="overlap-13">
+            <p className="text-wrapper-13">website designed and programmed by me</p>
+          </div>
+          <div className="group-7" />
+          <div className="icon-github-wrapper">
+            <img className="icon-github" alt="Icon github" src="/img/icon-github.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
