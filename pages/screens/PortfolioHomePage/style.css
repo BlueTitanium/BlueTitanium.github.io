@@ -28,7 +28,7 @@
   background-color: #63816C;
 }
 
-@media (min-width: 1080px) {
+@media screen and (min-width: 1080px) {
 .PORTFOLIO-HOME-PAGE {
   background-color: #72977e;
   display: flex;
@@ -886,7 +886,7 @@
 }
 }
 
-@media (max-width: 1079px) {
+@media screen and (max-width: 1079px) {
   .PORTFOLIO-HOME-PAGE {
     background-color: #72977e;
     display: flex;
