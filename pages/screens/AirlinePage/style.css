@@ -1,28 +1,24 @@
-
-.DENTAL-page .noverlap-group-3:hover {
+.AIRLINE-page .noverlap-group-3:hover {
   background-color: #63816C;
   color: #000;
 }
-.DENTAL-page .group-7:hover .NYU-LAB-no-download-wrapper{
+.AIRLINE-page .group-7:hover .overlap-4{
   background-color: #aacfb5;
 }
-.DENTAL-page .group-7:hover .NYU-LAB-no-download{
-  color: #ffffff;
-}
-.DENTAL-page .group-7:hover .span{
+.AIRLINE-page .group-7:hover .text-wrapper-8{
   color: #ffffff;
 }
 
 
 @media (min-width: 1080px){
-.DENTAL-page {
+.AIRLINE-page {
   background-color: #63816c;
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
 }
-.DENTAL-page .NAVBAR-SECTION {
+.AIRLINE-page .NAVBAR-SECTION {
   background-color: #72977ec5;
   border-radius: 22.5px;
   height: 100px;
@@ -32,14 +28,14 @@
   box-shadow: 2.81px 2.25px 2.25px #00000040;
   z-index:1;
 }
-.DENTAL-page .noverlap-group-3 {
+.AIRLINE-page .noverlap-group-3 {
   background-color: #aacfb5;
   border-radius: 22.5px;
   height: 76px;
   position: relative;
   width: 73px;
 }
-.DENTAL-page .nbutton-2 {
+.AIRLINE-page .nbutton-2 {
   height: 76px;
   width: 76px;
   left: 16px;
@@ -47,24 +43,14 @@
   top: 12px;
   z-index:1;
 }
-.DENTAL-page ul {
-  margin-left: 25px;
-  list-style-type: circle;
-}
-
-.DENTAL-page ul li {
-  margin-left: 4px;
-  left: 4px;
-}
-
-.DENTAL-page .div {
+.AIRLINE-page .div {
   background-color: #63816c;
-  height: 6017.25px;
+  height: 5196px;
   position: relative;
   width: 1080px;
 }
 
-.DENTAL-page .HEADER {
+.AIRLINE-page .HEADER {
   background-color: transparent;
   height: 482px;
   left: 0px;
@@ -73,7 +59,7 @@
   width: 1044px;
 }
 
-.DENTAL-page .rectangle {
+.AIRLINE-page .rectangle {
   height: 311px;
   left: 0;
   object-fit: cover;
@@ -82,7 +68,7 @@
   width: 1044px;
 }
 
-.DENTAL-page .group {
+.AIRLINE-page .group {
   height: 140px;
   left: 0;
   position: absolute;
@@ -90,7 +76,7 @@
   width: 1046px;
 }
 
-.DENTAL-page .overlap-group {
+.AIRLINE-page .overlap-group {
   background-color: #ffffff;
   border: 10.5px solid;
   border-color: #aacfb5;
@@ -100,13 +86,13 @@
   width: 1044px;
 }
 
-.DENTAL-page .dental-injection-VR {
+.AIRLINE-page .text-wrapper {
   color: #000000;
   font-family: "against-Regular", Helvetica;
   font-size: 60px;
   font-weight: 400;
   height: 82px;
-  left: 110px;
+  left: 8px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -114,7 +100,7 @@
   top: 19px;
 }
 
-.DENTAL-page .ABOUT {
+.AIRLINE-page .ABOUT {
   height: 546px;
   left: 0px;
   position: absolute;
@@ -122,7 +108,7 @@
   width: 1044px;
 }
 
-.DENTAL-page .img {
+.AIRLINE-page .img {
   height: 340px;
   left: 0;
   object-fit: cover;
@@ -131,7 +117,7 @@
   width: 340px;
 }
 
-.DENTAL-page .overlap {
+.AIRLINE-page .rectangle-2 {
   background-color: #ffffff;
   border-radius: 22.5px;
   box-shadow: 2.81px 2.25px 2.25px #00000040;
@@ -142,16 +128,7 @@
   width: 335px;
 }
 
-.DENTAL-page .rectangle-2 {
-  height: 122px;
-  left: 10px;
-  object-fit: cover;
-  position: absolute;
-  top: 30px;
-  width: 315px;
-}
-
-.DENTAL-page .overlap-group-wrapper {
+.AIRLINE-page .overlap-group-wrapper {
   height: 546px;
   left: 365px;
   position: absolute;
@@ -159,15 +136,15 @@
   width: 683px;
 }
 
-.DENTAL-page .overlap-group-2 {
-  background-image: url(../../../static/img-dental/rectangle-19-3.svg);
+.AIRLINE-page .overlap-group-2 {
+  background-image: url(../../../static/img-airline/rectangle-19-2.svg);
   background-size: 100% 100%;
   height: 550px;
   position: relative;
   width: 684px;
 }
 
-.DENTAL-page .text-wrapper {
+.AIRLINE-page .text-wrapper-2 {
   color: #000000;
   font-family: "against-Regular", Helvetica;
   font-size: 36px;
@@ -181,7 +158,7 @@
   width: 638px;
 }
 
-.DENTAL-page .p {
+.AIRLINE-page .p {
   color: #000000;
   font-family: "Raleway", Helvetica;
   font-size: 36px;
@@ -194,7 +171,7 @@
   width: 638px;
 }
 
-.DENTAL-page .ROLES {
+.AIRLINE-page .ROLES {
   height: 364px;
   left: 0px;
   position: absolute;
@@ -202,7 +179,7 @@
   width: 1044px;
 }
 
-.DENTAL-page .rectangle-3 {
+.AIRLINE-page .rectangle-3 {
   background-color: #aacfb5;
   border-radius: 22.5px;
   box-shadow: 2.81px 2.25px 2.25px #00000040;
@@ -213,7 +190,7 @@
   width: 335px;
 }
 
-.DENTAL-page .div-wrapper {
+.AIRLINE-page .div-wrapper {
   height: 130px;
   left: 365px;
   position: absolute;
@@ -221,7 +198,7 @@
   width: 681px;
 }
 
-.DENTAL-page .overlap-group-3 {
+.AIRLINE-page .overlap-group-3 {
   background-color: #aacfb5;
   border-radius: 22.5px;
   box-shadow: 2.81px 2.25px 2.25px #00000040;
@@ -230,7 +207,7 @@
   width: 679px;
 }
 
-.DENTAL-page .text-wrapper-2 {
+.AIRLINE-page .text-wrapper-3 {
   color: #ffffff;
   font-family: "against-Regular", Helvetica;
   font-size: 55.5px;
@@ -245,7 +222,7 @@
   width: 638px;
 }
 
-.DENTAL-page .overlap-wrapper {
+.AIRLINE-page .overlap-wrapper {
   height: 87px;
   left: 597px;
   position: absolute;
@@ -253,7 +230,7 @@
   width: 449px;
 }
 
-.DENTAL-page .overlap-2 {
+.AIRLINE-page .overlap {
   background-color: #ffffff;
   border-radius: 22.5px;
   box-shadow: 2.81px 2.25px 2.25px #00000040;
@@ -262,7 +239,7 @@
   width: 447px;
 }
 
-.DENTAL-page .text-wrapper-3 {
+.AIRLINE-page .text-wrapper-4 {
   color: #000000;
   font-family: "against-Regular", Helvetica;
   font-size: 48px;
@@ -277,7 +254,7 @@
   width: 447px;
 }
 
-.DENTAL-page .group-2 {
+.AIRLINE-page .group-2 {
   height: 87px;
   left: 0;
   position: absolute;
@@ -285,7 +262,7 @@
   width: 509px;
 }
 
-.DENTAL-page .overlap-3 {
+.AIRLINE-page .overlap-2 {
   background-color: #ffffff;
   border-radius: 22.5px;
   box-shadow: 2.81px 2.25px 2.25px #00000040;
@@ -294,7 +271,7 @@
   width: 507px;
 }
 
-.DENTAL-page .text-wrapper-4 {
+.AIRLINE-page .text-wrapper-5 {
   color: #000000;
   font-family: "against-Regular", Helvetica;
   font-size: 48px;
@@ -309,7 +286,7 @@
   width: 507px;
 }
 
-.DENTAL-page .group-3 {
+.AIRLINE-page .group-3 {
   height: 87px;
   left: 537px;
   position: absolute;
@@ -317,7 +294,7 @@
   width: 509px;
 }
 
-.DENTAL-page .group-4 {
+.AIRLINE-page .group-4 {
   height: 87px;
   left: 0;
   position: absolute;
@@ -325,7 +302,7 @@
   width: 569px;
 }
 
-.DENTAL-page .overlap-4 {
+.AIRLINE-page .HTML-PYTHON-wrapper {
   background-color: #ffffff;
   border-radius: 22.5px;
   box-shadow: 2.81px 2.25px 2.25px #00000040;
@@ -334,7 +311,7 @@
   width: 567px;
 }
 
-.DENTAL-page .text-wrapper-5 {
+.AIRLINE-page .HTML-PYTHON {
   color: #000000;
   font-family: "against-Regular", Helvetica;
   font-size: 48px;
@@ -349,7 +326,7 @@
   width: 567px;
 }
 
-.DENTAL-page .PLATFORMS {
+.AIRLINE-page .PLATFORMS {
   height: 247px;
   left: 0px;
   position: absolute;
@@ -357,7 +334,7 @@
   width: 1044px;
 }
 
-.DENTAL-page .group-5 {
+.AIRLINE-page .group-5 {
   height: 130px;
   left: 0;
   position: absolute;
@@ -365,7 +342,7 @@
   width: 681px;
 }
 
-.DENTAL-page .text-wrapper-6 {
+.AIRLINE-page .text-wrapper-6 {
   color: #ffffff;
   font-family: "against-Regular", Helvetica;
   font-size: 72px;
@@ -380,7 +357,7 @@
   width: 638px;
 }
 
-.DENTAL-page .group-6 {
+.AIRLINE-page .group-6 {
   height: 87px;
   left: 507px;
   position: absolute;
@@ -388,7 +365,7 @@
   width: 539px;
 }
 
-.DENTAL-page .overlap-5 {
+.AIRLINE-page .overlap-3 {
   background-color: #cecececf;
   border-radius: 22.5px;
   box-shadow: 2.81px 2.25px 2.25px #00000040;
@@ -397,7 +374,7 @@
   width: 537px;
 }
 
-.DENTAL-page .text-wrapper-7 {
+.AIRLINE-page .text-wrapper-7 {
   color: #000000;
   font-family: "against-Regular", Helvetica;
   font-size: 48px;
@@ -412,7 +389,7 @@
   width: 537px;
 }
 
-.DENTAL-page .group-7 {
+.AIRLINE-page .group-7 {
   height: 87px;
   left: 0;
   position: absolute;
@@ -420,7 +397,7 @@
   width: 479px;
 }
 
-.DENTAL-page .NYU-LAB-no-download-wrapper {
+.AIRLINE-page .overlap-4 {
   background-color: #ffffff;
   border-radius: 22.5px;
   box-shadow: 2.81px 2.25px 2.25px #00000040;
@@ -429,7 +406,7 @@
   width: 477px;
 }
 
-.DENTAL-page .NYU-LAB-no-download {
+.AIRLINE-page .text-wrapper-8 {
   color: #000000;
   font-family: "against-Regular", Helvetica;
   font-size: 48px;
@@ -437,28 +414,15 @@
   height: 85px;
   left: 0;
   letter-spacing: 0;
-  line-height: 35px;
+  line-height: normal;
   position: absolute;
   text-align: center;
   text-decoration: underline;
-  top: 5px;
+  top: 2px;
   width: 477px;
 }
 
-.DENTAL-page .span {
-  color: #000000;
-  font-family: "against-Regular", Helvetica;
-  font-size: 48px;
-  font-weight: 400;
-  letter-spacing: 0;
-  text-decoration: underline;
-}
-
-.DENTAL-page .text-wrapper-8 {
-  font-size: 27px;
-}
-
-.DENTAL-page .group-8 {
+.AIRLINE-page .group-8 {
   height: 130px;
   left: 709px;
   position: absolute;
@@ -466,7 +430,7 @@
   width: 339px;
 }
 
-.DENTAL-page .overlap-6 {
+.AIRLINE-page .overlap-5 {
   background-color: #aacfb5;
   border-radius: 22.5px;
   box-shadow: 2.81px 2.25px 2.25px #00000040;
@@ -475,7 +439,7 @@
   width: 335px;
 }
 
-.DENTAL-page .text-wrapper-9 {
+.AIRLINE-page .text-wrapper-9 {
   color: #63816c;
   font-family: "against-Regular", Helvetica;
   font-size: 27px;
@@ -489,7 +453,7 @@
   top: 14px;
 }
 
-.DENTAL-page .text-wrapper-10 {
+.AIRLINE-page .text-wrapper-10 {
   color: #ffffff;
   font-family: "against-Regular", Helvetica;
   font-size: 72px;
@@ -500,44 +464,27 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 30px;
+  top: 25px;
   width: 335px;
 }
 
-.DENTAL-page .GOALS {
-  height: 1116px;
-  left: 0px;
+.AIRLINE-page .development {
+  height: 1973px;
+  left: 16px;
   position: absolute;
   top: 1788px;
-  width: 1044px;
+  width: 1046px;
 }
 
-.DENTAL-page .rectangle-4 {
-  height: 206px;
-  left: 709px;
-  position: absolute;
-  top: 160px;
-  width: 340px;
-}
-
-.DENTAL-page .rectangle-5 {
-  height: 730px;
-  left: 709px;
-  object-fit: cover;
-  position: absolute;
-  top: 391px;
-  width: 340px;
-}
-
-.DENTAL-page .group-9 {
+.AIRLINE-page .group-9 {
   height: 130px;
-  left: 0;
+  left: 2px;
   position: absolute;
   top: 0;
   width: 1046px;
 }
 
-.DENTAL-page .overlap-group-4 {
+.AIRLINE-page .overlap-group-4 {
   background-color: #aacfb5;
   border-radius: 22.5px;
   box-shadow: 2.81px 2.25px 2.25px #00000040;
@@ -546,7 +493,7 @@
   width: 1044px;
 }
 
-.DENTAL-page .text-wrapper-11 {
+.AIRLINE-page .text-wrapper-11 {
   color: #ffffff;
   font-family: "against-Regular", Helvetica;
   font-size: 72px;
@@ -561,160 +508,85 @@
   width: 982px;
 }
 
-.DENTAL-page .group-10 {
-  height: 956px;
+.AIRLINE-page .group-10 {
+  height: 454px;
   left: 0;
   position: absolute;
   top: 160px;
-  width: 681px;
+  width: 1048px;
 }
 
-.DENTAL-page .overlap-7 {
-  background-image: url(../../../static/img-dental/rectangle-19-2.svg);
+.AIRLINE-page .i-was-tasked-with-wrapper {
+  background-image: url(../../../static/img-airline/rectangle-19-1.svg);
   background-size: 100% 100%;
-  height: 961px;
+  height: 459px;
   position: relative;
-  width: 684px;
+  width: 1051px;
 }
 
-.DENTAL-page .text-wrapper-12 {
+.AIRLINE-page .i-was-tasked-with {
   color: #000000;
   font-family: "Raleway", Helvetica;
   font-size: 36px;
   font-weight: 400;
-  left: 20px;
+  left: 31px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 24px;
-  width: 638px;
+  top: 11px;
+  width: 984px;
 }
 
-.DENTAL-page .development {
-  height: 1300px;
-  left: 0px;
+.AIRLINE-page .rectangle-wrapper {
+  height: 650px;
+  left: 0;
   position: absolute;
-  top: 2934px;
+  top: 644px;
   width: 1044px;
 }
 
-.DENTAL-page .group-11 {
-  height: 997px;
-  left: 370px;
-  position: absolute;
-  top: 160px;
-  width: 676px;
-}
-
-.DENTAL-page .i-was-tasked-with-wrapper {
-  background-image: url(../../../static/img-dental/rectangle-19-1.svg);
-  background-size: 100% 100%;
-  height: 1001px;
-  position: relative;
-  width: 679px;
-}
-
-.DENTAL-page .i-was-tasked-with {
-  color: #000000;
-  font-family: "Raleway", Helvetica;
-  font-size: 36px;
-  font-weight: 400;
-  left: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 25px;
-  width: 634px;
-}
-
-.DENTAL-page .group-12 {
-  height: 555px;
-  left: 0;
-  position: absolute;
-  top: 160px;
-  width: 337px;
-}
-
-.DENTAL-page .overlap-8 {
-  height: 555px;
-  position: relative;
-  width: 340px;
-}
-
-.DENTAL-page .rectangle-6 {
-  height: 526px;
+.AIRLINE-page .rectangle-4 {
+  height: 654px;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
-  width: 340px;
+  width: 1049px;
 }
 
-.DENTAL-page .text-wrapper-13 {
-  color: #ffffff;
-  font-family: "Raleway", Helvetica;
-  font-size: 36px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 522px;
-  white-space: nowrap;
-  width: 335px;
-}
-
-.DENTAL-page .group-13 {
-  height: 556px;
+.AIRLINE-page .img-wrapper {
+  height: 650px;
   left: 0;
   position: absolute;
-  top: 745px;
-  width: 337px;
-}
-
-.DENTAL-page .overlap-9 {
-  height: 556px;
-  position: relative;
-  width: 340px;
-}
-
-.DENTAL-page .rectangle-7 {
-  background-color: #aacfb5;
-  border-radius: 22.5px;
-  box-shadow: 2.81px 2.25px 2.25px #00000040;
-  height: 114px;
-  left: 368px;
-  position: absolute;
-  top: 1186px;
-  width: 676px;
-}
-
-.DENTAL-page .conclusion {
-  height: 1723px;
-  left: 0px;
-  position: absolute;
-  top: 4264px;
+  top: 1324px;
   width: 1044px;
 }
 
-.DENTAL-page .group-14 {
-  height: 1008px;
-  left: 0;
+.AIRLINE-page .conclusion {
+  height: 1375px;
+  left: 16px;
+  position: absolute;
+  top: 3791px;
+  width: 1046px;
+}
+
+.AIRLINE-page .group-11 {
+  height: 660px;
+  left: 2px;
   position: absolute;
   top: 160px;
   width: 1046px;
 }
 
-.DENTAL-page .i-learned-a-lot-from-wrapper {
-  background-image: url(../../../static/img-dental/rectangle-19.svg);
+.AIRLINE-page .overlap-6 {
+  background-image: url(../../../static/img-airline/rectangle-19.svg);
   background-size: 100% 100%;
-  height: 1012px;
+  height: 664px;
   position: relative;
   width: 1049px;
 }
 
-.DENTAL-page .i-learned-a-lot-from {
+.AIRLINE-page .text-wrapper-12 {
   color: #000000;
   font-family: "Raleway", Helvetica;
   font-size: 36px;
@@ -723,29 +595,29 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 10px;
+  top: 12px;
   width: 981px;
 }
 
-.DENTAL-page .rectangle-8 {
+.AIRLINE-page .rectangle-5 {
   height: 525px;
   left: 0;
   object-fit: cover;
   position: absolute;
-  top: 1198px;
+  top: 850px;
   width: 1044px;
 }
 }
 
 @media (max-width: 1079px){
-  .DENTAL-page {
+  .AIRLINE-page {
     background-color: #63816c;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
   }
-  .DENTAL-page .NAVBAR-SECTION {
+  .AIRLINE-page .NAVBAR-SECTION {
     background-color: #72977ec5;
     border-radius: 22.5px;
     height: 30px;
@@ -755,11 +627,11 @@
     box-shadow: 2.81px 2.25px 2.25px #00000040;
     z-index:100;
   }
-  .DENTAL-page .home {
+  .AIRLINE-page .home {
     height: 23px;
     width: 23px;
   }
-  .DENTAL-page .noverlap-group-3 {
+  .AIRLINE-page .noverlap-group-3 {
     background-color: #aacfb5;
     border-radius: 6.67px;
     left: 5px;
@@ -767,31 +639,21 @@
     position: relative;
     width: 23px;
   }
-  .DENTAL-page .nbutton-2 {
+  .AIRLINE-page .nbutton-2 {
     height: 23px;
     left: 0px;
     position: absolute;
     top: 4px;
     z-index:100;
   }
-  .DENTAL-page ul {
-    margin-left: 10px;
-    list-style-type: circle;
-  }
-  
-  .DENTAL-page ul li {
-    margin-left: 2px;
-    left: 2px;
-  }
-  
-  .DENTAL-page .div {
+  .AIRLINE-page .div {
     background-color: #63816c;
-    height: 1782.89px;
+    height: 1539.56px;
     position: relative;
     width: 320px;
   }
   
-  .DENTAL-page .HEADER {
+  .AIRLINE-page .HEADER {
     background-color: transparent;
     height: 143px;
     left: 0px;
@@ -800,7 +662,7 @@
     width: 309px;
   }
   
-  .DENTAL-page .rectangle {
+  .AIRLINE-page .rectangle {
     height: 92px;
     left: 0;
     object-fit: cover;
@@ -809,7 +671,7 @@
     width: 309px;
   }
   
-  .DENTAL-page .group {
+  .AIRLINE-page .group {
     height: 42px;
     left: 0;
     position: absolute;
@@ -817,7 +679,7 @@
     width: 311px;
   }
   
-  .DENTAL-page .overlap-group {
+  .AIRLINE-page .overlap-group {
     background-color: #ffffff;
     border: 3.11px solid;
     border-color: #aacfb5;
@@ -827,13 +689,13 @@
     width: 309px;
   }
   
-  .DENTAL-page .dental-injection-VR {
+  .AIRLINE-page .text-wrapper {
     color: #000000;
     font-family: "against-Regular", Helvetica;
     font-size: 17.8px;
     font-weight: 400;
     height: 24px;
-    left: 32px;
+    left: 2px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -841,7 +703,7 @@
     top: 6px;
   }
   
-  .DENTAL-page .ABOUT {
+  .AIRLINE-page .ABOUT {
     height: 162px;
     left: 0px;
     position: absolute;
@@ -849,7 +711,7 @@
     width: 309px;
   }
   
-  .DENTAL-page .img {
+  .AIRLINE-page .img {
     height: 101px;
     left: 0;
     object-fit: cover;
@@ -858,7 +720,7 @@
     width: 101px;
   }
   
-  .DENTAL-page .overlap {
+  .AIRLINE-page .rectangle-2 {
     background-color: #ffffff;
     border-radius: 6.67px;
     box-shadow: 0.83px 0.67px 0.67px #00000040;
@@ -869,16 +731,7 @@
     width: 99px;
   }
   
-  .DENTAL-page .rectangle-2 {
-    height: 36px;
-    left: 3px;
-    object-fit: cover;
-    position: absolute;
-    top: 9px;
-    width: 93px;
-  }
-  
-  .DENTAL-page .overlap-group-wrapper {
+  .AIRLINE-page .overlap-group-wrapper {
     height: 162px;
     left: 108px;
     position: absolute;
@@ -886,18 +739,18 @@
     width: 205px;
   }
   
-  .DENTAL-page .overlap-group-2 {
-    background-image: url(../../../static/img-dental2/rectangle-19-3.svg);
+  .AIRLINE-page .overlap-group-2 {
+    background-image: url(../../../static/img-airline2/rectangle-19-2.svg);
     background-size: 100% 100%;
     height: 163px;
     position: relative;
     width: 203px;
   }
   
-  .DENTAL-page .text-wrapper {
+  .AIRLINE-page .text-wrapper-2 {
     color: #000000;
     font-family: "against-Regular", Helvetica;
-    font-size: 10.6px;
+    font-size: 10.7px;
     font-weight: 400;
     left: 6px;
     letter-spacing: 0;
@@ -908,10 +761,10 @@
     width: 189px;
   }
   
-  .DENTAL-page .p {
+  .AIRLINE-page .p {
     color: #000000;
     font-family: "Raleway", Helvetica;
-    font-size: 10.6px;
+    font-size: 10.7px;
     font-weight: 400;
     left: 6px;
     letter-spacing: 0;
@@ -921,7 +774,7 @@
     width: 189px;
   }
   
-  .DENTAL-page .ROLES {
+  .AIRLINE-page .ROLES {
     height: 108px;
     left: 0px;
     position: absolute;
@@ -929,7 +782,7 @@
     width: 309px;
   }
   
-  .DENTAL-page .rectangle-3 {
+  .AIRLINE-page .rectangle-3 {
     background-color: #aacfb5;
     border-radius: 6.67px;
     box-shadow: 0.83px 0.67px 0.67px #00000040;
@@ -940,7 +793,7 @@
     width: 99px;
   }
   
-  .DENTAL-page .div-wrapper {
+  .AIRLINE-page .div-wrapper {
     height: 38px;
     left: 108px;
     position: absolute;
@@ -948,7 +801,7 @@
     width: 203px;
   }
   
-  .DENTAL-page .overlap-group-3 {
+  .AIRLINE-page .overlap-group-3 {
     background-color: #aacfb5;
     border-radius: 6.67px;
     box-shadow: 0.83px 0.67px 0.67px #00000040;
@@ -957,7 +810,7 @@
     width: 201px;
   }
   
-  .DENTAL-page .text-wrapper-2 {
+  .AIRLINE-page .text-wrapper-3 {
     color: #ffffff;
     font-family: "against-Regular", Helvetica;
     font-size: 16.4px;
@@ -972,7 +825,7 @@
     width: 189px;
   }
   
-  .DENTAL-page .overlap-wrapper {
+  .AIRLINE-page .overlap-wrapper {
     height: 26px;
     left: 177px;
     position: absolute;
@@ -980,7 +833,7 @@
     width: 134px;
   }
   
-  .DENTAL-page .overlap-2 {
+  .AIRLINE-page .overlap {
     background-color: #ffffff;
     border-radius: 6.67px;
     box-shadow: 0.83px 0.67px 0.67px #00000040;
@@ -989,7 +842,7 @@
     width: 132px;
   }
   
-  .DENTAL-page .text-wrapper-3 {
+  .AIRLINE-page .text-wrapper-4 {
     color: #000000;
     font-family: "against-Regular", Helvetica;
     font-size: 14.2px;
@@ -1004,7 +857,7 @@
     width: 132px;
   }
   
-  .DENTAL-page .group-2 {
+  .AIRLINE-page .group-2 {
     height: 26px;
     left: 0;
     position: absolute;
@@ -1012,7 +865,7 @@
     width: 152px;
   }
   
-  .DENTAL-page .overlap-3 {
+  .AIRLINE-page .overlap-2 {
     background-color: #ffffff;
     border-radius: 6.67px;
     box-shadow: 0.83px 0.67px 0.67px #00000040;
@@ -1021,7 +874,7 @@
     width: 150px;
   }
   
-  .DENTAL-page .text-wrapper-4 {
+  .AIRLINE-page .text-wrapper-5 {
     color: #000000;
     font-family: "against-Regular", Helvetica;
     font-size: 14.2px;
@@ -1036,7 +889,7 @@
     width: 150px;
   }
   
-  .DENTAL-page .group-3 {
+  .AIRLINE-page .group-3 {
     height: 26px;
     left: 159px;
     position: absolute;
@@ -1044,7 +897,7 @@
     width: 152px;
   }
   
-  .DENTAL-page .group-4 {
+  .AIRLINE-page .group-4 {
     height: 26px;
     left: 0;
     position: absolute;
@@ -1052,7 +905,7 @@
     width: 170px;
   }
   
-  .DENTAL-page .overlap-4 {
+  .AIRLINE-page .HTML-PYTHON-wrapper {
     background-color: #ffffff;
     border-radius: 6.67px;
     box-shadow: 0.83px 0.67px 0.67px #00000040;
@@ -1061,7 +914,7 @@
     width: 168px;
   }
   
-  .DENTAL-page .text-wrapper-5 {
+  .AIRLINE-page .HTML-PYTHON {
     color: #000000;
     font-family: "against-Regular", Helvetica;
     font-size: 14.2px;
@@ -1076,7 +929,7 @@
     width: 168px;
   }
   
-  .DENTAL-page .PLATFORMS {
+  .AIRLINE-page .PLATFORMS {
     height: 73px;
     left: 0px;
     position: absolute;
@@ -1084,7 +937,7 @@
     width: 309px;
   }
   
-  .DENTAL-page .group-5 {
+  .AIRLINE-page .group-5 {
     height: 38px;
     left: 0;
     position: absolute;
@@ -1092,7 +945,7 @@
     width: 203px;
   }
   
-  .DENTAL-page .text-wrapper-6 {
+  .AIRLINE-page .text-wrapper-6 {
     color: #ffffff;
     font-family: "against-Regular", Helvetica;
     font-size: 21.3px;
@@ -1107,7 +960,7 @@
     width: 189px;
   }
   
-  .DENTAL-page .group-6 {
+  .AIRLINE-page .group-6 {
     height: 26px;
     left: 150px;
     position: absolute;
@@ -1115,7 +968,7 @@
     width: 161px;
   }
   
-  .DENTAL-page .overlap-5 {
+  .AIRLINE-page .overlap-3 {
     background-color: #cecececf;
     border-radius: 6.67px;
     box-shadow: 0.83px 0.67px 0.67px #00000040;
@@ -1124,7 +977,7 @@
     width: 159px;
   }
   
-  .DENTAL-page .text-wrapper-7 {
+  .AIRLINE-page .text-wrapper-7 {
     color: #000000;
     font-family: "against-Regular", Helvetica;
     font-size: 14.2px;
@@ -1139,7 +992,7 @@
     width: 159px;
   }
   
-  .DENTAL-page .group-7 {
+  .AIRLINE-page .group-7 {
     height: 26px;
     left: 0;
     position: absolute;
@@ -1147,7 +1000,7 @@
     width: 143px;
   }
   
-  .DENTAL-page .NYU-LAB-no-download-wrapper {
+  .AIRLINE-page .overlap-4 {
     background-color: #ffffff;
     border-radius: 6.67px;
     box-shadow: 0.83px 0.67px 0.67px #00000040;
@@ -1156,7 +1009,7 @@
     width: 141px;
   }
   
-  .DENTAL-page .NYU-LAB-no-download {
+  .AIRLINE-page .text-wrapper-8 {
     color: #000000;
     font-family: "against-Regular", Helvetica;
     font-size: 14.2px;
@@ -1164,28 +1017,15 @@
     height: 25px;
     left: 0;
     letter-spacing: 0;
-    line-height: 10px;
+    line-height: normal;
     position: absolute;
     text-align: center;
     text-decoration: underline;
-    top: 2px;
+    top: 1px;
     width: 141px;
   }
   
-  .DENTAL-page .span {
-    color: #000000;
-    font-family: "against-Regular", Helvetica;
-    font-size: 14.2px;
-    font-weight: 400;
-    letter-spacing: 0;
-    text-decoration: underline;
-  }
-  
-  .DENTAL-page .text-wrapper-8 {
-    font-size: 8px;
-  }
-  
-  .DENTAL-page .group-8 {
+  .AIRLINE-page .group-8 {
     height: 38px;
     left: 210px;
     position: absolute;
@@ -1193,7 +1033,7 @@
     width: 103px;
   }
   
-  .DENTAL-page .overlap-6 {
+  .AIRLINE-page .overlap-5 {
     background-color: #aacfb5;
     border-radius: 6.67px;
     box-shadow: 0.83px 0.67px 0.67px #00000040;
@@ -1202,7 +1042,7 @@
     width: 99px;
   }
   
-  .DENTAL-page .text-wrapper-9 {
+  .AIRLINE-page .text-wrapper-9 {
     color: #63816c;
     font-family: "against-Regular", Helvetica;
     font-size: 8px;
@@ -1216,7 +1056,7 @@
     top: 4px;
   }
   
-  .DENTAL-page .text-wrapper-10 {
+  .AIRLINE-page .text-wrapper-10 {
     color: #ffffff;
     font-family: "against-Regular", Helvetica;
     font-size: 21.3px;
@@ -1231,40 +1071,23 @@
     width: 99px;
   }
   
-  .DENTAL-page .GOALS {
-    height: 331px;
+  .AIRLINE-page .development {
+    height: 585px;
     left: 0px;
     position: absolute;
     top: 530px;
-    width: 309px;
+    width: 310px;
   }
   
-  .DENTAL-page .rectangle-4 {
-    height: 61px;
-    left: 210px;
-    position: absolute;
-    top: 47px;
-    width: 101px;
-  }
-  
-  .DENTAL-page .rectangle-5 {
-    height: 216px;
-    left: 210px;
-    object-fit: cover;
-    position: absolute;
-    top: 116px;
-    width: 101px;
-  }
-  
-  .DENTAL-page .group-9 {
+  .AIRLINE-page .group-9 {
     height: 38px;
-    left: 0;
+    left: 1px;
     position: absolute;
     top: 0;
     width: 311px;
   }
   
-  .DENTAL-page .overlap-group-4 {
+  .AIRLINE-page .overlap-group-4 {
     background-color: #aacfb5;
     border-radius: 6.67px;
     box-shadow: 0.83px 0.67px 0.67px #00000040;
@@ -1273,7 +1096,7 @@
     width: 309px;
   }
   
-  .DENTAL-page .text-wrapper-11 {
+  .AIRLINE-page .text-wrapper-11 {
     color: #ffffff;
     font-family: "against-Regular", Helvetica;
     font-size: 21.3px;
@@ -1288,174 +1111,101 @@
     width: 291px;
   }
   
-  .DENTAL-page .group-10 {
-    height: 283px;
+  .AIRLINE-page .group-10 {
+    height: 135px;
     left: 0;
     position: absolute;
     top: 47px;
-    width: 203px;
+    width: 312px;
   }
   
-  .DENTAL-page .overlap-7 {
-    background-image: url(../../../static/img-dental2/rectangle-19-2.svg);
+  .AIRLINE-page .i-was-tasked-with-wrapper {
+    background-image: url(../../../static/img-airline2/rectangle-19-1.svg);
     background-size: 100% 100%;
-    height: 285px;
+    height: 136px;
     position: relative;
   }
   
-  .DENTAL-page .text-wrapper-12 {
+  .AIRLINE-page .i-was-tasked-with {
     color: #000000;
     font-family: "Raleway", Helvetica;
-    font-size: 10.6px;
-    font-weight: 400;
-    left: 6px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 7px;
-    width: 189px;
-  }
-  
-  .DENTAL-page .development {
-    height: 385px;
-    left: 0px;
-    position: absolute;
-    top: 869px;
-    width: 309px;
-  }
-  
-  .DENTAL-page .group-11 {
-    height: 295px;
-    left: 110px;
-    position: absolute;
-    top: 47px;
-    width: 202px;
-  }
-  
-  .DENTAL-page .i-was-tasked-with-wrapper {
-    background-image: url(../../../static/img-dental2/rectangle-19-1.svg);
-    background-size: 100% 100%;
-    height: 297px;
-    position: relative;
-    width: 201px;
-  }
-  
-  .DENTAL-page .i-was-tasked-with {
-    color: #000000;
-    font-family: "Raleway", Helvetica;
-    font-size: 10.6px;
-    font-weight: 400;
-    left: 6px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 7px;
-    width: 188px;
-  }
-  
-  .DENTAL-page .group-12 {
-    height: 164px;
-    left: 0;
-    position: absolute;
-    top: 47px;
-    width: 101px;
-  }
-  
-  .DENTAL-page .overlap-8 {
-    height: 164px;
-    position: relative;
-  }
-  
-  .DENTAL-page .rectangle-6 {
-    height: 156px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 101px;
-  }
-  
-  .DENTAL-page .text-wrapper-13 {
-    color: #ffffff;
-    font-family: "Raleway", Helvetica;
-    font-size: 10.6px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 155px;
-    white-space: nowrap;
-    width: 99px;
-  }
-  
-  .DENTAL-page .group-13 {
-    height: 165px;
-    left: 0;
-    position: absolute;
-    top: 221px;
-    width: 101px;
-  }
-  
-  .DENTAL-page .overlap-9 {
-    height: 165px;
-    position: relative;
-  }
-  
-  .DENTAL-page .rectangle-7 {
-    background-color: #aacfb5;
-    border-radius: 6.67px;
-    box-shadow: 0.83px 0.67px 0.67px #00000040;
-    height: 34px;
-    left: 109px;
-    position: absolute;
-    top: 352px;
-    width: 200px;
-  }
-  
-  .DENTAL-page .conclusion {
-    height: 510px;
-    left: 0px;
-    position: absolute;
-    top: 1264px;
-    width: 309px;
-  }
-  
-  .DENTAL-page .group-14 {
-    height: 299px;
-    left: 0;
-    position: absolute;
-    top: 47px;
-    width: 311px;
-  }
-  
-  .DENTAL-page .i-learned-a-lot-from-wrapper {
-    background-image: url(../../../static/img-dental2/rectangle-19.svg);
-    background-size: 100% 100%;
-    height: 300px;
-    position: relative;
-  }
-  
-  .DENTAL-page .i-learned-a-lot-from {
-    color: #000000;
-    font-family: "Raleway", Helvetica;
-    font-size: 10.6px;
+    font-size: 10.7px;
     font-weight: 400;
     left: 9px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 6px;
+    top: 3px;
+    width: 292px;
+  }
+  
+  .AIRLINE-page .rectangle-wrapper {
+    height: 192px;
+    left: 0;
+    position: absolute;
+    top: 191px;
+    width: 309px;
+  }
+  
+  .AIRLINE-page .rectangle-4 {
+    height: 194px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 311px;
+  }
+  
+  .AIRLINE-page .img-wrapper {
+    height: 192px;
+    left: 0;
+    position: absolute;
+    top: 392px;
+    width: 309px;
+  }
+  
+  .AIRLINE-page .conclusion {
+    height: 407px;
+    left: 0px;
+    position: absolute;
+    top: 1123px;
+    width: 310px;
+  }
+  
+  .AIRLINE-page .group-11 {
+    height: 196px;
+    left: 1px;
+    position: absolute;
+    top: 47px;
+    width: 311px;
+  }
+  
+  .AIRLINE-page .overlap-6 {
+    background-image: url(../../../static/img-airline2/rectangle-19.svg);
+    background-size: 100% 100%;
+    height: 197px;
+    position: relative;
+  }
+  
+  .AIRLINE-page .text-wrapper-12 {
+    color: #000000;
+    font-family: "Raleway", Helvetica;
+    font-size: 10.7px;
+    font-weight: 400;
+    left: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2px;
     width: 291px;
   }
   
-  .DENTAL-page .rectangle-8 {
+  .AIRLINE-page .rectangle-5 {
     height: 156px;
     left: 0;
     object-fit: cover;
     position: absolute;
-    top: 355px;
+    top: 252px;
     width: 309px;
   }
   

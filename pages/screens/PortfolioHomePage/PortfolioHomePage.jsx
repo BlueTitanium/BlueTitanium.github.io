@@ -199,11 +199,11 @@ export const PortfolioHomePage = () => {
                 <div className="overlap-10">
                   <div className="text-wrapper-4">WEB DEV &amp; DATABASE</div>
                   <div className="airline-flights">AIRLINE FLIGHTS MANAGER</div>
-                  <div className="button-2">
+                  <a className="button-2" href='/Airline'>
                     <div className="overlap-group-2">
                       <div className="text-wrapper-6">Learn More</div>
                     </div>
-                  </div>
+                  </a>
                   <img loading="lazy" className="rectangle-4" alt="Rectangle" src="/img/rectangle-9.png"  />
                 </div>
               </div>

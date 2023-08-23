@@ -4,7 +4,7 @@ import { PortfolioHomePage } from "./screens/PortfolioHomePage/PortfolioHomePage
 import { LicvrPage } from "./screens/LicvrPage/LicvrPage";
 import { CondemnedPage } from "./screens/CondemnedPage/CondemnedPage";
 import { DentalPage } from "./screens/DentalPage/DentalPage";
-
+import { AirlinePage } from "./screens/AirlinePage/AirlinePage";
 import {
     createBrowserRouter,
     RouterProvider,
@@ -27,6 +27,10 @@ import { element } from "prop-types";
     {
       path: "/Dental",
       element: <DentalPage/>,
+    },
+    {
+      path: "/Airline",
+      element: <AirlinePage/>,
     }
   ]);
 
