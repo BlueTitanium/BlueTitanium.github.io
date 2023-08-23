@@ -1,7 +1,7 @@
 {
   "name": "anima-project",
   "version": "1.0.0",
-  "homepage": "https://bluetitanium.github.io",
+  "homepage": "https://taneim.vercel.app/",
   "description": "Taneim's Portfolio. A showcase of some great coding projects.",
   "source": "./index.html",
   "scripts": {
