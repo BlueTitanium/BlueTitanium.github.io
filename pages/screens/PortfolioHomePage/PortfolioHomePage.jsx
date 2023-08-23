@@ -214,11 +214,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <p className="text-wrapper-4">REAL TIME CARD GAME DESIGN</p>
                 <div className="text-wrapper-5">VK-00M3</div>
-                <div className="button">
+                <a className="button" href='/VK-00M3'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-6">Learn More</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-12.png"/>
               </div>
             </div>
@@ -228,11 +228,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <div className="text-wrapper-4">RESOURCE-BASED GAME DESIGN</div>
                 <div className="text-wrapper-5">OVERHEAT</div>
-                <div className="button">
+                <a className="button" href='https://bluetitanium.itch.io/overheat'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-8">LINK</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-11.png" />
               </div>
             </div>
@@ -242,11 +242,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <div className="text-wrapper-4">PLATFORMER VIDEO GAME DESIGN</div>
                 <div className="text-wrapper-5">GUN AND WHEEL</div>
-                <div className="button">
+                <a className="button" href='https://bluetitanium.itch.io/gun-and-wheel'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-8">LINK</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-10.png"  />
               </div>
             </div>
@@ -256,11 +256,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <p className="text-wrapper-4">STEALTH &amp; AI VIDEO GAME DESIGN</p>
                 <div className="text-wrapper-5">ESCAPE THE CATACOMBS</div>
-                <div className="button">
+                <a className="button" href='https://juju136.itch.io/escape-the-catacombs'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-8">LINK</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-9.png"  />
               </div>
             </div>
@@ -270,11 +270,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <p className="text-wrapper-4">ENDLESS ARENA VIDEO GAME DESIGN</p>
                 <div className="text-wrapper-5">KNIGHT AND SPEAR</div>
-                <div className="button">
+                <a className="button" href='https://bluetitanium.itch.io/knight-and-spear'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-8">LINK</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-8.png" />
               </div>
             </div>
@@ -284,11 +284,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <div className="text-wrapper-4">MINIMALIST VIDEO GAME DESIGN</div>
                 <div className="text-wrapper-5">BALL AND BLADE</div>
-                <div className="button">
+                <a className="button" href='https://bluetitanium.itch.io/ball-and-blade'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-8">LINK</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-7.png" />
               </div>
             </div>
@@ -298,11 +298,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <p className="text-wrapper-9">ACTION PLATFORM VIDEO GAME DESIGN</p>
                 <div className="text-wrapper-5">DISSONANCE</div>
-                <div className="button">
+                <a className="button" href='https://bluetitanium.itch.io/dissonance'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-8">LINK</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-6.png" />
               </div>
             </div>
@@ -312,11 +312,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <p className="text-wrapper-4">ACTION PLATFORM VIDEO GAME DESIGN</p>
                 <div className="text-wrapper-5">MAD SCIENTIST’S LAIR</div>
-                <div className="button">
+                <a className="button" href='https://bluetitanium.itch.io/mad-scientists-lair'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-8">LINK</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-5.png" />
               </div>
             </div>
@@ -326,11 +326,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <div className="text-wrapper-4">PHYSICS SIMULATION</div>
                 <div className="text-wrapper-5">PI COLLISIONS</div>
-                <div className="button">
+                <a className="button" href='https://github.com/team-quasar/Pi-Collisions'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-8">LINK</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="img" alt="Rectangle" src="/img/rectangle-8-4.png" />
               </div>
             </div>
@@ -340,11 +340,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <p className="text-wrapper-4">STEALTH &amp; AI VIDEO GAME DESIGN</p>
                 <div className="text-wrapper-5">L.V. NOIRE</div>
-                <div className="button">
+                <a className="button" href='https://ec3938.itch.io/lv-noire'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-8">LINK</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-3.svg" />
               </div>
             </div>
@@ -354,11 +354,11 @@ export const PortfolioHomePage = () => {
               <div className="overlap-10">
                 <div className="text-wrapper-4">PHYSICS-BASED VIDEO GAME DESIGN</div>
                 <div className="text-wrapper-5">BALLS</div>
-                <div className="button">
+                <a className="button" href='https://bluetitanium.itch.io/balls'>
                   <div className="overlap-group-2">
                     <div className="text-wrapper-8">LINK</div>
                   </div>
-                </div>
+                </a>
                 <img loading="lazy" className="rectangle-5" alt="Rectangle" src="/img/rectangle-8-2.png" />
               </div>
             </div>

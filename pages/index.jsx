@@ -5,6 +5,7 @@ import { LicvrPage } from "./screens/LicvrPage/LicvrPage";
 import { CondemnedPage } from "./screens/CondemnedPage/CondemnedPage";
 import { DentalPage } from "./screens/DentalPage/DentalPage";
 import { AirlinePage } from "./screens/AirlinePage/AirlinePage";
+import { Page } from "./screens/VK-00M3Page/Page";
 import {
     createBrowserRouter,
     RouterProvider,
@@ -31,6 +32,10 @@ import { element } from "prop-types";
     {
       path: "/Airline",
       element: <AirlinePage/>,
+    },
+    {
+      path: "/VK-00M3",
+      element: <Page/>,
     }
   ]);
 
