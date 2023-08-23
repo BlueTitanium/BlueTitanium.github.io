@@ -29,7 +29,9 @@
 }
 
 
-
+@media only screen 
+and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
   .PORTFOLIO-HOME-PAGE {
     background-color: #72977e;
     display: flex;
@@ -891,8 +893,14 @@
     width: 151px;
   }
   
+  }
 
-@media screen and (min-width: 1080px) {
+@media screen 
+and (min-device-width: 1080px) 
+and (-webkit-min-device-pixel-ratio: 1), screen 
+and (min-device-width: 1080px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
     .PORTFOLIO-HOME-PAGE {
       background-color: #72977e;
       display: flex;
