@@ -3,6 +3,7 @@ import * as ReactDOM from "react-dom/client";
 import { PortfolioHomePage } from "./screens/PortfolioHomePage/PortfolioHomePage";
 import { LicvrPage } from "./screens/LicvrPage/LicvrPage";
 import { CondemnedPage } from "./screens/CondemnedPage/CondemnedPage";
+import { DentalPage } from "./screens/DentalPage/DentalPage";
 
 import {
     createBrowserRouter,
@@ -22,6 +23,10 @@ import { element } from "prop-types";
     {
       path: "/Condemned",
       element: <CondemnedPage/>,
+    },
+    {
+      path: "/Dental",
+      element: <DentalPage/>,
     }
   ]);
 

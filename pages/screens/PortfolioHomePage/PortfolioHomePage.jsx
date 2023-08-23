@@ -184,11 +184,11 @@ export const PortfolioHomePage = () => {
                   <div className="overlap-10">
                     <div className="text-wrapper-4">PRACTICAL VR SIMULATIONS</div>
                     <div className="text-wrapper-5">DENTAL INJECTION VR</div>
-                    <div className="button">
+                    <a className="button" href='/Dental'>
                       <div className="overlap-group-2">
                         <div className="text-wrapper-6">Learn More</div>
                       </div>
-                    </div>
+                    </a>
                     <img loading="lazy" className="img" alt="Rectangle"src="/img/rectangle-8-1.png" />
                   </div>
                 </div>
