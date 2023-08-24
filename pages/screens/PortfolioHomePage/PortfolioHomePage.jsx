@@ -6,6 +6,9 @@ import { useMediaQuery } from 'react-responsive'
 import "./style.css";
 
 export const PortfolioHomePage = () => {
+  
+
+
   const projectSection = useRef(null);
   const contactSection = useRef(null);
   const headerSection = useRef(null);
