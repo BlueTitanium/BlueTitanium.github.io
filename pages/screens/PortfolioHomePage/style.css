@@ -908,7 +908,7 @@
   }
 
 }
-/* small screen retina */
+/* small screen retina 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1079px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1079px),
@@ -1786,7 +1786,7 @@ only screen and (min-resolution: 2dppx)  and (max-width: 1079px) {
   }
 
 }
-
+*/
 /* large screen not retina */
 @media (min-width: 1080px){
   .PORTFOLIO-HOME-PAGE {
@@ -2652,7 +2652,7 @@ only screen and (min-resolution: 2dppx)  and (max-width: 1079px) {
   }
 }
 
-/* large screen not retina */
+/* large screen retina 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1080px),
 only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1080px),
 only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1080px),
@@ -3521,3 +3521,4 @@ only screen and (min-resolution: 2dppx)  and (min-width: 1080px){
     width: 509px;
   }
 }
+*/

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://taneim.vercel.app/",
   "description": "Taneim's Portfolio. A showcase of some great coding projects.",
+  "browserslist": "> 0.5%, last 3 versions, not dead",
   "source": "./index.html",
   "scripts": {
     "predeploy": "npm run build",
