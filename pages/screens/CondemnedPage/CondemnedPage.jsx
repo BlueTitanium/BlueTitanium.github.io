@@ -201,10 +201,7 @@ export const CondemnedPage = () => {
                         Player and Enemy animations
                       </li>
                       <li>
-                        Tile sets for each map
-                      </li>
-                      <li>
-                        Backgrounds for each map
+                        Tile sets and backgrounds for each map
                       </li>
                       <li>
                         Obstacles
@@ -224,13 +221,9 @@ export const CondemnedPage = () => {
                         ziplining/grappling
                       </li><li>
                         picking up and throwing objects
-                      </li><li>
-                        straight throws
-                      </li><li>
-                        heavy throws (gravity)
-                      </li><li>
-                        Molotov throw (Fire on ground)
-                      </li></ul>
+                      </li><ul><li>
+                        straight throws, heavy throws (gravity), Molotov throw (Fire on ground)
+                      </li></ul></ul>
                   </ul>
                 </p>
               </div>
@@ -407,9 +400,6 @@ export const CondemnedPage = () => {
                       <br />
                     </span>
                   </p>
-                  <p className="text">
-                    <span className="span">FEATURES BELOW:</span>
-                  </p>
                 </div>
               </div>
             </div>
@@ -476,10 +466,7 @@ export const CondemnedPage = () => {
                         NPCs and unique dialogue in each chapter
                       </li>
                       <li>
-                        2-3 enemies per chapter
-                      </li>
-                      <li>
-                        Unique obstacles per level
+                        2 enemies per chapter
                       </li>
                       <li>
                         A boss fight in Chapter 1
@@ -487,9 +474,6 @@ export const CondemnedPage = () => {
                     </ul>
                     <li>
                       Art and animations for the character and enemies
-                    </li>
-                    <li>
-                      Fleshed out game feel effects and polish
                     </li>
                     <li>
                       Present a vertical slice of this game
@@ -704,9 +688,9 @@ export const CondemnedPage = () => {
               <div className="regarding-art-our-wrapper">
                 <p className="regarding-art-our">
                   Regarding art, our entire team was comprised of people who are skilled at art so we were able to make
-                  many sprites for the game. <br />I mainly made just the UI sprites as well as a couple of other
+                  many sprites for the game. I mainly made just the UI sprites as well as a couple of other
                   sprites because I was more focused on developing core aspects of the game.
-                  <br />
+                  
                   Showcase of many, but not all, of the game’s sprites below:
                 </p>
               </div>
@@ -755,16 +739,10 @@ export const CondemnedPage = () => {
                   <li>
                   Limbo is the first circle and we designed it to be an engaging tutorial</li>
                   <li>
-                  The player would talk to various NPCs while learning about the realm and gaining more movement
-                  abilities
+                  The player would talk to various NPCs while learning about the realm and gaining more movement abilities
                   </li><li>
-                  There would be various parkour spots and combat zones for the player.
+                  There would be various parkour spots and combat zones, with rewards, for the player.
                   </li>
-                  <ul>
-                  <li>
-                  combat zones would give health and damage upgrades
-                  </li>
-                  </ul>
                   </ul>
                 </p>
               </div>
@@ -790,8 +768,7 @@ export const CondemnedPage = () => {
                   We wanted this level to be movement heavy </li><li>
                   There would be wind-effects and and obstacles and parkour elements
                   </li><li>
-                  In the initial sketch it was very barren and we were unsure of where the boss would be, so we left
-                  that design for later.
+                  In the initial sketch we were unsure of many details, so we left that design for later.
                   </li>
                   </ul>
                 </p>
@@ -850,7 +827,7 @@ export const CondemnedPage = () => {
                   </li><li>
                   The desert parkour is based on wind mechanics
                   </li><li>
-                  The labyrinth is an obstacle course with 3 diverging paths to get a gem.
+                  The labyrinth is an obstacle course with diverging paths
                   </li>
                   </ul>
                 </p>
