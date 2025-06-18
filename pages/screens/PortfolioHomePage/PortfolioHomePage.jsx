@@ -114,7 +114,7 @@ export const PortfolioHomePage = () => {
               </div>
             </div>
           </div>
-          <div className="div-wrapper">
+          {/* <div className="div-wrapper">
             <div className="overlap-2" >
               <a href="/pdf/Resume 2023 Fall.pdf">
               <div className="rectangle-2" >
@@ -122,7 +122,7 @@ export const PortfolioHomePage = () => {
               </div>
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="overlap-3">
             <p className="p">website designed and programmed by me</p>
           </div>
