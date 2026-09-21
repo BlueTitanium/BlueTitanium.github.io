@@ -1,1 +1,0 @@
-export { LicvrPage } from "./LicvrPage";

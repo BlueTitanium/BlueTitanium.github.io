@@ -1,1 +1,0 @@
-export { DentalPage } from "./DentalPage";
