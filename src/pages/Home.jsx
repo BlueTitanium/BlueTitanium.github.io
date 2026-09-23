@@ -1,7 +1,12 @@
+import { useState } from "react";
 import { motion } from "motion/react";
+import FilterBar from "../components/FilterBar.jsx";
 import ProjectsGrid from "../components/ProjectsGrid.jsx";
+import AboutSection from "../components/AboutSection.jsx";
 
 export default function Home() {
+  const [filter, setFilter] = useState("all");
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -9,14 +14,12 @@ export default function Home() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
     >
-      <section className="hero">
-        <h1>Hi, I'm Taneim.</h1>
-        <p>I build things.</p>
-      </section>
-      <section className="projects">
-        <h2>Projects</h2>
-        <ProjectsGrid />
-      </section>
+      <FilterBar value={filter} onChange={setFilter} />
+      {filter === "about" ? (
+        <AboutSection />
+      ) : (
+        <ProjectsGrid filter={filter} />
+      )}
     </motion.div>
   );
 }
