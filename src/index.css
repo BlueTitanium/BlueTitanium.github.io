@@ -18,10 +18,15 @@
 body {
   margin: 0;
   background-color: var(--color-bg);
-  background-image: radial-gradient(var(--dot-color) 1.5px, transparent 1.5px);
-  background-size: 26px 26px;
   color: var(--color-fg);
   font-family: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.dot-grid-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
 }
 
 a {
