@@ -212,7 +212,48 @@ main {
   padding: var(--space-md) var(--space-lg);
   color: var(--color-muted);
   font-size: 0.85rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.social-link {
+  color: var(--color-muted);
+  display: inline-flex;
+}
+
+.social-link:hover {
+  color: var(--color-fg);
+}
+
+.icon-mask {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.icon-mask-itch {
+  -webkit-mask-image: url("/assets/icons/itch.png");
+  mask-image: url("/assets/icons/itch.png");
 }
 
 @media (max-width: 700px) {
