@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 
-export default function ProjectCard({ id, title, image, year, aspectRatio, style }) {
+export default function ProjectCard({ id, title, images, year, aspectRatio, style }) {
   return (
     <motion.div
       className="project-scatter-item"
@@ -18,7 +18,7 @@ export default function ProjectCard({ id, title, image, year, aspectRatio, style
     >
       <Link to={`/projects/${id}`} className="project-card">
         <div className="project-card-media" style={{ aspectRatio }}>
-          <img src={image} alt={title} loading="lazy" />
+          <img src={images[0].src} alt={images[0].alt} loading="lazy" />
         </div>
         <p className="project-card-caption">
           {title}, {year}
