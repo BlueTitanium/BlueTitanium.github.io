@@ -1,10 +1,15 @@
 import { useParams, Link } from "react-router-dom";
+import { useLayoutEffect } from "react";
 import { motion } from "motion/react";
 import { projects } from "../data/projects.js";
 
 export default function ProjectDetail() {
   const { id } = useParams();
   const project = projects.find((p) => p.id === id);
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!project) {
     return (
