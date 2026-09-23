@@ -5,6 +5,7 @@ import Layout from "./components/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import ProjectDetail from "./pages/ProjectDetail.jsx";
 import { clearLayoutCache } from "./utils/layoutMemory.js";
+import { saveHomeScroll } from "./utils/scrollMemory.js";
 
 export default function App() {
   const location = useLocation();
@@ -19,6 +20,10 @@ export default function App() {
     // regenerates it fresh.
     clearLayoutCache(value);
     setFilter(value);
+    window.scrollTo(0, 0);
+    // Keep the scroll-restoration memory in sync so navigating to a project
+    // and back doesn't snap back to the old (now stale) scroll position.
+    saveHomeScroll(0);
   }
 
   return (

@@ -8,6 +8,7 @@ const FILTER_TAGS = {
   games: "Game",
   websites: "Website",
   apps: "App",
+  simulations: "Simulation",
 };
 
 export default function ProjectsGrid({ filter }) {

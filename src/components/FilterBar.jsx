@@ -6,6 +6,7 @@ export const FILTERS = [
   { value: "games", label: "games" },
   { value: "websites", label: "websites" },
   { value: "apps", label: "apps" },
+  { value: "simulations", label: "simulations" },
   { value: "about", label: "~the most in life!~" },
 ];
 
