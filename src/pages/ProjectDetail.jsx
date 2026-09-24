@@ -24,7 +24,7 @@ export default function ProjectDetail() {
     );
   }
 
-  const { title, images, descriptions, tags, link, year } = project;
+  const { title, images, descriptions, tags, link, year, video } = project;
   const [thumbnail, ...bodyImages] = images;
   const [summary, ...bodyDescriptions] = descriptions;
 
@@ -107,6 +107,17 @@ export default function ProjectDetail() {
           );
         })}
       </div>
+
+      {video && (
+        <div className="project-detail-video">
+          <iframe
+            src={video}
+            title={`${title} video`}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+      )}
 
       <Lightbox image={lightboxImage} onClose={() => setLightboxImage(null)} />
     </motion.div>
