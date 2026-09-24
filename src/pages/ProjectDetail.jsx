@@ -3,6 +3,7 @@ import { useLayoutEffect, useState } from "react";
 import { motion } from "motion/react";
 import { projects } from "../data/projects.js";
 import Lightbox from "../components/Lightbox.jsx";
+import ProjectLayoutBlock from "../components/ProjectLayoutBlock.jsx";
 
 const SPRING = { type: "spring", stiffness: 350, damping: 15 };
 
@@ -24,9 +25,7 @@ export default function ProjectDetail() {
     );
   }
 
-  const { title, images, descriptions, tags, link, year, video } = project;
-  const [thumbnail, ...bodyImages] = images;
-  const [summary, ...bodyDescriptions] = descriptions;
+  const { title, thumbnail, subtitle, tags, link, year, pageLayout } = project;
 
   return (
     <motion.div
@@ -71,7 +70,7 @@ export default function ProjectDetail() {
               </motion.li>
             ))}
           </ul>
-          <p className="project-detail-summary">{summary}</p>
+          <p className="project-detail-summary">{subtitle}</p>
           <motion.a
             href={link}
             target="_blank"
@@ -86,38 +85,14 @@ export default function ProjectDetail() {
       </div>
 
       <div className="project-detail-body">
-        {bodyDescriptions.map((desc, index) => {
-          const image = bodyImages[index];
-          return (
-            <div className="project-detail-block" key={index}>
-              <p>{desc}</p>
-              {image && (
-                <motion.button
-                  type="button"
-                  className="project-detail-image"
-                  onClick={() => setLightboxImage(image)}
-                  aria-label={`Zoom in on ${image.alt}`}
-                  whileHover={{ scale: 1.03 }}
-                  transition={SPRING}
-                >
-                  <img src={image.src} alt={image.alt} />
-                </motion.button>
-              )}
-            </div>
-          );
-        })}
-      </div>
-
-      {video && (
-        <div className="project-detail-video">
-          <iframe
-            src={video}
-            title={`${title} video`}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
+        {pageLayout.map((block, index) => (
+          <ProjectLayoutBlock
+            key={index}
+            block={block}
+            onZoomImage={setLightboxImage}
           />
-        </div>
-      )}
+        ))}
+      </div>
 
       <Lightbox image={lightboxImage} onClose={() => setLightboxImage(null)} />
     </motion.div>
