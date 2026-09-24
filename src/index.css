@@ -201,6 +201,11 @@ main {
 
 .back-link {
   display: inline-block;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: #7fe3f7;
 }
 
 .project-detail-header {
@@ -259,7 +264,6 @@ main {
   font-weight: 700;
   padding: 0.9rem 2rem;
   border-radius: 14px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 .project-detail-video {
