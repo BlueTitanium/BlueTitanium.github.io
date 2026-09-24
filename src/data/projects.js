@@ -77,7 +77,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
     ],
     images: [
-      img("/assets/projects/placeholder-2.webp", "Placeholder Two thumbnail"),
+      img("/assets/projects/condemned-thumb.png", "Placeholder Two thumbnail"),
       img("/assets/projects/placeholder-2-a.webp", "Placeholder Two screenshot 1"),
       img("/assets/projects/placeholder-2-b.webp", "Placeholder Two screenshot 2"),
     ],
@@ -94,7 +94,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
     ],
     images: [
-      img("/assets/projects/placeholder-3.webp", "Placeholder Three thumbnail"),
+      img("/assets/projects/condemned-thumb.png", "Placeholder Three thumbnail"),
       img("/assets/projects/placeholder-3-a.webp", "Placeholder Three screenshot 1"),
       img("/assets/projects/placeholder-3-b.webp", "Placeholder Three screenshot 2"),
     ],

@@ -41,9 +41,9 @@ export default function ProjectsGrid({ filter }) {
           {...project}
           aspectRatio={layout.aspectRatio}
           style={{
-            width: `${layout.width}px`,
+            width: layout.width,
             maxWidth: "90%",
-            marginLeft: `${layout.offsetPercent}%`,
+            marginLeft: `calc((100% - ${layout.width}) * ${layout.offsetFraction})`,
           }}
         />
       ))}

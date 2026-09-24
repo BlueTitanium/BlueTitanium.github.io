@@ -8,7 +8,7 @@
   --space-md: 1rem;
   --space-lg: 2rem;
   --space-xl: 4rem;
-  --max-width: 1200px;
+  --max-width: 1600px;
 }
 
 * {
@@ -218,7 +218,7 @@ main {
 
 .project-detail-thumb {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 3;
   border-radius: 20px;
   overflow: hidden;
   border: none;
