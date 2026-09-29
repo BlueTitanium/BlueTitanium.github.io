@@ -44,7 +44,7 @@ export const projects = [
     pageLayout: [
       {
         layoutType: "headerDescriptionPair",
-        header: "The Goal",
+        header: "The Game",
         description:
           "Condemned is a narrative metroidvania game with momentum grapple-based movement and fun combat. This game was made in 6 weeks by a group of students led by me for a game design final. We created all assets, beside audio, by ourselves including all art and animations. I played several roles in this project, as I led the team and handled most of the development. Regarding game design, it was a collaborative effort where everyone played a role. I also helped with the art and UI design in many parts of the game.",
       },
@@ -82,38 +82,27 @@ export const projects = [
     ],
   },
   {
-    id: "portfolio-v3",
-    title: "Portfolio V3",
-    subtitle: "This site — built with React, React Router, and Motion.",
-    thumbnail: img("/assets/projects/portfolio-thumb.webp", "Portfolio V3 thumbnail"),
-    tags: ["Website", "React", "Motion", "Vite"],
-    link: "https://github.com/BlueTitanium/BlueTitanium.github.io",
-    year: 2026,
+    id: "vr-counselor",
+    title: "VR Counselor",
+    subtitle: "A VR counseling experience for social workers in training, made in collaboration with NYU's Silver School of Social Work, utilizing AI-driven avatars to simulate counseling sessions.",
+    thumbnail: img(
+      "/assets/projects/vr-counselor-thumb.webp",
+      "3D-rendered woman seated in a living room, part of a VR counseling training simulation"
+    ),
+    tags: ["Simulation", "Virtual Reality", "Unity", "C#", "AI", "Research"],
+    link: "https://steinhardt.nyu.edu/news/how-ai-avatar-will-help-social-work-students-practice-their-counseling-skills",
+    year: 2025,
     pageLayout: [
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/portfolio-1.webp", "Portfolio V3 screenshot 1"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "headerDescriptionPair", header: "The Goal", description: "This project was a joint effort between the CREATE Lab, which I was the lead VR developer for at the time, and NYU's Silver School of Social Work. The goal was to create a VR counseling experience for social workers in training, allowing them to practice their counseling skills in a safe and controlled environment."},
       ws(),
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/portfolio-2.webp", "Portfolio V3 screenshot 2"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "imageDescriptionPair", image: img("/assets/projects/vr-counselor-1.png", "VR Counselor screenshot 1"), description: "The simulation features a virtual client, who is an AI-driven avatar that responds to the user's counseling techniques. The user can practice various counseling methods and receive feedback on their performance. The main tricky aspects of this were the AI-driven avatar and making sure that it ran both smoothly in VR and portray it's emotions properly. \n\nWe collaborated with an artist to create the avatar, and I worked on the AI and VR implementation.\n\n It took many iterations to get the avatar's responses and emotions to feel natural and realistic, and even still I see much room for improvement. As AI continues to progress, I hope we continue improving this project and make it a more effective tool for social work training!"},
+      ws(),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/avatar-ai-logic-themed-1920.webp", "VR Counselor screenshot 2")},
+      {layoutType: "description", description: "Credit: Ci Song, The main artist I worked with on this project who created the avatar and the concept designs shown above."},
+      ws(),
+      {layoutType: "description", description: "I make a cameo in this video :D!"},
+      { layoutType: "video", url: "https://www.youtube.com/embed/aUaFP7gLBzg" },
     ],
-  },
-  {
-    id: "placeholder-one",
-    title: "Placeholder One",
-    subtitle: "Sample project used to preview the scattered layout.",
-    thumbnail: img("/assets/projects/placeholder-1.webp", "Placeholder One thumbnail"),
-    tags: ["Game", "Unreal"],
-    link: "https://example.com",
-    year: 2023,
-    pageLayout: [],
   },
   {
     id: "placeholder-two",
@@ -281,6 +270,21 @@ export const projects = [
         description:
           "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
       },
+    ],
+  },
+  {
+    id: "portfolio",
+    title: "This Portfolio",
+    subtitle: "A site intended to be a little playful, but also a showcase of my work and skills.\n\n Click the project link to visit the github repo!",
+    thumbnail: img(
+      "/assets/projects/portfolio-thumb2.png",
+      "Dotted grid background of this portfolio site, with the footer showing social links"
+    ),
+    tags: ["Website", "React", "Motion", "Vite"],
+    link: "https://github.com/BlueTitanium/BlueTitanium.github.io",
+    year: 2026,
+    pageLayout: [
+     
     ],
   },
 ];
