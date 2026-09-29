@@ -83,7 +83,7 @@ export const projects = [
   },
   {
     id: "vr-counselor",
-    title: "VR Counselor",
+    title: "VR Counselor @ NYU",
     subtitle: "A VR counseling experience for social workers in training, made in collaboration with NYU's Silver School of Social Work, utilizing AI-driven avatars to simulate counseling sessions.",
     thumbnail: img(
       "/assets/projects/vr-counselor-thumb.webp",
