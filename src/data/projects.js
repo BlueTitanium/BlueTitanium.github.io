@@ -3,6 +3,9 @@
 //
 // `thumbnail` is the card image / detail page hero image.
 // `subtitle` is the short summary shown next to it on the detail page.
+// `year` is the project's year; add an optional `endYear` for multi-year
+// projects. For now only the end year is displayed when one is set (see
+// utils/formatYear.js if you want to show a range like "2021–2024" instead).
 // `pageLayout` is an ordered array of content blocks rendered below the
 // header — each block has a `layoutType` deciding how it renders:
 //
@@ -42,7 +45,7 @@ export const projects = [
     ),
     tags: ["Game", "Unity", "C#", "Game Design"],
     link: "https://bluetitanium.itch.io/condemned",
-    year: 2024,
+    year: 2023,
     pageLayout: [
       {
         layoutType: "headerDescriptionPair",
@@ -133,27 +136,52 @@ export const projects = [
     ],
   },
   {
-    id: "placeholder-three",
-    title: "Placeholder Three",
-    subtitle: "Sample project used to preview the scattered layout.",
-    thumbnail: img("/assets/projects/condemned-thumb.png", "Placeholder Three thumbnail"),
-    tags: ["App", "Swift"],
-    link: "https://example.com",
-    year: 2023,
+    id: "looking-inside-cells",
+    title: "Looking Inside Cells",
+    subtitle: "A collection of VR simulations with interactive 3D cells, built by NYU's CREATE Lab to make STEM subjects like Biology more engaging for students.",
+    thumbnail: img(
+      "/assets/projects/lic-9.png",
+      "Looking Inside Cells key art: a cutaway 3D animal cell above the game's title and app icon"
+    ),
+    tags: ["Simulation", "Virtual Reality", "Unreal", "Research", "Networking"],
+    link: "https://steinhardt.nyu.edu/create/research/looking-inside",
+    year: 2021,
+    endYear: 2024,
     pageLayout: [
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-3-a.webp", "Placeholder Three screenshot 1"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "headerDescriptionPair", header: "Goals & Context", description: "Looking Inside Cells, by NYU’s CREATE Lab, is a collection of VR simulations with 3D interactive cells. The simulations range from building cells from scratch, to specialized cells, to processes like mitosis. This virtual reality experience is designed to engage and excite students on STEM subjects like Biology, while improving their knowledge. It is meant for small groups of students, and is a 5G-enabled learning experience aimed especially at students in underserved communities, funded by the Verizon Foundation. It is available on Steam, PICO, and VIVEPORT.\n\nLooking Inside Cells was designed to facilitate collaboration and learning amongst students through the use of interactive VR simulations. When I joined the team, much of the core interactions and simulations were completed, so my role was to add new simulations, add required features for research studies, implement new quality of life features, and adjust user experience within the app. I was also tasked with integrating data collection methods for research and for our sponsors."},
       ws(),
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-3-b.webp", "Placeholder Three screenshot 2"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "fullWidthImage", image: img("/assets/projects/lic-1.png", "Four colorful robot avatars in yellow, magenta, cyan, and green floating around a circular lab in VR")},
+      ws(),
+      {layoutType: "video", url: "https://www.youtube.com/embed/l7Q-FR4wv8w"},
+      {layoutType: "description", description: "Feature walkthrough of the simulations, from NYU CREATE."},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Multiplayer Networking", description: "Looking Inside Cells is designed for small groups of students working together, so the simulations needed real-time multiplayer. For this, I invented a networking solution from scratch, built with Node.js and Unreal’s networking logic. I designed and implemented my own server infrastructure and logic.\n\nThis was a big challenge for me, because I hadn’t made any practical implementation of a networked application before this, besides what I had done in class. On top of building the networking logic itself, I also had to handle using Microsoft Azure for the server.\n\nMultiplayer also wasn’t a proper part of the project before I started working on it, so I had to figure out how to turn the existing singleplayer simulations into multiplayer.\n\nA major goal was ensuring low latency and a high speed connection. Multiplayer gameplay that isn’t smooth is a problem in any game, but in VR it can even cause motion sickness, so I had the game use a 128 tick server to make it feel as smooth as possible.\n\nThe final challenge was the budget. I was able to accomplish my goal of creating smooth multiplayer that worked completely correctly, but we didn’t have the budget to maintain the servers in the long term, so we had to disable the servers for the Steam release."},
+      ws(),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/lic-10.png", "VR view of the lab with a yellow and a green robot avatar and a Build a Cell panel listing organelles")},
+      ws("small"),
+      {layoutType: "headerDescriptionPair", header: "The Tutorial", description: "A big challenge was designing an intuitive tutorial that would introduce the players to every mechanic. It needed to show how to:\n• Place objects\n• Use the bar slider\n• Extend objects\n• Duplicate objects\n• Spray objects\n• Delete objects\n• Rotate objects\n• Take a picture"},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "The Initial Idea", description: "The tutorial was initially treated as a new simulation that attempted to teach all of the existing mechanics by making the player construct the lab, or the future playing area, by using every mechanic. The plan:\n• The tutorial would be the player constructing the lab that they do the rest of the simulations in\n• It would be conducted in phases, showing how to do each type of action in each phase\n• At the end, there would be a cool effect where they put on a VR headset and virtually enter the lab from the robot character’s perspective\n\nDespite this being a fun idea and a fun simulation on its own, it was a long tutorial. After researching player feedback from this design, we noticed that this version of the tutorial was taking over 10 minutes on average. We planned on using this tutorial for research purposes and to introduce them to the mechanics so they can do the other, more educational, sims. However, since it takes so long, it adds to the overall time that the user is inside of VR, and it is not recommended to be in VR for a long time, so it was a major issue. There were two main reasons why the tutorial was taking so long to complete: the instructions were not specific enough making users lost at certain times and there was too many things to do in the tutorial."},
+      ws("small"),
+      {layoutType: "imageRow", items: [
+        {image: img("/assets/projects/lic-5.png", "Overhead view of the geodesic dome lab with a circular platform inside, against a purple and red sky")},
+        {image: img("/assets/projects/lic-7.png", "3D model of a VR headset with a teal accent stripe, shown on a dark grid")},
+      ]},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "The Revised Tutorial", description: "To solve the specificity of the instructions, we revised the text-based instructions greatly, and made each individual phase more straight-forward. We also removed the idea of “building the lab” and just made it so we just showed how to do the needed actions. This also helped in reducing the amount of things to do in the tutorial. We also figured that some of the research doesn’t need to use all of the “actions”, so I developed a way for each of the phases to be toggle-able so it would not be necessary to play through the entire tutorial depending on the build.\n\nThe pitfall of this redesign was that it was less “creative” than our original design, but the changes we made were necessary in order to complete the goal of a concise tutorial. Beyond the major changes, we did lots of other minor revisions on the tutorial based on user experience research in order to keep fine tuning the simulations. The most recent versions of the tutorial ended up cutting the average time for it to around 5 minutes which also led to decreased times for the other simulations. The tutorial seems to still be somewhat difficult for first-time VR users, if they were unfamiliar with the controllers, but after a couple of minutes, users seem to get used to it. After all of the revisions, the tutorial functions well as a short introduction to the elements and mechanics that are present in all of the simulations."},
+      ws("small"),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/lic-8.png", "In-simulation Tool Box and tutorial instruction panels showing organelle icons, a help button, and a Next Phase button")},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Haptic Feedback", description: "Haptic feedback was an important part of a research study in our lab, but we realized that it is such a nice quality of life feature that adds to the “game” feel so we integrated it into our store build and all future builds.\n\nThe research study that was about haptics had many requirements for how the controllers would respond to the environment. Without going into detail about the research itself, each part of the simulations should try to respond to haptics. This included the various different actions, hovering over organelles, touching organelles, dragging interactive sliders, and hovering over UI elements. To tackle this in the most efficient manner, I implemented a singular “haptics controller” where any haptics function call would go to the controller and the controller would hand the “behind the scenes” code.\n\nThe next part of the study used VR haptic vest technology. We used a bHaptics vest and a specialized plugin for the vest and designed the patterns for the haptics ourselves. The idea is that the vest would respond to the events in the simulations. For example, if there was a swipe upwards, there should be a haptic feeling upwards.\n\nThe purpose of these haptic integrations was that having the haptic sensation makes it feel more immersive and, subsequently, easier to learn with."},
+      ws("small"),
+      {layoutType: "imageRow", items: [
+        {image: img("/assets/projects/lic-13.png", "A pair of white VR controllers"), caption: "VR controllers"},
+        {image: img("/assets/projects/lic-14.png", "A black bHaptics haptic vest with a zipper and a circular logo on the chest"), caption: "bHaptics vest"},
+      ]},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "What I Learned", description: "Despite not being a researcher myself, I was involved in various research studies as I aided in the development of the simulations and integrated data collection for their studies.\n\nSome of the highlights of the development was trying to figure out the most efficient ways to implement certain things like haptics, sound design, help information, and role switching.\n\nI learned a lot about network development while working on this project, and I worked with networking in two different ways. For context, NYU has a high-speed research network and its own networking framework, which was mostly used for data collection, so I was tasked with integrating that framework with the Looking Inside Cells simulations. The real-time multiplayer gameplay, on the other hand, ran on the networking solution I built myself, described in the Multiplayer Networking section above.\n\nThroughout my process of helping with the design and development of these research projects, I learned a lot about research and project-based development as a whole. I made many revisions to the projects based on playtesting feedback and changes to the design of research. Not only was it informative, it made my rapid prototyping skills a lot stronger in addition to overall development skills."},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Conclusion", description: "Overall, I learned a lot from this project. Working with VR was extremely fun. Before working with the CREATE Lab at NYU, I hadn’t worked with XR technologies, but I did have game development experience. That experience allowed me to have a good start on working with XR and by this point, I consider myself to be fairly knowledgeable about VR development. Working in this type of environment allowed me to learn more in depth about all types of aspects of software development while having fun with the simulations."},
     ],
   },
   {

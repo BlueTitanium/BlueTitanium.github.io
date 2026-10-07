@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { projects } from "../data/projects.js";
 import Lightbox from "../components/Lightbox.jsx";
 import ProjectLayoutBlock from "../components/ProjectLayoutBlock.jsx";
+import { formatYear } from "../utils/formatYear.js";
 
 const SPRING = { type: "spring", stiffness: 350, damping: 15 };
 
@@ -25,7 +26,7 @@ export default function ProjectDetail() {
     );
   }
 
-  const { title, thumbnail, subtitle, tags, link, year, pageLayout } = project;
+  const { title, thumbnail, subtitle, tags, link, year, endYear, pageLayout } = project;
 
   return (
     <motion.div
@@ -57,7 +58,7 @@ export default function ProjectDetail() {
         <div className="project-detail-info">
           <h1>
             {title}
-            {year ? `, ${year}` : ""}
+            {year ? `, ${formatYear(year, endYear)}` : ""}
           </h1>
           <ul className="tags">
             {tags.map((tag) => (

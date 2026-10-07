@@ -1,7 +1,8 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
+import { formatYear } from "../utils/formatYear.js";
 
-export default function ProjectCard({ id, title, thumbnail, year, aspectRatio, style }) {
+export default function ProjectCard({ id, title, thumbnail, year, endYear, aspectRatio, style }) {
   return (
     <motion.div
       className="project-scatter-item"
@@ -21,7 +22,7 @@ export default function ProjectCard({ id, title, thumbnail, year, aspectRatio, s
           <img src={thumbnail.src} alt={thumbnail.alt} loading="lazy" />
         </div>
         <p className="project-card-caption">
-          {title}, {year}
+          {title}, {formatYear(year, endYear)}
         </p>
       </Link>
     </motion.div>
