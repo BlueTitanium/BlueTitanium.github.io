@@ -324,6 +324,27 @@ main {
   font-size: 1.5rem;
 }
 
+.project-detail-image-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--space-lg);
+}
+
+.project-detail-figure {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 320px;
+  margin: 0;
+}
+
+.project-detail-caption {
+  margin: var(--space-sm) 0 0;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
 .project-detail-image {
   display: block;
   width: 100%;

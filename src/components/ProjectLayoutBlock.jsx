@@ -38,6 +38,22 @@ export default function ProjectLayoutBlock({ block, onZoomImage }) {
     case "fullWidthImage":
       return <ZoomableImage image={block.image} onZoom={onZoomImage} />;
 
+    case "imageRow":
+      return (
+        <div className="project-detail-image-row">
+          {block.items.map((item, index) => (
+            <figure className="project-detail-figure" key={index}>
+              <ZoomableImage image={item.image} onZoom={onZoomImage} />
+              {item.caption && (
+                <figcaption className="project-detail-caption">
+                  {item.caption}
+                </figcaption>
+              )}
+            </figure>
+          ))}
+        </div>
+      );
+
     case "description":
       return <p className="project-detail-text">{block.description}</p>;
 

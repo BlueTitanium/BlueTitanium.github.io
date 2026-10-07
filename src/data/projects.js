@@ -11,6 +11,8 @@
 //   - "headerDescriptionPair": { header, description } — a small section
 //     heading + paragraph side by side (no image).
 //   - "fullWidthImage": { image } — a single image spanning the full width.
+//   - "imageRow": { items: [{ image, caption }, ...] } — images side by side,
+//     each with an optional caption underneath (e.g. before/after).
 //   - "description": { description } — a plain full-width paragraph.
 //   - "video": { url } — an embedded video (YouTube/Vimeo embed URL).
 //   - "whitespace": { size } — an empty vertical spacer, size is "small",
@@ -105,27 +107,29 @@ export const projects = [
     ],
   },
   {
-    id: "placeholder-two",
-    title: "Placeholder Two",
-    subtitle: "Sample project used to preview the scattered layout.",
-    thumbnail: img("/assets/projects/condemned-thumb.png", "Placeholder Two thumbnail"),
-    tags: ["Website", "Next.js"],
-    link: "https://example.com",
-    year: 2022,
+    id: "dental-injection-vr",
+    title: "Dental Injection VR",
+    subtitle: "A VR simulation for training the Inferior Alveolar Nerve Block injection, created by the NYU College of Dentistry and used by all of its second-year students.",
+    thumbnail: img(
+      "/assets/projects/dental-8.png",
+      "In-simulation view of a patient's head with transparent skin showing facial anatomy, and a gloved hand holding a dental syringe near the jaw"
+    ),
+    tags: ["Simulation", "Virtual Reality", "Unity", "C#", "Research"],
+    link: "https://sites.google.com/nyu.edu/nyuusabilitylab/usability-services/case-studies/dentistry-vr-instructional-modules",
+    year: 2020,
     pageLayout: [
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-2-a.webp", "Placeholder Two screenshot 1"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "headerDescriptionPair", header: "Goals & Context", description: "Local Anesthesia VR simulation: Inferior Alveolar Nerve Block is a dental injection VR simulation created and designed by the NYU College of Dentistry. All second-year students at the College of Dentistry use this simulation for preclinical training. This aids students with gaining experience in this field as it is hard to practice this particular type of anesthesia injection in dentistry.\n\nIt is important for all dentistry students to accurately learn how to do this injection. This is why there are many research studies on how to optimize and teach the material better.\n\nIn the research study I was involved with, it was a collaboration between the College of Dentistry and the CREATE Lab to see if adding animations and a more realistic 3D model would help students better learn the injection or if the realism goes towards the creepy uncanny valley territory. My job was to integrate the 3D model and animations properly with the pre-existing system as well as integrate data collection into Firebase and NYU’s Corelink system."},
       ws(),
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-2-b.webp", "Placeholder Two screenshot 2"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "fullWidthImage", image: img("/assets/projects/dental-1.png", "VR view of a dental instrument tray with forceps, gauze, and a cotton swab, with a gloved hand reaching in")},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Development", description: "I was tasked with working on:\n• Adjusting the VR UI to be more fit for a research study (add a participant ID field to send to the database for better data collection)\n• Replacing the old human head model with a new, more realistic, human head model\n• Programmatically adjusting breathing and blink animations for the new model\n• Add baseline measurements so that researchers can track the physical state of the participant before and after the study\n• Connect the simulation to the NYU Corelink database\n• Connect the simulation to a Firebase database for the researcher to collect her data\n• Optimize settings to look good in a standalone Quest build"},
+      ws(),
+      {layoutType: "imageRow", items: [
+        {image: img("/assets/projects/dental-6.png", "Original bald patient head model with its mouth open, before the update"), caption: "Before"},
+        {image: img("/assets/projects/dental-7.png", "New, more realistic patient head model with hair and its mouth open, after the update"), caption: "After"},
+      ]},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Conclusion", description: "I learned a lot from this project. Subtle changes can have drastic impacts on viewer perceptions of a simulation so it’s important to keep the details correct, especially in a dental simulation where anatomy matters a lot. Despite being a programmer primarily, I actually learned quite a bit of dental anatomy as I had to work closely with integrating the new model with the correct triggers and anatomy.\n\nThe dental project was a mostly finished simulation when I started work on it, so I was able to study it and see the process of how to use VR with real life applications and understand the user experience needed to make it work well. For example, it’s important to make the user comfortable, which means allowing the user to change the height setting, chair angle, right or left handedness, and more accessibility options.\n\nOne other thing about this project was that since it was a short timeframe, I had to speed up my workflow while providing good quality and so my coding skills had increased heavily during this project. I also had to ensure that the database uploads were correct so that data collection would run smoothly for the research.\n\nThis project is not available on an online platform publicly, but there are videos on the project, albeit outdated."},
     ],
   },
   {
