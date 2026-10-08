@@ -143,7 +143,7 @@ export const projects = [
       "/assets/projects/lic-9.png",
       "Looking Inside Cells key art: a cutaway 3D animal cell above the game's title and app icon"
     ),
-    tags: ["Simulation", "Virtual Reality", "Unreal", "Research", "Networking"],
+    tags: ["Simulation", "Virtual Reality", "Unreal", "C++", "JavaScript", "Education", "Research", "Networking"],
     link: "https://steinhardt.nyu.edu/create/research/looking-inside",
     year: 2021,
     endYear: 2024,
@@ -185,27 +185,29 @@ export const projects = [
     ],
   },
   {
-    id: "placeholder-four",
-    title: "Placeholder Four",
-    subtitle: "Sample project used to preview the scattered layout.",
-    thumbnail: img("/assets/projects/placeholder-4.webp", "Placeholder Four thumbnail"),
-    tags: ["Game", "Godot"],
-    link: "https://example.com",
-    year: 2021,
+    id: "looking-inside-cosmos",
+    title: "Looking Inside Cosmos VR",
+    subtitle: "A VR simulation built by NYU's CREATE Lab intended to teach students astronomy in a more immersive way.",
+    thumbnail: img(
+      "/assets/projects/cosmos-thumb.png",
+      "Looking Inside Cosmos logo over a dark, blurred background with soft purple glows"
+    ),
+    tags: ["Simulation", "Virtual Reality", "Unity", "C#", "Education"],
+    year: 2024,
+    endYear: 2026,
     pageLayout: [
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-4-a.webp", "Placeholder Four screenshot 1"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "headerDescriptionPair", header: "Goals & Context", description: "Placeholder text: write about the goals and context of Looking Inside Cosmos VR here."},
       ws(),
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-4-b.webp", "Placeholder Four screenshot 2"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "video", url: "https://player.vimeo.com/video/1014379680"},
+      {layoutType: "description", description: "Lunar Phases trailer for Looking Inside Cosmos VR."},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Design", description: "Placeholder text: write about the design of Looking Inside Cosmos VR here."},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Development", description: "Placeholder text: write about the development of Looking Inside Cosmos VR here."},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Research Involvement", description: "Placeholder text: write about your research involvement on Looking Inside Cosmos VR here."},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Conclusion", description: "Placeholder text: write the conclusion for Looking Inside Cosmos VR here."},
     ],
   },
   {

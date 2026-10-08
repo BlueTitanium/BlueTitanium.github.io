@@ -72,16 +72,18 @@ export default function ProjectDetail() {
             ))}
           </ul>
           <p className="project-detail-summary">{subtitle}</p>
-          <motion.a
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-            className="project-link-button"
-            whileHover={{ scale: 1.04 }}
-            transition={SPRING}
-          >
-            Project Link
-          </motion.a>
+          {link && (
+            <motion.a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className="project-link-button"
+              whileHover={{ scale: 1.04 }}
+              transition={SPRING}
+            >
+              Project Link
+            </motion.a>
+          )}
         </div>
       </div>
 
