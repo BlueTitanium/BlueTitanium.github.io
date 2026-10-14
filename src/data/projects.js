@@ -143,7 +143,7 @@ export const projects = [
       "/assets/projects/lic-9.png",
       "Looking Inside Cells key art: a cutaway 3D animal cell above the game's title and app icon"
     ),
-    tags: ["Simulation", "Virtual Reality", "Unreal", "C++", "JavaScript", "Education", "Research", "Networking", "UI/UX"],
+    tags: ["Simulation", "Virtual Reality", "Game", "Unreal", "C++", "JavaScript", "Education", "Research", "Networking", "UI/UX"],
     link: "https://steinhardt.nyu.edu/create/research/looking-inside",
     year: 2021,
     endYear: 2024,
@@ -192,7 +192,7 @@ export const projects = [
       "/assets/projects/cosmos-thumb.png",
       "Looking Inside Cosmos logo over a dark, blurred background with soft purple glows"
     ),
-    tags: ["Simulation", "Virtual Reality", "Game Design", "Unity", "C#", "Education", "UI/UX", "Research"],
+    tags: ["Simulation", "Virtual Reality", "Game", "Game Design", "Unity", "C#", "Education", "UI/UX", "Research"],
     year: 2024,
     endYear: 2026,
     pageLayout: [
@@ -265,51 +265,39 @@ export const projects = [
     ],
   },
   {
-    id: "placeholder-seven",
-    title: "Placeholder Seven",
-    subtitle: "Sample project used to preview the scattered layout.",
-    thumbnail: img("/assets/projects/placeholder-7.webp", "Placeholder Seven thumbnail"),
-    tags: ["Game", "Unity"],
-    link: "https://example.com",
-    year: 2024,
+    id: "smartsuite",
+    title: "Smart Suite",
+    subtitle: "A collection of cognitive skills training apps, training task switching, inhibitory control and update, subskills of executive functions.",
+    thumbnail: img("/assets/projects/smartsuite-gwakk.png", "Gwakkamole splash screen showing four cartoon avocado characters in a guacamole bowl"),
+    tags: ["App", "Game", "Unity", "C#", "Education", "Research"],
+    link: "https://create.nyu.edu/projects/smartsuite/",
+    year: 2025,
     pageLayout: [
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-7-a.webp", "Placeholder Seven screenshot 1"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "headerDescriptionPair", header: "Contributions", description: "I contributed to this project as a developer that mainly fixed a lot of bugs, updated many features, and generally maintained the apps for the future. I also contributed by helping add features for various research projects that used these apps, which were conducted by NYU, CUNY, and even international colleges like NTU in Singapore."},
       ws(),
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-7-b.webp", "Placeholder Seven screenshot 2"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "imageRow", items: [
+        {image: img("/assets/projects/smartsuite-ayce.png", "All you can E.T. splash screen with cartoon aliens floating above tiered cakes and cupcake stands in space")},
+        {image: img("/assets/projects/smartsuite-gwakk.png", "Gwakkamole splash screen showing four cartoon avocado characters in a guacamole bowl")},
+        {image: img("/assets/projects/smartsuite-crush.png", "CrushStations splash screen with a cartoon octopus above an underwater scene with a sunken ship")},
+      ]},
     ],
   },
   {
-    id: "placeholder-eight",
-    title: "Placeholder Eight",
-    subtitle: "Sample project used to preview the scattered layout.",
-    thumbnail: img("/assets/projects/placeholder-8.webp", "Placeholder Eight thumbnail"),
-    tags: ["Website", "React"],
-    link: "https://example.com",
-    year: 2022,
+    id: "webtoonlens",
+    title: "WebtoonLens",
+    subtitle: "An Android overlay that lets you tap Korean text in webtoons for instant translations, pronunciation and spaced-repetition vocab review.",
+    thumbnail: img("/assets/projects/webtoonlens-thumb.svg", "WebtoonLens placeholder thumbnail: a blue lens icon above the app name"),
+    tags: ["App", "Android", "Kotlin", "OCR", "Language Learning", "AI"],
+    link: "https://github.com/BlueTitanium/LanguageLearningApp",
+    year: 2026,
     pageLayout: [
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-8-a.webp", "Placeholder Eight screenshot 1"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "headerDescriptionPair", header: "Design & Development", description: "I built WebtoonLens because reading Korean webtoons is great practice, but the text lives inside images, so you can't copy it into a dictionary. The app runs as a floating bubble over other apps such as Naver Webtoon. One tap captures the screen and runs OCR on it. I made the recognised words tappable, rather than just pasting out a full-page translation, so I can ask about exactly the word I'm stuck on. Tapping a word gives a popup translation. Circling several words with a lasso translates the whole phrase in reading order.\n\nThe lookup pipeline went through the most iteration. Machine translation of a single word was imprecise, so I added an optional offline dictionary (kengdic, downloaded on demand), with on-device translation as the fallback. I also added optional online translation (Papago, DeepL or Google) using the user's own API key, so nothing is bundled. Korean conjugation was a real problem. Naive suffix-stripping can't recover irregular forms like 들어요 -> 듣다, so I switched to the KOMORAN morphological analyzer for dictionary root forms. Testing later showed it mishandled compound verbs: for something like 공부하다, KOMORAN tags only the \"하\" suffix as the predicate, so I was returning \"하다\" and dropping the noun. I fixed that by walking back over the noun that feeds the suffix. I also added a DeepL context-aware mode. While using it I found it skipped the dictionary entirely whenever DeepL succeeded, so the expanded detail view now shows the dictionary senses alongside the DeepL result.\n\nStill this app is very much a work-in-progress, and I plan to continue to refine it as my learning needs grow. However, I think, as of right now, even in its most basic state, it is a great learning tool!"},
       ws(),
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-8-b.webp", "Placeholder Eight screenshot 2"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "imageRow", items: [
+        {image: img("/assets/projects/webtoonlens-3.png", "WebtoonLens home screen in the dark theme with Home, Vocab and Settings tabs, a Grant overlay permission button and a Start WebtoonLens bubble button")},
+        {image: img("/assets/projects/webtoonlens-2.png", "WebtoonLens overlay on the same webtoon panel with a single tapped word, 놀랐어, highlighted yellow and a popup translating it as \"I was surprised...\"; other words are highlighted blue and purple by learning status")},
+        {image: img("/assets/projects/webtoonlens-1.png", "WebtoonLens overlay on a webtoon panel: tapping a speech bubble shows a popup with the Korean sentence and its DeepL English translation, with the recognised words highlighted in yellow")},        
+      ]},
     ],
   },
   {

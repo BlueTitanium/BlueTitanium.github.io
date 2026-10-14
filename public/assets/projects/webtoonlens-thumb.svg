@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#1c2233"/>
+  <circle cx="400" cy="250" r="90" fill="#4a90e2"/>
+  <circle cx="400" cy="250" r="55" fill="none" stroke="#1c2233" stroke-width="12"/>
+  <text x="400" y="440" font-family="Figtree, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" text-anchor="middle">WebtoonLens</text>
+  <text x="400" y="500" font-family="Arial, sans-serif" font-size="40" fill="#b9a4ff" text-anchor="middle">웹툰 렌즈</text>
+</svg>
