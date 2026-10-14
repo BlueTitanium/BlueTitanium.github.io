@@ -22,7 +22,8 @@ export default function ProjectCard({ id, title, thumbnail, year, endYear, aspec
           <img src={thumbnail.src} alt={thumbnail.alt} loading="lazy" />
         </div>
         <p className="project-card-caption">
-          {title}, {formatYear(year, endYear)}
+          {title}
+          {year ? `, ${formatYear(year, endYear)}` : ""}
         </p>
       </Link>
     </motion.div>

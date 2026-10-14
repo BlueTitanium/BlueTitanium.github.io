@@ -239,27 +239,29 @@ export const projects = [
     ],
   },
   {
-    id: "placeholder-six",
-    title: "Placeholder Six",
-    subtitle: "Sample project used to preview the scattered layout.",
-    thumbnail: img("/assets/projects/placeholder-6.webp", "Placeholder Six thumbnail"),
-    tags: ["App", "Kotlin"],
-    link: "https://example.com",
-    year: 2020,
+    id: "stemai",
+    title: "STEMAI",
+    subtitle: "An AI platform for teachers to help conduct experiments with students in a low-cost and equitable way by utilizing AI tools.",
+    thumbnail: img(
+      "/assets/projects/stemai-thumb.png",
+      "STEMAI upload screen: a cartoon avatar leaning on an \"Upload your file here\" box with a Browse Files button, accepting MP4 and CSV files"
+    ),
+    tags: ["Website", "AI", "Education", "Next.js", "Node.js", "Python", "Kubernetes"],
+    year: 2026,
     pageLayout: [
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-6-a.webp", "Placeholder Six screenshot 1"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "headerDescriptionPair", header: "Mission & Approach", description: "STEMAI, designed and developed by the CREATE Lab, takes an inquiry-based learning approach to teaching students. I helped with the design and ideation of this project, along with being the project manager.\n\n• STEM-AI enables Active Learning through Exploration and Inquiry.\n    ◦ Mixed Reality: Combining real-life objects with digital data overlays.\n    ◦ Accessibility: Runs on lower-end devices like tablets and phones via WebXR.\n    ◦ Equity: Culturally relevant experiences for diverse student backgrounds."},
       ws(),
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/placeholder-6-b.webp", "Placeholder Six screenshot 2"),
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipiscing elit. Animi eum qui in mollitia pariatur tempore dolorum do quas. Provident vero praesentium consequat nihil incididunt qui expedita. Velit voluptas mollitia assumenda provident sunt laborum blanditiis incididunt amet dolore.",
-      },
+      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-1.png", "Visualization Graph panel showing a smooth green line graph with a marked point labeled 10, crossed by a faint pink line")},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Design", description: "I was a part of the design team that determined what features we wanted. Our focus as designers here in the beginning stages of this project was to design something suitable for an MVP for teachers and students, but also for our lab. We went through a lot of iterations of designing what would be best, in terms of flexibility and also replicability, since we needed reliable data. \n\nFor the MVP study, we decided to isolate one particular kind of experiment, Momentum. This helped us narrow down our design and focus on what matters most. \n\nFor the overarching design, we wanted to make sure the design was very friendly and abstract. We originally had a human avatar, but then we chose to go with a shape-shifting blob avatar, since it is more abstract and approachable. The avatar would be a sort of AI helper. Along with the AI helper, we had to design the system to make it easy to use other AI tools, like AI vision, which is incredibly important for parsing live video.\n\nThe design that we ended up with, and are currently developing, is a lot more free-flowing. We realized that rigidity goes against the principles of experimentation anyway, and in order to use the AI tools to their fullest potential, we can, in fact, be much more open-ended."},
+      ws("small"),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-2.png", "STEMAI question screen asking whether a baseball thrown gently by a kid or one thrown at 100 miles per hour by a professional has more momentum, with photos of each throw and two answer choices, A and B, shown with blob avatars")},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Development", description: "For the development, I played the role of project manager and coordinated a group of developers and an artist to make the website according to specs that I architected. \n\nI decided which technologies to use and which ones would be most suitable for this project. I also figured out the best way to architect the project, which was to turn the site into a player of sorts that takes some data file and transforms it into a series of pages suitable for the experiment. The teachers generating the experiment would use a config tool that then generates the player's data file behind the scenes. This method was incredibly simple to use from a front-end perspective, but also incredibly versatile, allowing us to make as many components and features as we desired. \n\nBeing the project manager for this project was a new experience for me, as I had to get used to coordinating a larger team to get the work done properly, especially since I took a backseat role in handling the code myself, besides handling the merge requests for branches and testing the code properly. This type of work felt incredibly gratifying once the whole team worked well, and everything ran smoothly. For each of the tasks I had to outline what had to be done per person, and I made sure to have weekly sprint meetings to handle the task distribution. I also made sure to check in on any requests that my team members would have and handle any issues that may have arisen within the codebase. Along with being the project manager for the development team, I had to convey all the details to and from the research design team properly. This was already something I was used to at the time, thanks to my previous work at the lab."},
+      ws("small"),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-3.png", "STEMAI experiment config tool for the Momentum course: an overview with objectives, a 3 hour duration and difficulty stars on the left, and Upload Media, Hypothesis options and Reflection prompts panels on the right with Preview and Save buttons")},
+      ws("small"),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-4.png", "STEMAI experiment view: a video of a hand placing a white cue ball near a black eight ball on a blue pool table, next to a data table of time, mass, and distance values for each ball")},
     ],
   },
   {
