@@ -35,58 +35,6 @@ function ws(size = "medium") {
 
 export const projects = [
   {
-    id: "condemned",
-    title: "Condemned",
-    subtitle:
-      "A narrative metroidvania game with momentum grapple-based movement and fun combat.",
-    thumbnail: img(
-      "/assets/projects/condemned-thumb.png",
-      "Pixel art character suspended by glowing chains"
-    ),
-    tags: ["Game", "Unity", "C#", "Game Design", "Art", "Animation", "UI/UX"],
-    link: "https://bluetitanium.itch.io/condemned",
-    year: 2023,
-    pageLayout: [
-      {
-        layoutType: "headerDescriptionPair",
-        header: "The Game",
-        description:
-          "Condemned is a narrative metroidvania game with momentum grapple-based movement and fun combat. This game was made in 6 weeks by a group of students led by me for a game design final. We created all assets, beside audio, by ourselves including all art and animations. I played several roles in this project, as I led the team and handled most of the development. Regarding game design, it was a collaborative effort where everyone played a role. I also helped with the art and UI design in many parts of the game.",
-      },
-      ws("small"),
-      {
-        layoutType: "fullWidthImage",
-        image: img(
-          "/assets/projects/condemned-firstlayer.png",
-          "Condemned screenshot 1"
-        ),
-      },
-      ws(),
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/condemned-chars.png", "Condemned screenshot 2"),
-        description:
-          "Condemned is loosely based on the story, “Dante’s Inferno”.  It is about a prisoner in the first circle, Limbo, who tries to get to the center of the nine circles of hell. This prisoner is guided by some mysterious figure who promises them an escape, giving them a renewed purpose in life.",
-      },
-      ws("small"),
-      {
-        layoutType: "imageDescriptionPair",
-        image: img("/assets/projects/condemned-sprites.png", "Condemned screenshot 2"),
-        description:
-          "When designing the scope, we planned on being both ambitious while also being reasonable because we only had 6 in-class weeks to work on this project while having to handle all of our other coursework. This meant that we needed to show a vertical slice of our project, showing all of the mechanics and the general idea of the game and its narrative. So we opted to make a game with 2 “chapters” instead of making a full game, because it would be a disservice to the idea if we tried making the full idea. In the future, we might come back and try to do the rest of the game if we are not all too busy.\n\nWe actually ended up going beyond our original expectations and had a ton of extra content and accomplished a lot of great work.",
-      },
-      ws(),
-      {
-        layoutType: "headerDescriptionPair",
-        header: "Conclusion",
-        description:
-          "Overall, this was a great game to work on. We had a clear goal in mind and my team did a great job of completing their tasks on schedule and in many cases, going above and beyond. Teamwork-wise we had a lot of chemistry so we were able to do very well.\n\nIn terms of the game itself, we didn’t have many challenges other than tweaking balance and optimization. We had to undergo many rounds of playtesting to get the game feel and difficulty of the game just right to how we had wanted it to be. The optimization was a little tougher because we needed to export the game onto a WebGL format while being smooth but we had lots of VFX and particles, so we had to cut some of it out and reduce a little of the visual polish our game had. This drilled into my head how important optimization truly was.\n\nOn a personal level, I was really proud of this game because of how much time and effort I personally put into this project. I really wanted it to succeed and I believe I became a better programmer and designer through this process.",
-      },
-      ws(),
-      { layoutType: "video", url: "https://www.youtube.com/embed/yCUGu-wusuQ" },
-    ],
-  },
-  {
     id: "vr-counselor",
     title: "VR Counselor @ NYU",
     subtitle: "A VR counseling experience for social workers in training, made in collaboration with NYU's Silver School of Social Work, utilizing AI-driven avatars to simulate counseling sessions.",
@@ -110,29 +58,75 @@ export const projects = [
     ],
   },
   {
-    id: "dental-injection-vr",
-    title: "Dental Injection VR",
-    subtitle: "A VR simulation for training the Inferior Alveolar Nerve Block injection, created by the NYU College of Dentistry and used by all of its second-year students.",
+    id: "looking-inside-cosmos",
+    title: "Looking Inside Cosmos VR",
+    subtitle: "A VR simulation built by NYU's CREATE Lab intended to teach students astronomy in a more immersive way.",
     thumbnail: img(
-      "/assets/projects/dental-8.png",
-      "In-simulation view of a patient's head with transparent skin showing facial anatomy, and a gloved hand holding a dental syringe near the jaw"
+      "/assets/projects/cosmos-thumb.png",
+      "Looking Inside Cosmos logo over a dark, blurred background with soft purple glows"
     ),
-    tags: ["Simulation", "Virtual Reality", "Unity", "C#", "Research"],
-    link: "https://sites.google.com/nyu.edu/nyuusabilitylab/usability-services/case-studies/dentistry-vr-instructional-modules",
+    tags: ["Simulation", "Virtual Reality", "Game", "Game Design", "Unity", "C#", "Education", "UI/UX", "Research"],
     year: 2024,
+    endYear: 2026,
     pageLayout: [
-      {layoutType: "headerDescriptionPair", header: "Goals & Context", description: "Local Anesthesia VR simulation: Inferior Alveolar Nerve Block is a dental injection VR simulation created and designed by the NYU College of Dentistry. All second-year students at the College of Dentistry use this simulation for preclinical training. This aids students with gaining experience in this field as it is hard to practice this particular type of anesthesia injection in dentistry.\n\nIt is important for all dentistry students to accurately learn how to do this injection. This is why there are many research studies on how to optimize and teach the material better.\n\nIn the research study I was involved with, it was a collaboration between the College of Dentistry and the CREATE Lab to see if adding animations and a more realistic 3D model would help students better learn the injection or if the realism goes towards the creepy uncanny valley territory. My job was to integrate the 3D model and animations properly with the pre-existing system as well as integrate data collection into Firebase and NYU’s Corelink system."},
+      {layoutType: "headerDescriptionPair", header: "Goals & Context", description: "Looking Inside Cosmos VR is a VR Simulation built by NYU's CREATE Lab that teaches astronomy in a virtual environment by using the approach of multiple perspectives. We started this project in early 2024 and continue development on it to this day.\n\nThe goals of this project were to prepare for research studies and a more fun learning environment. The primary thing we wanted to learn from this project was to see if using an immersive approach to learning the moon phases might make that easier to learn, since traditionally it is a difficult concept for students to grasp. There were other research objectives, like seeing if multiple perspectives would help students learn better, or seeing which kind of teaching style could produce better results. \n\nSince this was a research project, we had to make sure that the simulations were designed in a way that would allow us to collect data and analyze it. Our primary goal was to make a simulation suitable for research, not necessarily to make a game, but we still tried to make it fun and engaging for students."},
       ws(),
-      {layoutType: "fullWidthImage", image: img("/assets/projects/dental-1.png", "VR view of a dental instrument tray with forceps, gauze, and a cotton swab, with a gloved hand reaching in")},
+      {layoutType: "video", url: "https://player.vimeo.com/video/1014379680"},
+      {layoutType: "description", description: "Lunar Phases trailer for Looking Inside Cosmos VR."},
       ws(),
-      {layoutType: "headerDescriptionPair", header: "Development", description: "I was tasked with working on:\n• Adjusting the VR UI to be more fit for a research study (add a participant ID field to send to the database for better data collection)\n• Replacing the old human head model with a new, more realistic, human head model\n• Programmatically adjusting breathing and blink animations for the new model\n• Add baseline measurements so that researchers can track the physical state of the participant before and after the study\n• Connect the simulation to the NYU Corelink database\n• Connect the simulation to a Firebase database for the researcher to collect her data\n• Optimize settings to look good in a standalone Quest build"},
+      {layoutType: "headerDescriptionPair", header: "Design", description: "The design of the simulation could be segmented in to two sides. One aspect was the research design, which I was involved in as a team member, and the other aspect was the design of the simulation itself, which I was the leader of. \n\nI was the main UI/UX and game designer of the project, and I was essentially tasked with figuring out how to translate the necessary functions the researchers were looking for into a playable VR simulation. I also had to design the simulation in a way that it was fairly realistic to physics while making sure that the computation wasn't too heavy on the system for Virtual Reality. I ended up having to write a lot of complex math to ensure that the simulation made since with the functionality we wanted to include. \n\nUI/UX design was a tough challenge for a VR game meant to teach astronomy to students who may not have ever used VR before. There were a ton of features that I had to scrap after lots of rounds of playtesting, due to our desires to keep things simple as possible. We also ended up limiting the flow of the simulation, opting to move away from a sandbox-style simulation. At the end of the many rounds of user research and iteration, we're finally at a point where it's usable for various studies. "},
+      ws("small"),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/cosmos-1.png", "In-simulation Camera panel floating in space, framing a night view of the Earth with a Capture button below it and a small spaceship nearby")},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Development", description: "I was the lead developer in charge of Looking Inside Cosmos VR. \n\nAs such, I had to coordinate the needs of the research team in a way that was feasible for a VR environment. I ended up managing the project using Trello boards to make things simple, and I made sure to communicate the development side of things to the researchers a lot. This was incredibly important as researchers often feel segmented from the development side a lot, so this bridge that I built between us, helped make the project's design and development process feel incredibly smooth.\n\nThis project was the mark of the shift away from Unreal Engine for the lab, so we shifted to Unity Engine. Luckily I was already quite experienced in Unity from past non-VR projects, so moving engines and creating a VR experience for Unity was quite simple, especially with all of the experience in Unreal VR I had. This moment made me realize the fact that the tool doesn't really matter, as long as you understand the fundamentals, the experience can carry over to anything relatively smoothly."},
+      ws("small"),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/cosmos-3.webp", "VR view of the Earth and moon beside the Lunar Phase Diagram panel, which shows question marks for undiscovered phases, with a controller pointing a laser at the panel")},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Conclusion", description: "Looking Inside Cosmos VR marked the first time I was tasked with leading a project at work. This was a really fun experience for me, and I really enjoyed having the ability to exercise my creative vision and apply it to a project that really matters. I really enjoyed both aspects of leading the UI/UX design and the technical development, despite it being a lot of work."},
+    ],
+  },
+  {
+    id: "stemai",
+    title: "STEMAI",
+    subtitle: "An AI platform for teachers to help conduct experiments with students in a low-cost and equitable way by utilizing AI tools.",
+    thumbnail: img(
+      "/assets/projects/stemai-thumb.png",
+      "STEMAI upload screen: a cartoon avatar leaning on an \"Upload your file here\" box with a Browse Files button, accepting MP4 and CSV files"
+    ),
+    tags: ["Website", "AI", "Education", "Next.js", "Node.js", "Python", "Kubernetes"],
+    year: 2026,
+    pageLayout: [
+      {layoutType: "headerDescriptionPair", header: "Mission & Approach", description: "STEMAI, designed and developed by the CREATE Lab, takes an inquiry-based learning approach to teaching students. I helped with the design and ideation of this project, along with being the project manager.\n\n• STEM-AI enables Active Learning through Exploration and Inquiry.\n    ◦ Mixed Reality: Combining real-life objects with digital data overlays.\n    ◦ Accessibility: Runs on lower-end devices like tablets and phones via WebXR.\n    ◦ Equity: Culturally relevant experiences for diverse student backgrounds."},
+      ws(),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-1.png", "Visualization Graph panel showing a smooth green line graph with a marked point labeled 10, crossed by a faint pink line")},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Design", description: "I was a part of the design team that determined what features we wanted. Our focus as designers here in the beginning stages of this project was to design something suitable for an MVP for teachers and students, but also for our lab. We went through a lot of iterations of designing what would be best, in terms of flexibility and also replicability, since we needed reliable data. \n\nFor the MVP study, we decided to isolate one particular kind of experiment, Momentum. This helped us narrow down our design and focus on what matters most. \n\nFor the overarching design, we wanted to make sure the design was very friendly and abstract. We originally had a human avatar, but then we chose to go with a shape-shifting blob avatar, since it is more abstract and approachable. The avatar would be a sort of AI helper. Along with the AI helper, we had to design the system to make it easy to use other AI tools, like AI vision, which is incredibly important for parsing live video.\n\nThe design that we ended up with, and are currently developing, is a lot more free-flowing. We realized that rigidity goes against the principles of experimentation anyway, and in order to use the AI tools to their fullest potential, we can, in fact, be much more open-ended."},
+      ws("small"),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-2.png", "STEMAI question screen asking whether a baseball thrown gently by a kid or one thrown at 100 miles per hour by a professional has more momentum, with photos of each throw and two answer choices, A and B, shown with blob avatars")},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Development", description: "For the development, I played the role of project manager and coordinated a group of developers and an artist to make the website according to specs that I architected. \n\nI decided which technologies to use and which ones would be most suitable for this project. I also figured out the best way to architect the project, which was to turn the site into a player of sorts that takes some data file and transforms it into a series of pages suitable for the experiment. The teachers generating the experiment would use a config tool that then generates the player's data file behind the scenes. This method was incredibly simple to use from a front-end perspective, but also incredibly versatile, allowing us to make as many components and features as we desired. \n\nBeing the project manager for this project was a new experience for me, as I had to get used to coordinating a larger team to get the work done properly, especially since I took a backseat role in handling the code myself, besides handling the merge requests for branches and testing the code properly. This type of work felt incredibly gratifying once the whole team worked well, and everything ran smoothly. For each of the tasks I had to outline what had to be done per person, and I made sure to have weekly sprint meetings to handle the task distribution. I also made sure to check in on any requests that my team members would have and handle any issues that may have arisen within the codebase. Along with being the project manager for the development team, I had to convey all the details to and from the research design team properly. This was already something I was used to at the time, thanks to my previous work at the lab."},
+      ws("small"),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-3.png", "STEMAI experiment config tool for the Momentum course: an overview with objectives, a 3 hour duration and difficulty stars on the left, and Upload Media, Hypothesis options and Reflection prompts panels on the right with Preview and Save buttons")},
+      ws("small"),
+      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-4.png", "STEMAI experiment view: a video of a hand placing a white cue ball near a black eight ball on a blue pool table, next to a data table of time, mass, and distance values for each ball")},
+    ],
+  },
+  {
+    id: "webtoonlens",
+    title: "WebtoonLens",
+    subtitle: "An Android overlay that lets you tap Korean text in webtoons for instant translations, pronunciation and spaced-repetition vocab review.",
+    thumbnail: img("/assets/projects/webtoonlens-thumb.svg", "WebtoonLens placeholder thumbnail: a blue lens icon above the app name"),
+    tags: ["App", "Android", "Kotlin", "OCR", "Language Learning", "AI"],
+    link: "https://github.com/BlueTitanium/LanguageLearningApp",
+    year: 2026,
+    pageLayout: [
+      {layoutType: "headerDescriptionPair", header: "Design & Development", description: "I built WebtoonLens because reading Korean webtoons is great practice, but the text lives inside images, so you can't copy it into a dictionary. The app runs as a floating bubble over other apps such as Naver Webtoon. One tap captures the screen and runs OCR on it. I made the recognised words tappable, rather than just pasting out a full-page translation, so I can ask about exactly the word I'm stuck on. Tapping a word gives a popup translation. Circling several words with a lasso translates the whole phrase in reading order.\n\nThe lookup pipeline went through the most iteration. Machine translation of a single word was imprecise, so I added an optional offline dictionary (kengdic, downloaded on demand), with on-device translation as the fallback. I also added optional online translation (Papago, DeepL or Google) using the user's own API key, so nothing is bundled. Korean conjugation was a real problem. Naive suffix-stripping can't recover irregular forms like 들어요 -> 듣다, so I switched to the KOMORAN morphological analyzer for dictionary root forms. Testing later showed it mishandled compound verbs: for something like 공부하다, KOMORAN tags only the \"하\" suffix as the predicate, so I was returning \"하다\" and dropping the noun. I fixed that by walking back over the noun that feeds the suffix. I also added a DeepL context-aware mode. While using it I found it skipped the dictionary entirely whenever DeepL succeeded, so the expanded detail view now shows the dictionary senses alongside the DeepL result.\n\nStill this app is very much a work-in-progress, and I plan to continue to refine it as my learning needs grow. However, I think, as of right now, even in its most basic state, it is a great learning tool!"},
       ws(),
       {layoutType: "imageRow", items: [
-        {image: img("/assets/projects/dental-6.png", "Original bald patient head model with its mouth open, before the update"), caption: "Before"},
-        {image: img("/assets/projects/dental-7.png", "New, more realistic patient head model with hair and its mouth open, after the update"), caption: "After"},
+        {image: img("/assets/projects/webtoonlens-3.png", "WebtoonLens home screen in the dark theme with Home, Vocab and Settings tabs, a Grant overlay permission button and a Start WebtoonLens bubble button")},
+        {image: img("/assets/projects/webtoonlens-2.png", "WebtoonLens overlay on the same webtoon panel with a single tapped word, 놀랐어, highlighted yellow and a popup translating it as \"I was surprised...\"; other words are highlighted blue and purple by learning status")},
+        {image: img("/assets/projects/webtoonlens-1.png", "WebtoonLens overlay on a webtoon panel: tapping a speech bubble shows a popup with the Korean sentence and its DeepL English translation, with the recognised words highlighted in yellow")},        
       ]},
-      ws(),
-      {layoutType: "headerDescriptionPair", header: "Conclusion", description: "I learned a lot from this project. Subtle changes can have drastic impacts on viewer perceptions of a simulation so it’s important to keep the details correct, especially in a dental simulation where anatomy matters a lot. Despite being a programmer primarily, I actually learned quite a bit of dental anatomy as I had to work closely with integrating the new model with the correct triggers and anatomy.\n\nThe dental project was a mostly finished simulation when I started work on it, so I was able to study it and see the process of how to use VR with real life applications and understand the user experience needed to make it work well. For example, it’s important to make the user comfortable, which means allowing the user to change the height setting, chair angle, right or left handedness, and more accessibility options.\n\nOne other thing about this project was that since it was a short timeframe, I had to speed up my workflow while providing good quality and so my coding skills had increased heavily during this project. I also had to ensure that the database uploads were correct so that data collection would run smoothly for the research.\n\nThis project is not available on an online platform publicly, but there are videos on the project, albeit outdated."},
     ],
   },
   {
@@ -185,31 +179,114 @@ export const projects = [
     ],
   },
   {
-    id: "looking-inside-cosmos",
-    title: "Looking Inside Cosmos VR",
-    subtitle: "A VR simulation built by NYU's CREATE Lab intended to teach students astronomy in a more immersive way.",
+    id: "dental-injection-vr",
+    title: "Dental Injection VR",
+    subtitle: "A VR simulation for training the Inferior Alveolar Nerve Block injection, created by the NYU College of Dentistry and used by all of its second-year students.",
     thumbnail: img(
-      "/assets/projects/cosmos-thumb.png",
-      "Looking Inside Cosmos logo over a dark, blurred background with soft purple glows"
+      "/assets/projects/dental-8.png",
+      "In-simulation view of a patient's head with transparent skin showing facial anatomy, and a gloved hand holding a dental syringe near the jaw"
     ),
-    tags: ["Simulation", "Virtual Reality", "Game", "Game Design", "Unity", "C#", "Education", "UI/UX", "Research"],
+    tags: ["Simulation", "Virtual Reality", "Unity", "C#", "Research"],
+    link: "https://sites.google.com/nyu.edu/nyuusabilitylab/usability-services/case-studies/dentistry-vr-instructional-modules",
     year: 2024,
-    endYear: 2026,
     pageLayout: [
-      {layoutType: "headerDescriptionPair", header: "Goals & Context", description: "Looking Inside Cosmos VR is a VR Simulation built by NYU's CREATE Lab that teaches astronomy in a virtual environment by using the approach of multiple perspectives. We started this project in early 2024 and continue development on it to this day.\n\nThe goals of this project were to prepare for research studies and a more fun learning environment. The primary thing we wanted to learn from this project was to see if using an immersive approach to learning the moon phases might make that easier to learn, since traditionally it is a difficult concept for students to grasp. There were other research objectives, like seeing if multiple perspectives would help students learn better, or seeing which kind of teaching style could produce better results. \n\nSince this was a research project, we had to make sure that the simulations were designed in a way that would allow us to collect data and analyze it. Our primary goal was to make a simulation suitable for research, not necessarily to make a game, but we still tried to make it fun and engaging for students."},
+      {layoutType: "headerDescriptionPair", header: "Goals & Context", description: "Local Anesthesia VR simulation: Inferior Alveolar Nerve Block is a dental injection VR simulation created and designed by the NYU College of Dentistry. All second-year students at the College of Dentistry use this simulation for preclinical training. This aids students with gaining experience in this field as it is hard to practice this particular type of anesthesia injection in dentistry.\n\nIt is important for all dentistry students to accurately learn how to do this injection. This is why there are many research studies on how to optimize and teach the material better.\n\nIn the research study I was involved with, it was a collaboration between the College of Dentistry and the CREATE Lab to see if adding animations and a more realistic 3D model would help students better learn the injection or if the realism goes towards the creepy uncanny valley territory. My job was to integrate the 3D model and animations properly with the pre-existing system as well as integrate data collection into Firebase and NYU’s Corelink system."},
       ws(),
-      {layoutType: "video", url: "https://player.vimeo.com/video/1014379680"},
-      {layoutType: "description", description: "Lunar Phases trailer for Looking Inside Cosmos VR."},
+      {layoutType: "fullWidthImage", image: img("/assets/projects/dental-1.png", "VR view of a dental instrument tray with forceps, gauze, and a cotton swab, with a gloved hand reaching in")},
       ws(),
-      {layoutType: "headerDescriptionPair", header: "Design", description: "The design of the simulation could be segmented in to two sides. One aspect was the research design, which I was involved in as a team member, and the other aspect was the design of the simulation itself, which I was the leader of. \n\nI was the main UI/UX and game designer of the project, and I was essentially tasked with figuring out how to translate the necessary functions the researchers were looking for into a playable VR simulation. I also had to design the simulation in a way that it was fairly realistic to physics while making sure that the computation wasn't too heavy on the system for Virtual Reality. I ended up having to write a lot of complex math to ensure that the simulation made since with the functionality we wanted to include. \n\nUI/UX design was a tough challenge for a VR game meant to teach astronomy to students who may not have ever used VR before. There were a ton of features that I had to scrap after lots of rounds of playtesting, due to our desires to keep things simple as possible. We also ended up limiting the flow of the simulation, opting to move away from a sandbox-style simulation. At the end of the many rounds of user research and iteration, we're finally at a point where it's usable for various studies. "},
+      {layoutType: "headerDescriptionPair", header: "Development", description: "I was tasked with working on:\n• Adjusting the VR UI to be more fit for a research study (add a participant ID field to send to the database for better data collection)\n• Replacing the old human head model with a new, more realistic, human head model\n• Programmatically adjusting breathing and blink animations for the new model\n• Add baseline measurements so that researchers can track the physical state of the participant before and after the study\n• Connect the simulation to the NYU Corelink database\n• Connect the simulation to a Firebase database for the researcher to collect her data\n• Optimize settings to look good in a standalone Quest build"},
+      ws(),
+      {layoutType: "imageRow", items: [
+        {image: img("/assets/projects/dental-6.png", "Original bald patient head model with its mouth open, before the update"), caption: "Before"},
+        {image: img("/assets/projects/dental-7.png", "New, more realistic patient head model with hair and its mouth open, after the update"), caption: "After"},
+      ]},
+      ws(),
+      {layoutType: "headerDescriptionPair", header: "Conclusion", description: "I learned a lot from this project. Subtle changes can have drastic impacts on viewer perceptions of a simulation so it’s important to keep the details correct, especially in a dental simulation where anatomy matters a lot. Despite being a programmer primarily, I actually learned quite a bit of dental anatomy as I had to work closely with integrating the new model with the correct triggers and anatomy.\n\nThe dental project was a mostly finished simulation when I started work on it, so I was able to study it and see the process of how to use VR with real life applications and understand the user experience needed to make it work well. For example, it’s important to make the user comfortable, which means allowing the user to change the height setting, chair angle, right or left handedness, and more accessibility options.\n\nOne other thing about this project was that since it was a short timeframe, I had to speed up my workflow while providing good quality and so my coding skills had increased heavily during this project. I also had to ensure that the database uploads were correct so that data collection would run smoothly for the research.\n\nThis project is not available on an online platform publicly, but there are videos on the project, albeit outdated."},
+    ],
+  },
+  {
+    id: "condemned",
+    title: "Condemned",
+    subtitle:
+      "A narrative metroidvania game with momentum grapple-based movement and fun combat.",
+    thumbnail: img(
+      "/assets/projects/condemned-thumb.png",
+      "Pixel art character suspended by glowing chains"
+    ),
+    tags: ["Game", "Unity", "C#", "Game Design", "Art", "Animation", "UI/UX"],
+    link: "https://bluetitanium.itch.io/condemned",
+    year: 2023,
+    pageLayout: [
+      {
+        layoutType: "headerDescriptionPair",
+        header: "The Game",
+        description:
+          "Condemned is a narrative metroidvania game with momentum grapple-based movement and fun combat. This game was made in 6 weeks by a group of students led by me for a game design final. We created all assets, beside audio, by ourselves including all art and animations. I played several roles in this project, as I led the team and handled most of the development. Regarding game design, it was a collaborative effort where everyone played a role. I also helped with the art and UI design in many parts of the game.",
+      },
       ws("small"),
-      {layoutType: "fullWidthImage", image: img("/assets/projects/cosmos-1.png", "In-simulation Camera panel floating in space, framing a night view of the Earth with a Capture button below it and a small spaceship nearby")},
+      {
+        layoutType: "fullWidthImage",
+        image: img(
+          "/assets/projects/condemned-firstlayer.png",
+          "Condemned screenshot 1"
+        ),
+      },
       ws(),
-      {layoutType: "headerDescriptionPair", header: "Development", description: "I was the lead developer in charge of Looking Inside Cosmos VR. \n\nAs such, I had to coordinate the needs of the research team in a way that was feasible for a VR environment. I ended up managing the project using Trello boards to make things simple, and I made sure to communicate the development side of things to the researchers a lot. This was incredibly important as researchers often feel segmented from the development side a lot, so this bridge that I built between us, helped make the project's design and development process feel incredibly smooth.\n\nThis project was the mark of the shift away from Unreal Engine for the lab, so we shifted to Unity Engine. Luckily I was already quite experienced in Unity from past non-VR projects, so moving engines and creating a VR experience for Unity was quite simple, especially with all of the experience in Unreal VR I had. This moment made me realize the fact that the tool doesn't really matter, as long as you understand the fundamentals, the experience can carry over to anything relatively smoothly."},
+      {
+        layoutType: "imageDescriptionPair",
+        image: img("/assets/projects/condemned-chars.png", "Condemned screenshot 2"),
+        description:
+          "Condemned is loosely based on the story, “Dante’s Inferno”.  It is about a prisoner in the first circle, Limbo, who tries to get to the center of the nine circles of hell. This prisoner is guided by some mysterious figure who promises them an escape, giving them a renewed purpose in life.",
+      },
       ws("small"),
-      {layoutType: "fullWidthImage", image: img("/assets/projects/cosmos-3.webp", "VR view of the Earth and moon beside the Lunar Phase Diagram panel, which shows question marks for undiscovered phases, with a controller pointing a laser at the panel")},
+      {
+        layoutType: "imageDescriptionPair",
+        image: img("/assets/projects/condemned-sprites.png", "Condemned screenshot 2"),
+        description:
+          "When designing the scope, we planned on being both ambitious while also being reasonable because we only had 6 in-class weeks to work on this project while having to handle all of our other coursework. This meant that we needed to show a vertical slice of our project, showing all of the mechanics and the general idea of the game and its narrative. So we opted to make a game with 2 “chapters” instead of making a full game, because it would be a disservice to the idea if we tried making the full idea. In the future, we might come back and try to do the rest of the game if we are not all too busy.\n\nWe actually ended up going beyond our original expectations and had a ton of extra content and accomplished a lot of great work.",
+      },
       ws(),
-      {layoutType: "headerDescriptionPair", header: "Conclusion", description: "Looking Inside Cosmos VR marked the first time I was tasked with leading a project at work. This was a really fun experience for me, and I really enjoyed having the ability to exercise my creative vision and apply it to a project that really matters. I really enjoyed both aspects of leading the UI/UX design and the technical development, despite it being a lot of work."},
+      {
+        layoutType: "headerDescriptionPair",
+        header: "Conclusion",
+        description:
+          "Overall, this was a great game to work on. We had a clear goal in mind and my team did a great job of completing their tasks on schedule and in many cases, going above and beyond. Teamwork-wise we had a lot of chemistry so we were able to do very well.\n\nIn terms of the game itself, we didn’t have many challenges other than tweaking balance and optimization. We had to undergo many rounds of playtesting to get the game feel and difficulty of the game just right to how we had wanted it to be. The optimization was a little tougher because we needed to export the game onto a WebGL format while being smooth but we had lots of VFX and particles, so we had to cut some of it out and reduce a little of the visual polish our game had. This drilled into my head how important optimization truly was.\n\nOn a personal level, I was really proud of this game because of how much time and effort I personally put into this project. I really wanted it to succeed and I believe I became a better programmer and designer through this process.",
+      },
+      ws(),
+      { layoutType: "video", url: "https://www.youtube.com/embed/yCUGu-wusuQ" },
+    ],
+  },
+  {
+    id: "smartsuite",
+    title: "Smart Suite",
+    subtitle: "A collection of cognitive skills training apps, training task switching, inhibitory control and update, subskills of executive functions.",
+    thumbnail: img("/assets/projects/smartsuite-gwakk.png", "Gwakkamole splash screen showing four cartoon avocado characters in a guacamole bowl"),
+    tags: ["App", "Game", "Unity", "C#", "Education", "Research"],
+    link: "https://create.nyu.edu/projects/smartsuite/",
+    year: 2025,
+    pageLayout: [
+      {layoutType: "headerDescriptionPair", header: "Contributions", description: "I contributed to this project as a developer that mainly fixed a lot of bugs, updated many features, and generally maintained the apps for the future. I also contributed by helping add features for various research projects that used these apps, which were conducted by NYU, CUNY, and even international colleges like NTU in Singapore."},
+      ws(),
+      {layoutType: "imageRow", items: [
+        {image: img("/assets/projects/smartsuite-ayce.png", "All you can E.T. splash screen with cartoon aliens floating above tiered cakes and cupcake stands in space")},
+        {image: img("/assets/projects/smartsuite-gwakk.png", "Gwakkamole splash screen showing four cartoon avocado characters in a guacamole bowl")},
+        {image: img("/assets/projects/smartsuite-crush.png", "CrushStations splash screen with a cartoon octopus above an underwater scene with a sunken ship")},
+      ]},
+    ],
+  },
+  {
+    id: "portfolio",
+    title: "This Portfolio",
+    subtitle: "A site intended to be a little playful, but also a showcase of my work and skills.\n\n Click the project link to visit the github repo!",
+    thumbnail: img(
+      "/assets/projects/portfolio-thumb2.png",
+      "Dotted grid background of this portfolio site, with the footer showing social links"
+    ),
+    tags: ["Website", "React", "Motion", "Vite"],
+    link: "https://github.com/BlueTitanium/BlueTitanium.github.io",
+    year: 2026,
+    pageLayout: [
+     
     ],
   },
   {
@@ -236,83 +313,6 @@ export const projects = [
       {layoutType: "headerDescriptionPair", header: "Conclusion", description: "I learned a lot from this project. This was the first class I took in college about databases, so formally learning about how to integrate databases into websites was a great experience. I also liked using bootstrap to quickly prototype a website without manually writing every aspect of the website design. Although, I personally like designing my own websites to be more unique, I think it was a good experience to create a basic formal design for a project like this.\n\nIn addition to the development work I had to do with the HTML and styling of the website, I also had to write documentation for many of the use case files in the project. I also had to fully review the website to make sure all of the functionality worked once all of the components were merged together by my team. Overall this was a great experience to have learned from."},
       ws("small"),
       {layoutType: "fullWidthImage", image: img("/assets/projects/airline-4.png", "Purchase ticket form with flight number and price, credit or debit card type, card number, name on card, and expiration date fields")},
-    ],
-  },
-  {
-    id: "stemai",
-    title: "STEMAI",
-    subtitle: "An AI platform for teachers to help conduct experiments with students in a low-cost and equitable way by utilizing AI tools.",
-    thumbnail: img(
-      "/assets/projects/stemai-thumb.png",
-      "STEMAI upload screen: a cartoon avatar leaning on an \"Upload your file here\" box with a Browse Files button, accepting MP4 and CSV files"
-    ),
-    tags: ["Website", "AI", "Education", "Next.js", "Node.js", "Python", "Kubernetes"],
-    year: 2026,
-    pageLayout: [
-      {layoutType: "headerDescriptionPair", header: "Mission & Approach", description: "STEMAI, designed and developed by the CREATE Lab, takes an inquiry-based learning approach to teaching students. I helped with the design and ideation of this project, along with being the project manager.\n\n• STEM-AI enables Active Learning through Exploration and Inquiry.\n    ◦ Mixed Reality: Combining real-life objects with digital data overlays.\n    ◦ Accessibility: Runs on lower-end devices like tablets and phones via WebXR.\n    ◦ Equity: Culturally relevant experiences for diverse student backgrounds."},
-      ws(),
-      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-1.png", "Visualization Graph panel showing a smooth green line graph with a marked point labeled 10, crossed by a faint pink line")},
-      ws(),
-      {layoutType: "headerDescriptionPair", header: "Design", description: "I was a part of the design team that determined what features we wanted. Our focus as designers here in the beginning stages of this project was to design something suitable for an MVP for teachers and students, but also for our lab. We went through a lot of iterations of designing what would be best, in terms of flexibility and also replicability, since we needed reliable data. \n\nFor the MVP study, we decided to isolate one particular kind of experiment, Momentum. This helped us narrow down our design and focus on what matters most. \n\nFor the overarching design, we wanted to make sure the design was very friendly and abstract. We originally had a human avatar, but then we chose to go with a shape-shifting blob avatar, since it is more abstract and approachable. The avatar would be a sort of AI helper. Along with the AI helper, we had to design the system to make it easy to use other AI tools, like AI vision, which is incredibly important for parsing live video.\n\nThe design that we ended up with, and are currently developing, is a lot more free-flowing. We realized that rigidity goes against the principles of experimentation anyway, and in order to use the AI tools to their fullest potential, we can, in fact, be much more open-ended."},
-      ws("small"),
-      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-2.png", "STEMAI question screen asking whether a baseball thrown gently by a kid or one thrown at 100 miles per hour by a professional has more momentum, with photos of each throw and two answer choices, A and B, shown with blob avatars")},
-      ws(),
-      {layoutType: "headerDescriptionPair", header: "Development", description: "For the development, I played the role of project manager and coordinated a group of developers and an artist to make the website according to specs that I architected. \n\nI decided which technologies to use and which ones would be most suitable for this project. I also figured out the best way to architect the project, which was to turn the site into a player of sorts that takes some data file and transforms it into a series of pages suitable for the experiment. The teachers generating the experiment would use a config tool that then generates the player's data file behind the scenes. This method was incredibly simple to use from a front-end perspective, but also incredibly versatile, allowing us to make as many components and features as we desired. \n\nBeing the project manager for this project was a new experience for me, as I had to get used to coordinating a larger team to get the work done properly, especially since I took a backseat role in handling the code myself, besides handling the merge requests for branches and testing the code properly. This type of work felt incredibly gratifying once the whole team worked well, and everything ran smoothly. For each of the tasks I had to outline what had to be done per person, and I made sure to have weekly sprint meetings to handle the task distribution. I also made sure to check in on any requests that my team members would have and handle any issues that may have arisen within the codebase. Along with being the project manager for the development team, I had to convey all the details to and from the research design team properly. This was already something I was used to at the time, thanks to my previous work at the lab."},
-      ws("small"),
-      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-3.png", "STEMAI experiment config tool for the Momentum course: an overview with objectives, a 3 hour duration and difficulty stars on the left, and Upload Media, Hypothesis options and Reflection prompts panels on the right with Preview and Save buttons")},
-      ws("small"),
-      {layoutType: "fullWidthImage", image: img("/assets/projects/stemai-4.png", "STEMAI experiment view: a video of a hand placing a white cue ball near a black eight ball on a blue pool table, next to a data table of time, mass, and distance values for each ball")},
-    ],
-  },
-  {
-    id: "smartsuite",
-    title: "Smart Suite",
-    subtitle: "A collection of cognitive skills training apps, training task switching, inhibitory control and update, subskills of executive functions.",
-    thumbnail: img("/assets/projects/smartsuite-gwakk.png", "Gwakkamole splash screen showing four cartoon avocado characters in a guacamole bowl"),
-    tags: ["App", "Game", "Unity", "C#", "Education", "Research"],
-    link: "https://create.nyu.edu/projects/smartsuite/",
-    year: 2025,
-    pageLayout: [
-      {layoutType: "headerDescriptionPair", header: "Contributions", description: "I contributed to this project as a developer that mainly fixed a lot of bugs, updated many features, and generally maintained the apps for the future. I also contributed by helping add features for various research projects that used these apps, which were conducted by NYU, CUNY, and even international colleges like NTU in Singapore."},
-      ws(),
-      {layoutType: "imageRow", items: [
-        {image: img("/assets/projects/smartsuite-ayce.png", "All you can E.T. splash screen with cartoon aliens floating above tiered cakes and cupcake stands in space")},
-        {image: img("/assets/projects/smartsuite-gwakk.png", "Gwakkamole splash screen showing four cartoon avocado characters in a guacamole bowl")},
-        {image: img("/assets/projects/smartsuite-crush.png", "CrushStations splash screen with a cartoon octopus above an underwater scene with a sunken ship")},
-      ]},
-    ],
-  },
-  {
-    id: "webtoonlens",
-    title: "WebtoonLens",
-    subtitle: "An Android overlay that lets you tap Korean text in webtoons for instant translations, pronunciation and spaced-repetition vocab review.",
-    thumbnail: img("/assets/projects/webtoonlens-thumb.svg", "WebtoonLens placeholder thumbnail: a blue lens icon above the app name"),
-    tags: ["App", "Android", "Kotlin", "OCR", "Language Learning", "AI"],
-    link: "https://github.com/BlueTitanium/LanguageLearningApp",
-    year: 2026,
-    pageLayout: [
-      {layoutType: "headerDescriptionPair", header: "Design & Development", description: "I built WebtoonLens because reading Korean webtoons is great practice, but the text lives inside images, so you can't copy it into a dictionary. The app runs as a floating bubble over other apps such as Naver Webtoon. One tap captures the screen and runs OCR on it. I made the recognised words tappable, rather than just pasting out a full-page translation, so I can ask about exactly the word I'm stuck on. Tapping a word gives a popup translation. Circling several words with a lasso translates the whole phrase in reading order.\n\nThe lookup pipeline went through the most iteration. Machine translation of a single word was imprecise, so I added an optional offline dictionary (kengdic, downloaded on demand), with on-device translation as the fallback. I also added optional online translation (Papago, DeepL or Google) using the user's own API key, so nothing is bundled. Korean conjugation was a real problem. Naive suffix-stripping can't recover irregular forms like 들어요 -> 듣다, so I switched to the KOMORAN morphological analyzer for dictionary root forms. Testing later showed it mishandled compound verbs: for something like 공부하다, KOMORAN tags only the \"하\" suffix as the predicate, so I was returning \"하다\" and dropping the noun. I fixed that by walking back over the noun that feeds the suffix. I also added a DeepL context-aware mode. While using it I found it skipped the dictionary entirely whenever DeepL succeeded, so the expanded detail view now shows the dictionary senses alongside the DeepL result.\n\nStill this app is very much a work-in-progress, and I plan to continue to refine it as my learning needs grow. However, I think, as of right now, even in its most basic state, it is a great learning tool!"},
-      ws(),
-      {layoutType: "imageRow", items: [
-        {image: img("/assets/projects/webtoonlens-3.png", "WebtoonLens home screen in the dark theme with Home, Vocab and Settings tabs, a Grant overlay permission button and a Start WebtoonLens bubble button")},
-        {image: img("/assets/projects/webtoonlens-2.png", "WebtoonLens overlay on the same webtoon panel with a single tapped word, 놀랐어, highlighted yellow and a popup translating it as \"I was surprised...\"; other words are highlighted blue and purple by learning status")},
-        {image: img("/assets/projects/webtoonlens-1.png", "WebtoonLens overlay on a webtoon panel: tapping a speech bubble shows a popup with the Korean sentence and its DeepL English translation, with the recognised words highlighted in yellow")},        
-      ]},
-    ],
-  },
-  {
-    id: "portfolio",
-    title: "This Portfolio",
-    subtitle: "A site intended to be a little playful, but also a showcase of my work and skills.\n\n Click the project link to visit the github repo!",
-    thumbnail: img(
-      "/assets/projects/portfolio-thumb2.png",
-      "Dotted grid background of this portfolio site, with the footer showing social links"
-    ),
-    tags: ["Website", "React", "Motion", "Vite"],
-    link: "https://github.com/BlueTitanium/BlueTitanium.github.io",
-    year: 2026,
-    pageLayout: [
-     
     ],
   },
 ];
